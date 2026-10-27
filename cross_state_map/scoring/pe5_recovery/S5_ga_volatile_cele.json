@@ -1,0 +1,213 @@
+{
+ "row_id": "S5_ga_volatile_cele",
+ "protocol": "v3_boolean_or_groups_repaired_vocabulary",
+ "depth": 150,
+ "n_queries": 36,
+ "n_retrieved_unique": 809,
+ "n_known": 15,
+ "n_recovered": 15,
+ "recall": 1.0,
+ "recovered": [
+  "10581275",
+  "11404329",
+  "15102610",
+  "15159532",
+  "15277919",
+  "15514057",
+  "17658257",
+  "18043066",
+  "21467554",
+  "22024713",
+  "2326259",
+  "2900611",
+  "3576211",
+  "40446059",
+  "9671752"
+ ],
+ "missed": [],
+ "missed_explained": {},
+ "missed_unexplained": [],
+ "gate_c_pass": true,
+ "per_query": [
+  {
+   "cls": 1,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 7
+  },
+  {
+   "cls": 1,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 3
+  },
+  {
+   "cls": 1,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 5
+  },
+  {
+   "cls": 2,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 4
+  },
+  {
+   "cls": 2,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 2,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 34
+  },
+  {
+   "cls": 3,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 8
+  },
+  {
+   "cls": 3,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 3,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 109
+  },
+  {
+   "cls": 4,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 3
+  },
+  {
+   "cls": 4,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 1
+  },
+  {
+   "cls": 4,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 17
+  },
+  {
+   "cls": 5,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 11
+  },
+  {
+   "cls": 5,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 4
+  },
+  {
+   "cls": 5,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 42
+  },
+  {
+   "cls": 6,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 9
+  },
+  {
+   "cls": 6,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 6,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 150
+  },
+  {
+   "cls": 7,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 10
+  },
+  {
+   "cls": 7,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 7,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 92
+  },
+  {
+   "cls": 8,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 24
+  },
+  {
+   "cls": 8,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 7
+  },
+  {
+   "cls": 8,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 150
+  },
+  {
+   "cls": 9,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 7
+  },
+  {
+   "cls": 9,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 1
+  },
+  {
+   "cls": 9,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 150
+  },
+  {
+   "cls": 10,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 11
+  },
+  {
+   "cls": 10,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 10,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 39
+  },
+  {
+   "cls": 11,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 1
+  },
+  {
+   "cls": 11,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 1
+  },
+  {
+   "cls": 11,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 150
+  },
+  {
+   "cls": 12,
+   "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+   "n": 3
+  },
+  {
+   "cls": 12,
+   "route": "NEGATIVE_RESULT_SEARCH",
+   "n": 2
+  },
+  {
+   "cls": 12,
+   "route": "SPECIES_ENDPOINT_FIRST",
+   "n": 11
+  }
+ ]
+}

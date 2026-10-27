@@ -1,0 +1,60 @@
+state,class,molecules,role,polarity,proximal_physical_effect,grade
+w-lethargus,1,nca-1; nca-2; unc-79; unc-80,MAINTAINS_STATE,CONTEXT_DEPENDENT,reduced background cation (Na+) leak conductance via loss of the NALCN complex,E-B
+w-lethargus,3,unc-25 / GABA pathway,NO_ROLE,CONTEXT_DEPENDENT,chloride conductance at RIS targets - tested and NOT required for developmentally timed quiescence,E-B
+w-lethargus,6,flp-11,PRODUCES_STATE,PROMOTES_STATE,release of FLP-11/NLP-22 neuropeptides acting on receptors to impose a systemic quiescent state,E-B
+w-lethargus,6,nlp-22,PRODUCES_STATE,PROMOTES_STATE,release of FLP-11/NLP-22 neuropeptides acting on receptors to impose a systemic quiescent state,E-B
+w-lethargus,7,aptf-1,PRODUCES_STATE,PROMOTES_STATE,firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs,E-B
+w-lethargus,7,n/a,CONTROLS_ENTRY,CONTEXT_DEPENDENT,firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs,E-B
+w-lethargus,7,n/a,MAINTAINS_STATE,OPPOSES_STATE,firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs,E-B
+w-lethargus,8,kin-29; hda-4,CONTROLS_ENTRY,PROMOTES_STATE,kinase transduction of low cellular energy charge into sleep pressure; ATP and fat stores fall during sleep,E-B
+w-lethargus,9,daf-16,MAINTAINS_STATE,STRUCTURE_ONLY,transcriptional regulation of sleep homeostasis (DAF-16) and developmental specification of the sleep effector (LIM-6/APTF-1),E-B
+w-lethargus,9,lim-6; aptf-1,BUILDS_MACHINERY,PROMOTES_STATE,transcriptional regulation of sleep homeostasis (DAF-16) and developmental specification of the sleep effector (LIM-6/APTF-1),E-B
+w-volatile,1,unc-79; unc-80,CONTROLS_ENTRY,OPPOSES_STATE,altered background cation leak conductance (NALCN complex accessory subunits; stomatin-degenerin complex),E-A
+w-volatile,1,unc-1; unc-8,CONTROLS_ENTRY,UNDETERMINED,altered background cation leak conductance (NALCN complex accessory subunits; stomatin-degenerin complex),E-A
+w-volatile,2,slo-1,CONTROLS_ENTRY,PROMOTES_STATE,Ca2+-activated K+ (BK) conductance; loss confers anaesthetic resistance,E-B
+w-volatile,4,nmr-1 / NMDA receptor,CONTROLS_ENTRY,PROMOTES_STATE,"ionotropic excitatory (NMDA) receptor function - nitrous oxide only, agent-mismatched",E-F
+w-volatile,5,unc-64; egl-30,CONTROLS_ENTRY,OPPOSES_STATE,vesicular neurotransmitter release probability via syntaxin; increased excitatory release confers resistance,E-A
+w-volatile,6,goa-1; acy-1,CONTROLS_ENTRY,CONTEXT_DEPENDENT,intracellular G-protein and cyclase transduction altering anaesthetic sensitivity,E-B
+w-volatile,7,"ALA, RIS, AVE, AVA (identified neurons)",NO_ROLE,UNDETERMINED,"reorganisation of inter-neuronal correlation structure in the command-interneuron circuit, opposite in sign to the quiescence pattern",E-D
+w-volatile,8,gas-1,CONTROLS_ENTRY,UNDETERMINED,mitochondrial complex I electron-transport capacity; drug directly inhibits the complex,E-B
+w-volatile,10,unc-1,CONTROLS_ENTRY,UNDETERMINED,membrane organisation via stomatin/lipid-raft protein complexes,E-B
+w-volatile,12,unc-9; unc-1,CONTROLS_ENTRY,CONTEXT_DEPENDENT,"junctional electrical coupling via innexins, modifying the NALCN-complex phenotype",E-A
+w-L1sleep,5,dgk-1; unc-13,PRODUCES_STATE,PROMOTES_STATE,restraint of vesicular release (DGK-1) permitting RIS activation; independently reducing release rescues,E-A
+w-L1sleep,6,insulin-like peptides / daf-2 pathway,CONTROLS_ENTRY,OPPOSES_STATE,insulin-like peptide signalling sustaining arousal against the quiescent state,E-B
+w-L1sleep,7,n/a,PRODUCES_STATE,PROMOTES_STATE,firing of the RIS sleep-active interneuron; its loss alters whole-organism heat production,E-B
+w-L1sleep,8,sphingolipid pathway genes,PRODUCES_STATE,PROMOTES_STATE,sphingolipid and broad metabolic pathway function required for sleep; RIS loss alters calorimetric heat output,E-A
+w-dauer,5,dach-1 / cyp-34A4,MAINTAINS_STATE,UNDETERMINED,"cholinergic synaptic transduction, altered (hypersensitive to cholinesterase inhibition) rather than silenced",E-A
+w-dauer,6,daf-2 / insulin-like peptides; daf-7,CONTROLS_ENTRY,OPPOSES_STATE,insulin-like and TGF-beta signalling setting the developmental decision to enter diapause,E-B
+w-dauer,8,n/a,CONTROLS_ENTRY,UNDETERMINED,metabolic switch governing the growth-to-diapause transition,E-B
+w-dauer,9,daf-16; daf-12,CONTROLS_ENTRY+BUILDS_MACHINERY,PROMOTES_STATE,transcriptional reprogramming (DAF-16/DAF-12) building the dauer state including its electrical-coupling configuration,E-B
+w-dauer,10,n/a,PROTECTS_THROUGH_STATE,UNDETERMINED,cuticle permeability barrier restricting chemical access during the state,E-D
+w-dauer,12,innexins (inx family),PRODUCES_STATE,UNDETERMINED,neuron-type-specific innexin remodelling altering electrical coupling and behaviour,E-B
+w-anhydro,8,tps-1 / tps-2 trehalose synthesis,PROTECTS_THROUGH_STATE+CONTROLS_ENTRY,UNDETERMINED,"biosynthesis of trehalose, polyamines and glycerol during preconditioning",E-B
+w-anhydro,9,n/a,CONTROLS_ENTRY,UNDETERMINED,activation of a general genetic survival programme,E-E
+w-anhydro,10,trehalose,PROTECTS_THROUGH_STATE,UNDETERMINED,vitrification and preservation of membrane organisation and lipid acyl-chain packing under water loss,E-B
+m-REM,1,Nalcn,CONTROLS_ENTRY+MAINTAINS_STATE,OPPOSES_STATE,"increased background sodium leak conductance, raising resting excitability of the neurons carrying it",E-A
+m-REM,3,glycine (GlyT2+ neurons),PRODUCES_STATE+MAINTAINS_STATE,PROMOTES_STATE,"increased chloride conductance at somatic motoneurons, hyperpolarising them and abolishing anti-gravity muscle tone",E-B
+m-REM,4,Grin1 / GluN1 NMDA receptor subunit,PRODUCES_STATE,PROMOTES_STATE,"loss of ionotropic excitatory drive onto preoptic GABAergic sleep-on neurons, destabilising their firing",E-B
+m-REM,6,Hcrtr2 / Ox2R; Pmch / MCH,CONTROLS_ENTRY,PROMOTES_STATE,receptor-mediated change in excitability of a hypothalamic neuromodulatory population; sign differs between sub-populations,E-B
+m-REM,7,n/a,PRODUCES_STATE,PROMOTES_STATE,change in firing of a brainstem population that gates cortical/behavioural state and drives descending motor inhibition,E-B
+m-NREM,3,Gabrd (GABA-A delta subunit) on PV+ interneurons,MAINTAINS_STATE,STRUCTURE_ONLY,"loss of tonic extrasynaptic chloride conductance on fast-spiking interneurons, altering network oscillation structure",E-B
+m-NREM,4,Grin1 / GluN1,MAINTAINS_STATE,STRUCTURE_ONLY,loss of ionotropic excitatory drive onto preoptic GABAergic sleep-on neurons,E-B
+m-NREM,5,adenosine; Adora1 / A1 receptor,MAINTAINS_STATE,PROMOTES_STATE,"vesicular release of a gliotransmitter, raising extracellular adenosine and thereby receptor-mediated inhibition",E-B
+m-NREM,6,Oprl1 / NOPR,PRODUCES_STATE+MAINTAINS_STATE,PROMOTES_STATE,GPCR-mediated inhibition in preoptic and parastrial circuits; downstream hypothermia and reduced locomotion,E-C
+m-NREM,7,Gal / galanin,PRODUCES_STATE,CONTEXT_DEPENDENT,firing of a preoptic sleep-active population; downstream suppression of wake-promoting regions and increased heat loss,E-B
+m-NREM,8,Sik3,MAINTAINS_STATE,PROMOTES_STATE,kinase-mediated phosphorylation signalling that sets homeostatic sleep pressure; downstream physical effector not established,E-A
+m-NREM,11,n/a,PRODUCES_STATE,PROMOTES_STATE,centrally driven increase in heat loss producing a decrease in core body temperature,E-B
+m-volatile,1,Unc79 (Lightweight / Lwt ENU allele),CONTROLS_ENTRY,UNDETERMINED,altered background cation leak conductance via disruption of a NALCN-complex accessory subunit,E-B
+m-volatile,1,"Nalcn (retrotrapezoid nucleus, Phox2b neurons)",PROTECTS_THROUGH_STATE,UNDETERMINED,increased background sodium leak conductance raising firing of chemosensitive brainstem neurons,E-B
+m-volatile,2,"unidentified norfluoxetine-sensitive K+ leak channel; Kcnk2/TREK-1, Kcnk10/TREK-2 (EXCLUDED)",CONTROLS_ENTRY,PROMOTES_STATE,increased potassium conductance producing membrane hyperpolarisation,E-B
+m-volatile,3,"Gabrb3 (beta3 subunit, N265M); Glra1 alpha1 (M287L, Q266I) - TESTED NEGATIVE for MAC",CONTROLS_ENTRY,PROMOTES_STATE,increased chloride conductance / enhanced inhibitory shunting,E-B
+m-volatile,4,AMPA and NMDA receptors,NO_ROLE,UNDETERMINED,reduced ionotropic excitatory current,E-D
+m-volatile,6,Hcrt / orexin; Hcrtr1 / OX1R,ENABLES_EXIT,OPPOSES_STATE,loss of neuropeptidergic excitatory drive to wake-active circuitry,E-B
+m-volatile,7,noradrenergic locus coeruleus circuitry,ENABLES_EXIT,OPPOSES_STATE,increased firing of ascending arousal circuitry opposing the drug-induced state,E-C
+m-volatile,8,"Ndufs4 (complex I accessory subunit); NDi1 (yeast NADH dehydrogenase, transgenic bypass)",CONTROLS_ENTRY+ENABLES_EXIT,PROMOTES_STATE,"reduced mitochondrial complex I electron-transport capacity, with a downstream increase in potassium leak conductance",E-B
+m-volatile,11,n/a,ENABLES_EXIT,CONTEXT_DEPENDENT,"change in tissue temperature, altering the rate of all temperature-dependent processes including anaesthetic clearance",E-B
+h-sevo,6,muscarinic acetylcholine receptors (cholinesterase inhibition),MAINTAINS_STATE,OPPOSES_STATE,increased cholinergic muscarinic receptor activation partially restoring cortical responsiveness at fixed anaesthetic concentration,E-C
+h-sevo,11,n/a,CONTROLS_ENTRY,PROMOTES_STATE,"reduced tissue temperature, slowing all temperature-dependent processes and lowering the anaesthetic concentration required for immobility",E-C
+h-sevo,11,n/a,NO_ROLE,UNDETERMINED,"suppression of central thermoregulatory response thresholds, widening the interthreshold range and permitting core cooling",E-C
+h-propofol,6,muscarinic acetylcholine receptors,MAINTAINS_STATE+CONTROLS_ENTRY,OPPOSES_STATE,"increased cholinergic muscarinic receptor activation, restoring cortical responsiveness",E-C
+h-propofol,7,n/a,NO_ROLE,UNDETERMINED,altered synchronisation and effective coupling between thalamus and cortex,E-D

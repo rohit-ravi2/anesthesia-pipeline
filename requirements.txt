@@ -1,0 +1,7 @@
+numpy
+scipy
+pandas
+scikit-learn
+brian2>=2.5
+h5py
+openpyxl

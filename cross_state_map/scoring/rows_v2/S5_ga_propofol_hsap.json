@@ -1,0 +1,531 @@
+{
+ "row_id": "S5_ga_propofol_hsap",
+ "state": "strong general anaesthesia",
+ "species": "hsap",
+ "instantiation": "propofol at surgical endpoint",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "EXOGENOUS_AGENT",
+ "agent_scope": "PROPOFOL only. Scored as a separate row from S5_ga_volatile_hsap by design, to test whether an indistinguishable behavioural endpoint is reached through a different mechanism suite.",
+ "state_production_justification": {
+  "assigned": "EXOGENOUS_AGENT",
+  "assigned_when": "2026-09-16, during the v2 freeze, BEFORE any mammalian mechanism search",
+  "operational_basis": "State exists only during drug exposure at sufficient effect-site concentration and terminates on clearance.",
+  "ambiguity": "Propofol is widely argued to act partly by recruiting endogenous sleep-promoting circuitry. As with the volatile row, that bears on mechanism, not on what produces the state.",
+  "note": "Assignment did not dictate roles; the one role assigned in this row was read off a human reversal experiment."
+ },
+ "_species_rule_note": "HUMAN ROW. Rodent and in vitro causal work does not transfer (REPERTOIRE_v2 3.3). Unlike the volatile row, ONE human causal manipulation exists and is scored.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 3.2,
+   "units": "plasma concentration (microgram/ml, SD 0.8, n=17) at which unconsciousness occurred: inability to respond to verbal command and abolition of spontaneous movement",
+   "baseline": "awake same subjects",
+   "evidence_grade": "E-C",
+   "citation_ids": [
+    "PMID:10969304",
+    "PMID:29935583"
+   ],
+   "notes": "Two independent human quantifications: Meuret 2000 titrated to loss of response at 3.2 microgram/ml; Laaksonen 2018 reported 45% of subjects unresponsive at an equi-sedative EC50 dose of 1.7 microgram/ml. As in the volatile row, the endpoint is hypnosis/unresponsiveness, not immobility to noxious stimulus."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "No human population firing-rate measurement located. Auditory steady state response amplitude fell from 0.32 to 0.10 microV (Meuret 2000), but that is an evoked-response measure, not spontaneous rate/amplitude, and is not scored here."
+    },
+    "coordination": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Thalamocortical connectivity decreases at loss of consciousness (Malekmohammadi 2019); thalamocortical synchronisation changes across induction and emergence (Flores 2017); basal forebrain cholinergic connectivity reduced (Zimmermann 2024). PE-5 ADDITION (Zelmann 2023, human intracranial with direct electrical stimulation): information integration and complex processing REDUCED and variability INCREASED in unconsciousness, more pronounced in anaesthesia than sleep. Critically this is a WITHIN-STUDY, WITHIN-SPECIES sleep-vs-anaesthesia contrast - the comparison this table cannot otherwise make without species confound."
+    },
+    "dynamical_organization": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Propofol disrupts alpha dynamics in functionally distinct thalamocortical networks during loss of consciousness (Weiner 2023). The resting-EEG spectral exponent indexes presence of consciousness under propofol (Colombo 2019). NOTE: propofol INCREASES alpha and slow-wave power while DISRUPTING their network organisation - power and organisation move oppositely, which a single 'dynamical organisation' direction cannot express. PE-5: Zelmann 2023 report a QUALITATIVE domain difference - during sleep changes are distributed roughly uniformly across the brain, whereas during propofol anaesthesia the PREFRONTAL CORTEX is the most disrupted, indicating prefrontal disconnection rather than uniform physiological slowing. 'Direct evidence for different neural dynamics during loss of consciousness compared with loss of arousability.'"
+    }
+   },
+   "magnitude": null,
+   "units": "EEG and fMRI",
+   "baseline": "awake same subjects",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:28743752",
+    "PMID:30639334",
+    "PMID:31236577",
+    "PMID:36897972",
+    "PMID:37659409",
+    "PMID:40568363"
+   ],
+   "notes": "Much richer human neural characterisation than the volatile row, with four independent primary studies. Same directional profile as sevoflurane on the two measured sub-measures. PE-5: enriched with Zelmann 2023. NOT scored as a new mechanism cell - the direct electrical stimulation is used as a PROBE to measure effective connectivity, not as a manipulation of the state, so no causal role is assignable."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 71,
+   "units": "percent of placebo whole-brain CMRglu (absolute 18F-FDG PET, arterial sampling, n=40)",
+   "baseline": "placebo group (n=20)",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:29935583",
+    "PMID:7856898"
+   ],
+   "notes": "MATCHED TO THE VOLATILE ROW BY CONSTRUCTION - same study, same endpoint, same method. Propofol 71% of placebo; sevoflurane 71% of placebo. INDISTINGUISHABLE WHOLE-BRAIN METABOLIC REDUCTION FOR TWO AGENTS WITH DIFFERENT MOLECULAR TARGETS. Alkire 1995 independently established the propofol CMRglu reduction in humans by PET."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing cation-leak conductance as a propofol mechanism."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing K+ conductance as a propofol mechanism."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "A human GABA-A-selective probe administered during maintained propofol anaesthesia, analogous to the physostigmine experiment in class 6. Flumazenil is not such a probe for propofol.",
+   "notes": "No HUMAN IN VIVO causal study located testing GABA-A as the mechanism of the propofol state. This is the textbook mechanism of propofol and it is supported by in vitro pharmacology and by rodent knock-in work, none of which transfers under the species rule. The cell is empty for a reason that is about evidence type and species, not about doubt regarding the target."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing excitatory receptor suppression as a propofol mechanism."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 5,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing presynaptic release machinery as a propofol mechanism."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "The experiment establishes that cholinergic muscarinic transmission can REVERSE the established state; it does not establish that propofol produces the state by acting on that system. Necessity for maintenance is shown; the production mechanism is untouched. PE-5 ADDITION: the same cholinergic probe ALSO shifts the INDUCTION dose (Fassoulaki 1997, randomised double-blind n=40: propofol dose for loss of consciousness 2.0 -> 2.4 mg/kg with physostigmine pretreatment, p=0.014). So this mechanism occupies TWO causal phases in the same state with the same direction - entry threshold and maintenance.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C",
+    "E-E"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Central cholinergic muscarinic transmission opposes maintenance of propofol unconsciousness",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ],
+       "basis": "Physostigmine was given DURING CONTINUOUS propofol administration and restored consciousness in 9 of 11 subjects; scopolamine blocked that reversal in all 6 tested. This is a manipulation applied to the already-established state, so it addresses maintenance, not entry or production."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:9398952"
+       ],
+       "basis": "Physostigmine given BEFORE induction increases the propofol dose required for loss of consciousness - a threshold effect, distinct from the reversal-during-maintenance evidence."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "physostigmine (during continuous propofol)",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "consciousness restored in 9/11 subjects; ASSR rose 0.10 to 0.38 microV; BIS rose 55.7 to 75.3"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Physostigmine restored consciousness in 9 of 11 subjects, with concomitant increases in ASSR and BIS.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_block",
+       "direction_of_manipulation": "decrease",
+       "agent": "scopolamine",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "blocked the physostigmine reversal in all 6 subjects tested; ASSR and BIS returned to unconscious values - a pharmacological double dissociation"
+       },
+       "context_dependence": "none_reported",
+       "statement": "In all subjects (n = 6) scopolamine blocked the physostigmine-induced reversal of unconsciousness and the increase of the ASSR and BIS. These findings suggest that the unconsciousness produced by propofol is mediated at least in part via interruption of central cholinergic muscarinic transmission.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "propofol",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "reduced basal forebrain cholinergic nuclei functional connectivity, observational"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Unresponsiveness induced by sevoflurane and propofol is associated with reduced basal forebrain cholinergic nuclei functional connectivity in humans.",
+       "evidence_grade": "E-E",
+       "citation_ids": [
+        "PMID:40568363"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "physostigmine pretreatment, then propofol",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "randomised double-blind, n=40; propofol dose for loss of consciousness 2.4+/-0.6 vs 2.0+/-0.4 mg/kg, p=0.014"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Physostigmine pretreatment increases the dose of propofol required to produce loss of consciousness.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:9398952"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "cholinesterase inhibition raises central acetylcholine",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ]
+      },
+      {
+       "step": "muscarinic receptor activation (blocked by scopolamine)",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ]
+      },
+      {
+       "step": "restoration of responsiveness and of auditory evoked response",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:10969304"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "muscarinic acetylcholine receptors",
+       "species": "hsap",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:10969304",
+      "PMID:40568363",
+      "PMID:9398952"
+     ],
+     "proximal_physical_effect": "increased cholinergic muscarinic receptor activation, restoring cortical responsiveness"
+    }
+   ],
+   "discriminating_experiment": "Run the identical physostigmine/scopolamine protocol under sevoflurane to test whether the cholinergic maintenance route is agent-general or propofol-specific. This is the single most informative available experiment for the volatile-vs-propofol comparison and it uses only established human methods.",
+   "notes": "THE ONLY ROLE ASSIGNED IN EITHER HUMAN ANAESTHESIA ROW, AND IT IS MAINTAINS_STATE. That directly answers the question section 9 posed neutrally: in the human propofol corpus scored here, the single causal mechanism result concerns MAINTENANCE, not entry or sensitivity - the opposite of the worm volatile row, which was 9/9 CONTROLS_ENTRY. Polarity OPPOSES_STATE: raising cholinergic tone reduces the state. PE-5: role CONTROLS_ENTRY added from Fassoulaki 1997. The cholinergic system now has BOTH entry and maintenance evidence in human propofol, with the same polarity.",
+   "discovery_route": "SPECIES_ENDPOINT_FIRST"
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": "OBSERVATIONAL, MULTI-STUDY, AND ROLE-LESS. Four independent human studies measure thalamocortical dynamics during propofol loss of consciousness, but none manipulates the circuit, so no causal role can be assigned. The cell is TESTED_POSITIVE at E-D with an empty roles list.",
+   "strongest_grade": "E-D",
+   "all_grades": [
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Thalamocortical network dynamics are disrupted at propofol loss of consciousness",
+     "roles": [],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "propofol",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "alpha dynamics disrupted in functionally distinct thalamocortical networks at LOC; thalamocortical connectivity decreased; synchronisation altered across induction and emergence"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "Propofol disrupts alpha dynamics in functionally distinct thalamocortical networks during loss of consciousness.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36897972",
+        "PMID:31236577",
+        "PMID:28743752"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "propofol administration to loss of consciousness",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36897972"
+       ]
+      },
+      {
+       "step": "disrupted thalamocortical alpha dynamics and reduced connectivity",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36897972",
+        "PMID:31236577"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:36897972",
+      "PMID:31236577",
+      "PMID:28743752"
+     ],
+     "proximal_physical_effect": "altered synchronisation and effective coupling between thalamus and cortex"
+    }
+   ],
+   "discriminating_experiment": "Human thalamic deep-brain-stimulation cohorts permit causal interrogation of thalamocortical circuits during anaesthesia and would convert this cell from observational to causal, assigning it a role.",
+   "notes": "A SECOND ROLE-LESS CELL, now at a strong evidence grade (E-D, four studies). This makes the v2 limitation concrete: evidence quality and causal-role assignability are independent, and v2 tracks only the former."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 8,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing a mitochondrial or metabolic MECHANISM of propofol action. CMRglu falls to 71% of placebo (A_met axis) but that is a measured consequence, not a mechanism claim."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 9,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No transcriptional mechanism of acute propofol anaesthesia located."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing membrane/structural mechanisms of propofol action."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Propofol impairs thermoregulation clinically; whether the thermal change contributes causally to the anaesthetic state is untested, as in the volatile row.",
+   "notes": "No human study located testing thermal/rate mechanisms of propofol action."
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing electrical coupling as a propofol mechanism."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S5_ga_propofol_hsap",
+  "coverage_denominator": 2,
+  "n_positive": 2,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 10,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 6,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 1,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 0,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": null,
+  "cells_changed": [],
+  "new_evidence_added": [
+   "Entire row is new."
+  ]
+ },
+ "ontology_flags_v2": [
+  "TWO ROLE-LESS POSITIVE CELLS (classes 6 and 7) - a mechanism class implicated by direct measurement during the state, with no manipulation and therefore no assignable causal role. This is the single most repeated representational strain in the mammalian human rows and did not arise at all in the worm rows, where nearly all evidence was genetic. A role value such as OBSERVED_NO_CAUSAL_TEST, or an explicit causal_status field orthogonal to evidence grade, is the minimal repair.",
+  "A_neu.dynamical_organization cannot express that propofol INCREASES alpha and slow-wave POWER while DISRUPTING network organisation. Power and organisation move in opposite directions and the sub-measure holds one value.",
+  "No field for the clinical/behavioural ENDPOINT at which a row's evidence was obtained. Both human anaesthesia rows are defined 'at surgical endpoint' but the quantified evidence is at loss-of-responsiveness endpoints."
+ ],
+ "citations_pending_verification": []
+}

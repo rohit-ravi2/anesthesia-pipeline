@@ -1,0 +1,90 @@
+{
+  "_meta": {
+    "title": "Committed (state, species) rows for the reduced-activity mechanism table",
+    "frozen_utc": "2026-09-16T12:45:24Z",
+    "frozen_before": "any state was scored and any mechanism was entered",
+    "criterion_file": "INCLUSION_CRITERION.md",
+    "repertoire_file": "REPERTOIRE.md",
+    "schema_version": "1",
+    "state_names_committed_by": "Rohit, 2026-09-16",
+    "instantiation_note": "Species instantiations map the nine committed state names onto scoreable units. They are not additions to the committed list. See INCLUSION_CRITERION.md section 5.",
+    "n_committed_state_names": 9,
+    "n_rows": 19,
+    "n_species": 5,
+    "n_classes": 11,
+    "n_cells": 209
+  },
+
+  "species": {
+    "hsap": "Homo sapiens",
+    "mmus": "Mus musculus",
+    "isp": "Ictidomys tridecemlineatus (thirteen-lined ground squirrel)",
+    "cele": "Caenorhabditis elegans",
+    "tard": "Tardigrada (species recorded per citation; not a single taxon)"
+  },
+
+  "rows": [
+    {"row_id": "S1_nap_hsap",           "state": "nap",                        "species": "hsap", "instantiation": "daytime nap, full sleep-stage scoring"},
+    {"row_id": "S2_core_hsap",          "state": "core sleep",                 "species": "hsap", "instantiation": "NREM stage N2"},
+    {"row_id": "S2_core_mmus",          "state": "core sleep",                 "species": "mmus", "instantiation": "NREM sleep"},
+    {"row_id": "S2_core_cele",          "state": "core sleep",                 "species": "cele", "instantiation": "lethargus (developmentally timed sleep)"},
+    {"row_id": "S3_rem_hsap",           "state": "REM sleep",                  "species": "hsap", "instantiation": "REM"},
+    {"row_id": "S3_rem_mmus",           "state": "REM sleep",                  "species": "mmus", "instantiation": "REM / paradoxical sleep"},
+    {"row_id": "S4_deep_hsap",          "state": "deep sleep",                 "species": "hsap", "instantiation": "NREM stage N3 / slow-wave sleep"},
+    {"row_id": "S4_deep_mmus",          "state": "deep sleep",                 "species": "mmus", "instantiation": "slow-wave sleep"},
+    {"row_id": "S5_ga_volatile_hsap",   "state": "strong general anaesthesia", "species": "hsap", "instantiation": "volatile agent at surgical endpoint"},
+    {"row_id": "S5_ga_propofol_hsap",   "state": "strong general anaesthesia", "species": "hsap", "instantiation": "propofol at surgical endpoint"},
+    {"row_id": "S5_ga_volatile_mmus",   "state": "strong general anaesthesia", "species": "mmus", "instantiation": "volatile agent, loss of righting / immobility endpoint"},
+    {"row_id": "S5_ga_volatile_cele",   "state": "strong general anaesthesia", "species": "cele", "instantiation": "volatile agent, immobility endpoint"},
+    {"row_id": "S6_starv_L1_cele",      "state": "starvation quiescence",      "species": "cele", "instantiation": "L1 arrest"},
+    {"row_id": "S6_starv_adult_cele",   "state": "starvation quiescence",      "species": "cele", "instantiation": "adult starvation-induced sleep"},
+    {"row_id": "S7_dauer_cele",         "state": "dauer",                      "species": "cele", "instantiation": "dauer larva"},
+    {"row_id": "S8_crypto_tard",        "state": "cryptobiosis",               "species": "tard", "instantiation": "anhydrobiosis (tun state)"},
+    {"row_id": "S8_crypto_cele",        "state": "cryptobiosis",               "species": "cele", "instantiation": "dauer anhydrobiosis"},
+    {"row_id": "S9_hib_seasonal_isp",   "state": "hibernation",                "species": "isp",  "instantiation": "seasonal torpor bout"},
+    {"row_id": "S9_hib_daily_mmus",     "state": "hibernation",                "species": "mmus", "instantiation": "daily torpor"}
+  ],
+
+  "classes": [
+    {"class_id": 1,  "name": "cation-leak reduction"},
+    {"class_id": 2,  "name": "K+ conductance increase"},
+    {"class_id": 3,  "name": "Cl- / shunting inhibition"},
+    {"class_id": 4,  "name": "excitatory receptor block"},
+    {"class_id": 5,  "name": "synaptic release machinery"},
+    {"class_id": 6,  "name": "neuromodulatory / peptidergic drive"},
+    {"class_id": 7,  "name": "circuit-level switch"},
+    {"class_id": 8,  "name": "mitochondrial / metabolic"},
+    {"class_id": 9,  "name": "transcriptional / developmental reprogramming"},
+    {"class_id": 10, "name": "structural / biophysical"},
+    {"class_id": 11, "name": "thermal / rate effects"}
+  ],
+
+  "coarsened_partition": {
+    "_purpose": "Mandatory re-score partition, committed per INCLUSION_CRITERION.md section 6 contamination disclosure.",
+    "membrane_conductance": [1, 2, 3, 4],
+    "synaptic": [5],
+    "modulatory": [6, 7],
+    "metabolic": [8],
+    "programmatic": [9],
+    "structural": [10],
+    "thermal": [11]
+  },
+
+  "candidate_extensions_not_committed": [
+    "Drosophila melanogaster sleep",
+    "ketamine dissociative anaesthesia",
+    "C. elegans stress-induced sleep (SIS)",
+    "C. elegans satiety quiescence",
+    "Artemia encystment",
+    "therapeutic / accidental hypothermia",
+    "sedation short of surgical endpoint"
+  ],
+
+  "waitlist_reasons": {
+    "E4_fail": "satisfies E1-E3 but no published intervention altering entry, depth or exit",
+    "X1": "irreversible or terminal",
+    "X2": "individuated solely by stimulus absence",
+    "X3": "acute pathology without a physiological entry programme",
+    "X4": "anaesthetic state not reaching surgical endpoint"
+  }
+}

@@ -1,0 +1,1572 @@
+{
+ "row_id": "S2_core_cele",
+ "state": "core sleep",
+ "species": "cele",
+ "instantiation": "lethargus (developmentally timed sleep, DTS)",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "ENDOGENOUS",
+ "_note": "Full prose evidence notes are preserved in the v1 file scoring/rows/S2_core_cele.json and are not duplicated here. This file carries the v2 structure and what changed.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "locomotor and pharyngeal quiescence; elevated arousal threshold",
+   "baseline": "inter-moult wake-like behaviour in the same animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:18185515",
+    "PMID:24184105"
+   ],
+   "notes": "Unchanged from v1. Entry-gate axis, best-evidenced of the three."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "single_cells",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "RIS activity inactivates motor neuron oscillatory activity while muscle tone is SUSTAINED (Steuer Costa 2019). Cell-specific, not global."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "No inter-neuronal correlation measurement across lethargus located."
+    },
+    "dynamical_organization": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not measured. Maluck 2020 report RIMs become less excitable and PVCs become inhibition-resistant during lethargus - a change in excitability properties, direction NOT uniform across cells, and not a dynamical-organisation measurement."
+    }
+   },
+   "magnitude": null,
+   "units": null,
+   "baseline": "wake in the same animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:31506439",
+    "PMID:29514087",
+    "PMID:32078631"
+   ],
+   "notes": "CHANGED FROM v1. v1 scored A_neu 'decreased' on cell-specific evidence. Under v2 only rate_amplitude carries that direction, and only at single-cell scope; coordination and dynamical organisation were never measured in lethargus. No whole-brain population measurement across lethargus was located."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "fat stores and cellular energy charge",
+   "baseline": "non-sleep in the same animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:32315298"
+   ],
+   "notes": "Unchanged direction, but the v1 caveat is load-bearing and repeated: what is measured is a drop in energy CHARGE and fat stores, with stores allocated to non-neural tasks. That is not a metabolic RATE measurement and is compatible with unchanged or elevated expenditure."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 1,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Total quiescence and state structure move in opposite directions depending on state and timing: DTS quiescence is lower but longer, and SIS total quiescence ends up higher after an initial deficit, which the authors interpret as rebound.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "NALCN complex (NCA-1/NCA-2 with UNC-79, UNC-80) stabilises sleep",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:42084332"
+       ],
+       "basis": "Loss does not abolish sleep and does not shift its timing of onset; it changes consolidation, fragmentation and duration. That is stabilisation, not production or entry control."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "DTS more fragmented AND longer"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "unc-80(lf) mutants experienced lower quiescence and a more fragmented and longer DTS than the wild type; similar sleep defects were observed in nca(lf) and unc-79(lf) mutants.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:42084332"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "lower quiescence immediately after heat stress and fragmented SIS, then quiescence remained higher for longer, giving higher total"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "The unc-80(lf) mutants also showed lower quiescence during SIS immediately after heat stress, and fragmented SIS. After that, however, quiescence remained higher for a longer time, resulting in a higher total quiescence than observed in the wild type.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:42084332"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "loss of NCA/UNC-79/UNC-80 cation-leak complex",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:42084332"
+       ]
+      },
+      {
+       "step": "destabilised, fragmented sleep with altered duration",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:42084332"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "nca-1",
+       "species": "cele",
+       "identifier": "WBGene00003558",
+       "ortholog_relation": "NALCN family"
+      },
+      {
+       "name": "nca-2",
+       "species": "cele",
+       "identifier": "WBGene00003559",
+       "ortholog_relation": "NALCN family"
+      },
+      {
+       "name": "unc-79",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC79 family"
+      },
+      {
+       "name": "unc-80",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC80 family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:42084332"
+     ],
+     "proximal_physical_effect": "reduced background cation (Na+) leak conductance via loss of the NALCN complex"
+    }
+   ],
+   "discriminating_experiment": "Cell-specific NALCN rescue or knockdown in RIS (which expresses nca-2 at 112 TPM and unc-77 at 78 TPM, CeNGEN threshold-2) would test whether the stabilisation requirement is cell-autonomous to the sleep-active neuron or a network property. Separating onset from maintenance in the scoring would also resolve whether 'lower quiescence' reflects failure to enter or failure to sustain.",
+   "notes": "THE v1 SIGN FINDING SURVIVES AND IS NOW EXPLICIT IN STRUCTURE RATHER THAN PROSE. The cell is POSITIVE (the class participates) with role MAINTAINS_STATE and polarity CONTEXT_DEPENDENT. It is NOT evidence that cation leak is reduced during sleep; that measurement was never made. Any account in which reduced-activity states operate by lowering Na+ leak must answer this cell."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 2,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "STATE-IDENTIFICATION SCOPE, stated first because it is the real limitation. The abstract reports 'shortened sleep duration' without naming the paradigm, so whether the measurement is developmentally timed sleep (this row's state) or another C. elegans quiescent state is not established from the abstract. Graded E-B rather than E-A for that reason alone; the genetics and the epistasis are otherwise first-rate. THE EPISTASIS IS THE STRENGTH: knockouts of the ligand-synthesis gene (homt-1), the receptor (pcdr-1) and the channel (slo-1) each shorten sleep, and the effects are NON-ADDITIVE in double mutants, which places all three on one pathway rather than three parallel ones. Exogenous melatonin promotes sleep in wild type but NOT in pcdr-1 or slo-1 mutants - an epistatic negative that pins the ligand's action to that receptor and that channel. The human hSlo1/MT1 arm is HETEROLOGOUS EXPRESSION and is recorded as such; it does not qualify as organism-level evidence and is not scored in any human row.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Melatonin acts through the PCDR-1 receptor and G-beta-gamma to open the SLO-1 BK channel, suppressing neurotransmitter release and lengthening sleep",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ],
+       "basis": "Loss of the channel, the receptor or the ligand shortens sleep DURATION - the state is entered but not held."
+      },
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ],
+       "basis": "Exogenous melatonin PROMOTES sleep in wild type, and fails to do so in pcdr-1 or slo-1 mutants. Sufficiency, conditional on the pathway being intact."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function_and_pharmacological_activation",
+       "direction_of_manipulation": "bidirectional",
+       "agent": "exogenous melatonin",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "increase",
+        "survival_recovery": "not_reported",
+        "other": "pcdr-1, slo-1 and homt-1 knockouts each substantially INCREASE neurotransmitter release and SHORTEN sleep; effects NON-ADDITIVE in double knockouts; exogenous melatonin inhibits release and promotes sleep in wild type but not in pcdr-1 or slo-1 mutants; in heterologous expression melatonin activates human hSlo1 via MT1 but NOT MT2, membrane-delimited, abolished by a Gbeta-gamma inhibitor"
+       },
+       "context_dependence": "pathway_dependent",
+       "statement": "We identified the Caenorhabditis elegans BK channel SLO-1 as a molecular target of the Mel receptor PCDR-1. Knockout of pcdr-1, slo-1, or homt-1 (a gene required for Mel synthesis) causes substantially increased neurotransmitter release and shortened sleep duration, and these effects are nonadditive in double knockouts. Exogenous Mel inhibits neurotransmitter release and promotes sleep in wild-type (WT) but not pcdr-1 and slo-1 mutants. In a heterologous expression system, Mel activates the human BK channel (hSlo1) in a membrane-delimited manner in the presence of the Mel receptor MT1 but not MT2. A peptide acting to release free Gbeta-gamma also activates hSlo1 in a MT1-dependent and membrane-delimited manner, whereas a Gbeta-gamma inhibitor abolishes the stimulating effect of Mel.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "melatonin synthesis (homt-1) and release",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      },
+      {
+       "step": "PCDR-1 melatonin receptor activation liberating free G-beta-gamma",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      },
+      {
+       "step": "membrane-delimited activation of the SLO-1 BK potassium channel",
+       "class_id": 2,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      },
+      {
+       "step": "reduced neurotransmitter release",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      },
+      {
+       "step": "longer sleep",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32958651"
+       ]
+      }
+     ],
+     "proximal_class": 2,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "SLO-1 (BK, calcium-activated potassium channel); PCDR-1 melatonin receptor",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "SLO-1 ALREADY CARRIES THIS TABLE'S S5_ga_volatile_cele class-2 entry, where slo-1 loss of function confers volatile-anaesthetic resistance. Same gene, same species, two states. The human orthologue hSlo1 responds to melatonin through MT1 in heterologous expression, which is suggestive for mammals but is not organism-level evidence."
+      }
+     ],
+     "citation_ids": [
+      "PMID:32958651"
+     ],
+     "proximal_physical_effect": "increased potassium conductance at the presynaptic terminal, reducing transmitter release and network excitability",
+     "overlap_resolution": {
+      "level": "EXACT_MOLECULE",
+      "partner": "S5_ga_volatile_cele c2 (slo-1)",
+      "justification": "slo-1 loss of function SHORTENS natural sleep and CONFERS RESISTANCE to volatile anaesthetics. In both states the channel promotes reduced activity, and in both the causal chain runs through suppression of transmitter release - but the roles differ (MAINTAINS for sleep, CONTROLS_ENTRY for anaesthesia). Together with unc-9 at class 12 and the NALCN complex at class 1, this is the third molecule shared between the worm sleep and worm anaesthesia rows, and the pattern of shared machinery with differing role is now robust within species."
+     }
+    }
+   ],
+   "discriminating_experiment": "CeNGEN threshold-2 gives ranked candidates expressed in RIS: exp-2 (647 TPM) and slo-2 (161 TPM); irk-1 (26) and slo-1 (4) weakly. twk-40 is ABSENT from RIS while strong in ALA (178), AVA (271) and AVE (123). Loss-of-function of exp-2 or slo-2 with RIS-specific rescue is the cheapest first test.",
+   "notes": "Unchanged from v1. Expression evidence prioritises but does not score (forbidden operation).",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 3,
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "ambiguity": "GABA is NOT required for developmentally timed quiescence (Turek 2013, 2016) but IS required to INDUCE optogenetically evoked RIS-driven locomotion stop, with FLP-11 required to SUSTAIN it (Steuer Costa 2019). Different readouts, opposite answers. Recorded, not resolved.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": "Turek 2013 assayed RIS-dependent lethargus quiescence with GABA function removed; the assay could have detected a requirement for GABA in RIS-driven quiescence and did not. Turek 2016 independently concluded FLP-11, not GABA, is the major determinant. Scope: RIS-derived GABA, PRODUCES_STATE role, developmentally timed quiescence only.",
+   "mechanisms": [
+    {
+     "label": "GABA from RIS is not required for developmentally timed quiescence",
+     "roles": [],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "unchanged",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "quiescence persists without GABA"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "RIS-dependent quiescence does not require GABA but requires neuropeptide signaling (Turek 2013); FLP-11, and not GABA, is the major component that determines the sleep-promoting function of RIS (Turek 2016).",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105",
+        "PMID:26949257"
+       ]
+      },
+      {
+       "manipulation": "optogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "acute locomotion stop; GABA required for induction, FLP-11 for maintenance"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "RIS optogenetic stimulation caused acute and persistent inhibition of locomotion and pharyngeal pumping, phenotypes requiring FLP-11 neuropeptides and GABA. GABA was required to induce, and FLP-11 neuropeptides were required to sustain locomotion stop.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:31506439"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "RIS-dependent quiescence assayed without GABA function",
+       "class_id": 3,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105",
+        "PMID:26949257"
+       ]
+      }
+     ],
+     "proximal_class": 3,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "unc-25 / GABA pathway",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:24184105",
+      "PMID:26949257",
+      "PMID:31506439"
+     ],
+     "proximal_physical_effect": "chloride conductance at RIS targets - tested and NOT required for developmentally timed quiescence"
+    }
+   ],
+   "discriminating_experiment": "Score spontaneous lethargus quiescence in a GABA-deficient background using Steuer Costa's induce-vs-sustain decomposition: measure onset latency and bout initiation rate separately from bout maintenance. If GABA selectively affects initiation, both results are correct and the v1 negative is scoped to maintenance.",
+   "notes": "UNCHANGED IN COVERAGE AND STATUS UNDER v2 - a finding robust to the representation change. What v2 adds is that the conflict is now a structured field rather than a prose warning, and the negative is explicitly scoped to the PRODUCES_STATE role."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Identify the conductance underlying the reduced RIM excitability reported by Maluck 2020, which currently cannot be assigned to any of classes 1-4.",
+   "notes": "Unchanged from v1. Choi 2015 (glutamate arousal) is wake-side evidence and is not scored."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 5,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "CLASS ASSIGNMENT IS A JUDGEMENT AND IS STATED AS SUCH. DGK-1 and PKC-1 are not release proteins themselves; they are the canonical upstream regulators of diacylglycerol-dependent UNC-13 priming, i.e. of the release machinery that defines class 5. The paper localises the requirement to cholinergic neurons by rescue, which is a release-machinery context. Assigned to class 5 as the proximal class with class 6 upstream; an alternative reading places it in class 6. The counterbalance result (pkc-1 mutation SUPPRESSES the dgk-1 phenotype, and pkc-1's own excessive sleep is also suppressed) means the pathway is bidirectional, not a simple promoter.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Neuronal diacylglycerol kinase DGK-1, counterbalanced by PKC-1, is required for developmentally timed sleep",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ],
+       "basis": "Unbiased forward screen; two independent alleles map to the same gene; cell-type-restricted transgenic rescue restores the phenotype."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ],
+       "basis": "Both developmentally timed and stress-induced quiescence are reduced, i.e. the animal enters the state less."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "increase",
+        "survival_recovery": "decrease",
+        "other": "isolated in an unbiased forward screen (rem8, rem10); pan-neuronal and/or cholinergic dgk-1 expression partly rescues; pkc-1 loss SUPPRESSES the dgk-1 phenotype and pkc-1's own excessive sleep; reduced post-stress survival"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "The causal gene of the abnormal sleep phenotypes in both mutants was mapped to dgk-1, which encodes diacylglycerol kinase. Perhaps due to the diminished SIS, dgk-1 mutant worms exhibited decreased survival following exposure to a noxious stimulus. Pan-neuronal and/or cholinergic expression of dgk-1 partly rescued the dgk-1 mutant defects in DTS, SIS, and post-stress survival... pkc-1/nPKC participates in sleep regulation and counteracts the effect of dgk-1.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "dgk-1 loss of function in neurons",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ]
+      },
+      {
+       "step": "elevated diacylglycerol and unopposed PKC-1 signalling at the release machinery",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ]
+      },
+      {
+       "step": "reduced developmentally timed and stress-induced quiescence",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682636"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "dgk-1 (diacylglycerol kinase); pkc-1 (nPKC)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "DGKtheta/PKCepsilon orthologues. No mammalian sleep row in this table currently carries a DGK entry, so this is an explicit cross-species prediction rather than a correspondence."
+      }
+     ],
+     "citation_ids": [
+      "PMID:37682636"
+     ],
+     "proximal_physical_effect": "shifted diacylglycerol tone at the presynaptic priming step, altering neurotransmitter release in cholinergic neurons"
+    }
+   ],
+   "discriminating_experiment": "dgk-1 and unc-13 are demonstrated to gate RIS activation during L1-arrest sleep (S6_starv_L1_cele class 5). Testing the same manipulation in lethargus is the obvious transfer experiment and is currently unasked.",
+   "notes": "Unchanged from v1. Evidence from the L1-arrest row is NOT inherited.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": " PE-5 R2: A SECOND within-species state dissociation, alongside the PZGABA result in mouse: the same three peptides are required for developmentally timed sleep and dispensable for stress-induced sleep, tested to triple-mutant depth. Stress-induced sleep is NOT a committed row in this table, so the negative arm is recorded here as scope rather than scored. It is a concrete argument for adding that row.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "FLP-11 neuropeptides released from RIS systemically induce sleep",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257",
+        "PMID:24184105"
+       ],
+       "basis": "Both causal directions demonstrated: removing the source abolishes the state, driving it creates the state acutely. This is production, not threshold-setting."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": ""
+       },
+       "context_dependence": "none_reported",
+       "statement": "RIS ablation caused a dramatic reduction of quiescence.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105"
+       ]
+      },
+      {
+       "manipulation": "optogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "acute, aptf-1-dependent"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Optogenetic activation of aptf-1-expressing neurons ectopically induced acute behavioral quiescence in an aptf-1-dependent manner.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "FLP-11 identified as the major determinant over GABA"
+       },
+       "context_dependence": "none_reported",
+       "statement": "FLP-11, and not GABA, is the major component that determines the sleep-promoting function of RIS. At sleep onset RIS depolarizes and releases FLP-11 to induce a systemic sleep state.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "LIM-6 specifies APTF-1 expression in RIS",
+       "class_id": 9,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      },
+      {
+       "step": "APTF-1 specifies FLP-11 expression",
+       "class_id": 9,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      },
+      {
+       "step": "RIS depolarises at sleep onset and releases FLP-11",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      },
+      {
+       "step": "systemic sleep state",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [
+      9
+     ],
+     "molecules": [
+      {
+       "name": "flp-11",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:26949257",
+      "PMID:24184105"
+     ],
+     "proximal_physical_effect": "release of FLP-11/NLP-22 neuropeptides acting on receptors to impose a systemic quiescent state"
+    },
+    {
+     "label": "NLP-22 promotes sleep-like quiescence",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24301180",
+        "PMID:32555288"
+       ],
+       "basis": "Gain and loss of function change the amount of quiescence; acts through GnRH-like receptors."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "gain_of_function",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": ""
+       },
+       "context_dependence": "none_reported",
+       "statement": "The neuropeptide NLP-22 regulates a sleep-like state in C. elegans; NLP-22 and NLP-2 act through GnRH-like receptors to promote sleep and wakefulness.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24301180",
+        "PMID:32555288"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "nlp-22 gain and loss of function alter quiescence",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24301180"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "nlp-22",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:24301180",
+      "PMID:32555288"
+     ],
+     "proximal_physical_effect": "release of FLP-11/NLP-22 neuropeptides acting on receptors to impose a systemic quiescent state"
+    },
+    {
+     "label": "RPamide neuropeptides nlp-22 and nlp-23 are required for developmentally timed sleep but dispensable for stress-induced sleep",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:38371321"
+       ],
+       "basis": "New CRISPR alleles, double and triple mutants, resolving a linkage problem that had confounded earlier analyses."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "nlp-22 and nlp-23 each required for developmentally timed sleep; nlp-2, nlp-22 and nlp-23 all DISPENSABLE for stress-induced sleep, tested as singles, double and triple"
+       },
+       "context_dependence": "state_dependent",
+       "statement": "Confirming previous studies, we find that nlp-22 is required for developmentally-timed sleep, and show that nlp-23 is also required. However, all three genes are dispensable for stress-induced sleep.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:38371321"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "CRISPR deletion of nlp-22 and nlp-23",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:38371321"
+       ]
+      },
+      {
+       "step": "loss of RPamide peptidergic signalling",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:38371321"
+       ]
+      },
+      {
+       "step": "reduced developmentally timed sleep",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:38371321"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "nlp-2, nlp-22, nlp-23 (RPamide neuropeptides)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:38371321"
+     ],
+     "proximal_physical_effect": "loss of peptidergic quiescence-promoting signalling onto locomotor circuitry"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "Strongest cell in the row under both versions. Van der Auwera 2020 note NLP-22/NLP-2 act through GnRH-like receptors to promote BOTH sleep and wakefulness, which is why the second mechanism's polarity is recorded from the sleep-promoting perturbation only and not generalised."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Three mechanisms in this cell occupy three different roles with opposite polarities: RIS produces, PVC/RIM control entry, glia limit duration. v1 recorded them as one undifferentiated POSITIVE.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "RIS is a sleep-active, sleep-promoting neuron",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105"
+       ],
+       "basis": "Ablation abolishes, activation induces."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": ""
+       },
+       "context_dependence": "none_reported",
+       "statement": "RIS ablation caused a dramatic reduction of quiescence. RIS was strongly and acutely activated at the transition from wake-like to sleep-like behavior.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "RIS ablation / optogenetic activation",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:24184105"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "aptf-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "AP2 transcription factor family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:24184105"
+     ],
+     "proximal_physical_effect": "firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs"
+    },
+    {
+     "label": "Wake-active locomotion interneurons (PVC, RIM) switch RIS on",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32078631"
+       ],
+       "basis": "These neurons determine WHEN RIS activates; they are not themselves the quiescence effector."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "optogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "RIM acts as inhibitor when strongly depolarised and activator when modestly depolarised; PVC is a major activator; neither alone is sufficient"
+       },
+       "context_dependence": "dose_dependent",
+       "statement": "The RIM interneurons play a complex role and can act as inhibitors of RIS when they are strongly depolarized and as activators of RIS when they are modestly depolarized. The PVC command interneurons act as major activators of RIS. Separate activation of neither the PVCs nor the RIMs appears to be sufficient for sleep induction.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32078631"
+       ]
+      },
+      {
+       "manipulation": "other",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "RIMs become less excitable; PVCs become resistant to inhibition, during lethargus"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The properties of these locomotion neurons are modulated during lethargus. The RIMs become less excitable. The PVCs become resistant to inhibition and have an increased capacity to activate RIS.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:32078631"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "optogenetic dissection of the presynaptic circuit to RIS during lethargus",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32078631"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:32078631"
+     ],
+     "proximal_physical_effect": "firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs"
+    },
+    {
+     "label": "CEPsh glia attenuate the ALA-AVE sleep-promoting connection",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29514087"
+       ],
+       "basis": "Ablation changes sleep duration and the immobility episodes preceding it, not whether sleep occurs; all defects are suppressed by ALA ablation, placing glia as modulators of a sleep-promoting connection."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "episodes of immobility preceding sleep; prolonged sleep; molting-independent short pauses; delayed development; AVE Ca2+ transients prolonged and uncoupled from movement"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Glia-ablated animals exhibit episodes of immobility preceding sleep, prolonged sleep, molting-independent short-duration locomotory pausing, and delayed development... all these glia ablation defects are suppressed by the ablation of ALA.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29514087"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "CEPsh glia ablation",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29514087"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:29514087"
+     ],
+     "proximal_physical_effect": "firing of a dedicated sleep-active interneuron (RIS) and its wake-circuit inputs"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "CLASS 7 STILL HAS NO SLOT FOR GLIA; the CEPsh mechanism is placed here as the least-bad fit under v2 as under v1. This remains an open ontology issue and is NOT repaired by v2."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "KIN-29/SIK transduces low cellular energy charge into sleep",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ],
+       "basis": "KIN-29 signals sleep PRESSURE - it sets how readily sleep is entered from an energy state - rather than executing quiescence."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "low ATP despite high fat stores; defective response to cellular energy deficit"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Mutants lacking KIN-29, the C. elegans homolog of a mammalian Salt-Inducible Kinase that signals sleep pressure, have low ATP levels despite high-fat stores, indicating a defective response to cellular energy deficits.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ]
+      },
+      {
+       "manipulation": "other",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "adiposity also corrected"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Liberating energy stores corrects adiposity and sleep defects of kin-29 mutants.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "KIN-29 acts in nuclei of sensory neuroendocrine cells; genetic interaction with hda-4",
+       "class_id": 9,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ]
+      },
+      {
+       "step": "transduces low energy charge into mobilisation of energy stores",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ]
+      },
+      {
+       "step": "promotes sleep",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32315298"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [
+      9
+     ],
+     "molecules": [
+      {
+       "name": "kin-29",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "Salt-Inducible Kinase family"
+      },
+      {
+       "name": "hda-4",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "class IIa HDAC"
+      }
+     ],
+     "citation_ids": [
+      "PMID:32315298"
+     ],
+     "proximal_physical_effect": "kinase transduction of low cellular energy charge into sleep pressure; ATP and fat stores fall during sleep"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "DIRECTIONAL NOTE PRESERVED FROM v1 AND STILL LOAD-BEARING: this is evidence that energy state REGULATES sleep, not that sleep lowers metabolic rate. Energy charge and fat stores DROP during sleep with stores allocated to non-neural tasks - the opposite of a naive 'sleep conserves energy' reading."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 9,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "v1 flagged that this class carried two incompatible senses. v2 separates them by role rather than by class: DAF-16 is state-responsive homeostatic regulation (MAINTAINS_STATE); LIM-6/APTF-1 are developmental specification (BUILDS_MACHINERY).",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "DAF-16/FOXO required for homeostatic response to quiescence deprivation",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477722"
+       ],
+       "basis": "Acts on the homeostatic response to deprivation - the regulation of sleep amount - not on whether sleep occurs."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "impaired homeostatic response; hypersensitive to the lethal effects of forced locomotion during lethargus"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "daf-16 mutants show an impaired homeostatic response to deprivation of lethargus quiescence and are hypersensitive to the lethal effects of forced locomotion during lethargus. DAF-16 expression in muscle cells, but not in neurons, is sufficient to restore a homeostatic response.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477722"
+       ]
+      },
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "DAF-16 nuclear translocation; dauer formation increased by quiescence deprivation"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Forced locomotion during lethargus results in nuclear translocation of DAF-16. The formation of dauer larvae is increased in response to quiescence deprivation.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:23477722"
+       ]
+      }
+     ],
+     "state_polarity": "STRUCTURE_ONLY",
+     "chain": [
+      {
+       "step": "daf-16 loss and tissue-specific rescue",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477722"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "daf-16",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "FOXO family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:23477722"
+     ],
+     "proximal_physical_effect": "transcriptional regulation of sleep homeostasis (DAF-16) and developmental specification of the sleep effector (LIM-6/APTF-1)"
+    },
+    {
+     "label": "LIM-6 / APTF-1 transcriptional specification of the sleep neuron",
+     "roles": [
+      {
+       "role": "BUILDS_MACHINERY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257",
+        "PMID:24184105"
+       ],
+       "basis": "Constructs the effector - specifies RIS identity and FLP-11 expression - on a developmental timescale. Not deployed on entering the state."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "the sleep-promoting effector is not built"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The transcription factor LIM-6, which specifies GABAergic function, in parallel determines sleep neuron function through the expression of APTF-1, which specifies the expression of FLP-11 neuropeptides.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "lim-6 specifies APTF-1; APTF-1 specifies FLP-11",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:26949257"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "lim-6",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      },
+      {
+       "name": "aptf-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:26949257",
+      "PMID:24184105"
+     ],
+     "proximal_physical_effect": "transcriptional regulation of sleep homeostasis (DAF-16) and developmental specification of the sleep effector (LIM-6/APTF-1)"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "v2 RESOLVES A v1 ONTOLOGY FLAG WITHOUT SPLITTING THE CLASS. The two senses are distinguished by role, which is the cheaper repair and keeps class 9 comparable across rows."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1. Lethargus is temporally coupled to the moult and cuticle/grinder ultrastructure changes then (Sparacio 2020), but temporal coupling is not mechanism and no study tested a structural change as a cause of quiescence."
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Measure worm volatile-anaesthetic immobility EC50 across a cultivation-temperature range (15-25C). A poikilotherm is the ideal preparation for separating Q10 effects from regulated thermoregulation, because the latter is absent by construction.",
+   "notes": "PE-5 CORRECTION: applicability changed NOT_APPLICABLE -> APPLICABLE. The earlier label was too strong. C. elegans is a poikilotherm, so the REGULATED-THERMOREGULATION sub-sense of class 11 (centrally driven heat loss, active cooling) is indeed unavailable - but the frozen class-11 definition ALSO covers Q10 kinetic slowing and temperature-mediated kinetics, which are fully applicable to a poikilotherm and are in fact easier to manipulate in one. Coverage remains NOT_TESTED: no qualifying evidence was identified under the standardized five-route search (queries included 'temperature Caenorhabditis elegans volatile anesthetic sensitivity halothane', 'temperature dependence anesthetic potency C elegans immobility', 'elegans lethargus temperature quiescence Q10', 'cold temperature C elegans sleep quiescence induction'). Given that hypothermia reduces isoflurane MAC 5.1%/degC in humans and eliminates the requirement entirely at 20C in goats, the temperature-dependence of worm anaesthetic potency is a cheap and conspicuous untested question.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S2_core_cele",
+   "class_id": 12,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE",
+    "MAINTAINS_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "NECESSITY AND SUFFICIENCY IN ONE PAPER, which almost nothing else in this table has. Loss of UNC-7 or UNC-9 dramatically reduces sleep AND lowers arousal threshold; simultaneous transient OVEREXPRESSION of both is sufficient to induce anachronistic sleep in adults, outside the developmental window when it normally occurs. The epistasis is equally informative and is recorded in the chain: innexin loss suppresses both EGL-4 gain-of-function sleep and the unc-79 loss-of-function phenotype, placing gap junctions DOWNSTREAM of the cGMP-dependent kinase and of the NCA/NALCN channels. EXPLICIT NEGATIVE inside the same study: loss of the PDF receptor PDFR-1 did NOT suppress the gain-of-function sleep defect, ruling out the Drosophila PDF route by which narrow abdomen acts. CELL-TYPE SPECIFICITY: UNC-7 is required in premotor interneurons, UNC-9 in motor neurons - the two innexins are not interchangeable.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "UNC-7 and UNC-9 innexin gap junctions are necessary and sufficient for developmentally timed sleep and set arousal threshold, acting downstream of EGL-4 and the NCA channels",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ],
+       "basis": "Simultaneous transient overexpression of UNC-7 and UNC-9 induced anachronistic sleep in ADULT animals, i.e. the state was generated outside its normal developmental window. A sufficiency demonstration."
+      },
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ],
+       "basis": "Loss of either innexin decreased arousal threshold DURING sleep bouts - the defining property of the state was degraded while the state was in progress."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ],
+       "basis": "Loss of either innexin dramatically reduced total sleep."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function_and_overexpression",
+       "direction_of_manipulation": "bidirectional",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "increase",
+        "survival_recovery": "not_reported",
+        "other": "loss of UNC-7 or UNC-9 dramatically reduced sleep and decreased arousal threshold; UNC-7 required in premotor interneurons, UNC-9 in motor neurons; joint transient overexpression SUFFICIENT to induce anachronistic adult sleep; innexin loss suppressed EGL-4 gain-of-function sleep and unc-79 loss-of-function defects; loss of NCA activity raised arousal threshold while increased NCA activity dramatically decreased sleep; PDFR-1 loss did NOT suppress the gain-of-function defect"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "We report that loss of UNC-7 or UNC-9 innexin function dramatically reduced sleep and decreased arousal threshold during developmentally timed sleep in Caenorhabditis elegans. UNC-7 function was required in premotor interneurons and UNC-9 function was required in motor neurons in this paradigm. Simultaneous transient overexpression of UNC-7 and UNC-9 was sufficient to induce anachronistic sleep in adult animals. Moreover, loss of UNC-7 or UNC-9 suppressed the increased sleep of EGL-4 gain-of-function animals... diminished NCA channel activity in C. elegans robustly increased arousal thresholds during sleep bouts... Total time in sleep bouts was only modestly increased in animals lacking NCA channel auxiliary subunit UNC-79, whereas increased channel activity dramatically decreased sleep. Loss of EGL-4 or innexin proteins suppressed UNC-79 loss-of-function sleep and arousal defects... loss of the PDF receptor PDFR-1 did not suppress gain-of-function sleep defects.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "EGL-4 cGMP-dependent protein kinase activity",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ]
+      },
+      {
+       "step": "NCA/NALCN cation channel activity",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ]
+      },
+      {
+       "step": "UNC-7 and UNC-9 innexin gap-junctional coupling in premotor interneurons and motor neurons",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ]
+      },
+      {
+       "step": "reduced behavioural quiescence and lowered arousal threshold",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30323068"
+       ]
+      }
+     ],
+     "proximal_class": 12,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "UNC-7 and UNC-9 innexins",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC-9 already carries this table's S5_ga_volatile_cele class-12 entry, where it SUPPRESSES unc-79/unc-80 halothane hypersensitivity. Same molecule, two states, and in both it sits epistatically downstream of the NCA/NALCN complex - but with opposite phenotypic sign."
+      }
+     ],
+     "citation_ids": [
+      "PMID:30323068"
+     ],
+     "proximal_physical_effect": "electrical coupling between premotor interneurons and motor neurons that sets the network's responsiveness to external stimuli",
+     "overlap_resolution": {
+      "level": "EXACT_MOLECULE",
+      "partner": "S5_ga_volatile_cele c12 (unc-9)",
+      "justification": "The same gene, in the same species, is load-bearing for natural developmentally timed sleep and for volatile-anaesthetic sensitivity, and in BOTH cases it is placed epistatically downstream of the NCA/NALCN complex. This is the strongest same-species, two-state, same-epistatic-position correspondence the table contains."
+     }
+    }
+   ],
+   "discriminating_experiment": "Innexin expression is known to be remodelled neuron-type-specifically in dauer (Bhattacharya 2019). Whether electrical coupling changes across lethargus has not been asked. RIS and its partners are the obvious targets.",
+   "notes": "NEW CLASS IN v2. Untested in lethargus - a hole that did not exist as a scoreable question under v1.",
+   "discovery_route": "CLASS_FIRST"
+  }
+ ],
+ "row_summary": {
+  "row_id": "S2_core_cele",
+  "coverage_denominator": 9,
+  "n_positive": 8,
+  "n_suggested": 0,
+  "n_negative": 1,
+  "n_not_tested": 3,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 14,
+  "role_counts": {
+   "PRODUCES_STATE": 7,
+   "CONTROLS_ENTRY": 4,
+   "MAINTAINS_STATE": 5,
+   "PROTECTS_THROUGH_STATE": 0,
+   "BUILDS_MACHINERY": 1,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": "scoring/rows/S2_core_cele.json",
+  "cells_changed": [
+   "A_neu: v1 'decreased' decomposed; only rate_amplitude carries that direction, at single_cells scope. coordination and dynamical_organization are not_measured. Cause: ontology repair.",
+   "class 1: role MAINTAINS_STATE and polarity CONTEXT_DEPENDENT now explicit; v1 carried this only as a prose warning. Cause: ontology repair.",
+   "class 3: coverage and status UNCHANGED; conflict with Steuer Costa 2019 moved from prose into the ambiguity field and the negative scoped to the PRODUCES_STATE role. Cause: ontology repair.",
+   "class 7: three mechanisms separated into three roles (PRODUCES / CONTROLS_ENTRY / MAINTAINS) with two different polarities. v1 recorded one undifferentiated POSITIVE. Cause: ontology repair.",
+   "class 9: the v1 'two senses' flag resolved by role (MAINTAINS_STATE vs BUILDS_MACHINERY) rather than by splitting the class. Cause: ontology repair.",
+   "class 11: applicability NOT_APPLICABLE added; coverage unchanged. Cause: ontology repair.",
+   "class 12: added, NOT_TESTED. Cause: new class."
+  ],
+  "new_evidence_added": []
+ },
+ "ontology_flags_v2": [
+  "Class 7 still has no slot for glia (CEPsh). v2 did not repair this; it was judged not to meet the 'evidence requires it' bar for a new class, since one mechanism in one row is thin. Flagged for v3 if a mammalian row produces a second instance.",
+  "Classes 1-4 still cannot absorb 'excitability decreased' without an identified conductance (Maluck 2020, RIMs). Unchanged from v1 and still feeds the committed coarsening analysis.",
+  "MAINTAINS_STATE is doing heavy work: it currently covers consolidation/fragmentation (NALCN), homeostatic amount regulation (DAF-16) and duration limiting (glia). If mammalian rows populate it further, it may need splitting into STABILISES and HOMEOSTATIC_REGULATION."
+ ],
+ "citations_pending_verification": []
+}

@@ -1,0 +1,152 @@
+MATRIX 1 - STATE x CLASS with molecular identity, role, polarity   (regenerated 10 rows)
+========================================================================================================================
+
+C1  cation-leak reduction                              [3 states]
+   w-lethargus  nca-1; nca-2; unc-79; unc-80                   MAINT            CONTEXT_DEPENDENT  E-B
+   w-volatile   unc-79; unc-80                                 ENTRY            OPPOSES_STATE      E-A
+   w-volatile   unc-1; unc-8                                   ENTRY            UNDETERMINED       E-A
+   m-REM        Nalcn                                          ENTRY+MAINT      OPPOSES_STATE      E-A
+
+C2  K+ conductance increase                            [2 states]
+   w-volatile   slo-1                                          ENTRY            PROMOTES_STATE     E-B
+   m-volatile   unidentified norfluoxetine-sensitive K+ leak c ENTRY            PROMOTES_STATE     E-B
+
+C3  Cl- / shunting inhibition                          [3 states]
+   w-lethargus  unc-25 / GABA pathway                          NO-ROLE          CONTEXT_DEPENDENT  E-B
+   m-REM        glycine (GlyT2+ neurons)                       PROD+MAINT       PROMOTES_STATE     E-B
+   m-volatile   Gabrb3 (beta3 subunit, N265M); Glra1 alpha1 (M ENTRY            PROMOTES_STATE     E-B
+
+C4  excitatory receptor block                          [2 states]
+   w-volatile   nmr-1 / NMDA receptor                          ENTRY            PROMOTES_STATE     E-F
+   m-volatile   AMPA and NMDA receptors                        NO-ROLE          UNDETERMINED       E-D
+
+C5  synaptic release machinery                         [4 states]
+   w-volatile   unc-64; egl-30                                 ENTRY            OPPOSES_STATE      E-A
+   w-L1sleep    dgk-1; unc-13                                  PROD             PROMOTES_STATE     E-A
+   w-dauer      dach-1 / cyp-34A4                              MAINT            UNDETERMINED       E-A
+   m-NREM       adenosine; Adora1 / A1 receptor                MAINT            PROMOTES_STATE     E-B
+
+C6  neuromodulatory / peptidergic drive                [9 states]
+   w-lethargus  flp-11                                         PROD             PROMOTES_STATE     E-B
+   w-lethargus  nlp-22                                         PROD             PROMOTES_STATE     E-B
+   w-volatile   goa-1; acy-1                                   ENTRY            CONTEXT_DEPENDENT  E-B
+   w-L1sleep    insulin-like peptides / daf-2 pathway          ENTRY            OPPOSES_STATE      E-B
+   w-dauer      daf-2 / insulin-like peptides; daf-7           ENTRY            OPPOSES_STATE      E-B
+   m-REM        Hcrtr2 / Ox2R; Pmch / MCH                      ENTRY            PROMOTES_STATE     E-B
+   m-NREM       Oprl1 / NOPR                                   PROD+MAINT       PROMOTES_STATE     E-C
+   m-volatile   Hcrt / orexin; Hcrtr1 / OX1R                   EXIT             OPPOSES_STATE      E-B
+   h-sevo       n/a                                            NO-ROLE          UNDETERMINED       E-E
+   h-propofol   muscarinic acetylcholine receptors             MAINT            OPPOSES_STATE      E-C
+
+C7  circuit-level switch                               [6 states]
+   w-lethargus  aptf-1                                         PROD             PROMOTES_STATE     E-B
+   w-lethargus  n/a                                            ENTRY            CONTEXT_DEPENDENT  E-B
+   w-lethargus  n/a                                            MAINT            OPPOSES_STATE      E-B
+   w-L1sleep    n/a                                            PROD             PROMOTES_STATE     E-B
+   m-REM        n/a                                            PROD             PROMOTES_STATE     E-B
+   m-NREM       Gal / galanin                                  PROD             CONTEXT_DEPENDENT  E-B
+   m-volatile   noradrenergic locus coeruleus circuitry        EXIT             OPPOSES_STATE      E-C
+   h-propofol   n/a                                            NO-ROLE          UNDETERMINED       E-D
+
+C8  mitochondrial / metabolic                          [7 states]
+   w-lethargus  kin-29; hda-4                                  ENTRY            PROMOTES_STATE     E-B
+   w-volatile   gas-1                                          ENTRY            UNDETERMINED       E-B
+   w-L1sleep    sphingolipid pathway genes                     PROD             PROMOTES_STATE     E-A
+   w-dauer      n/a                                            ENTRY            UNDETERMINED       E-B
+   w-anhydro    tps-1 / tps-2 trehalose synthesis              PROT+ENTRY       UNDETERMINED       E-B
+   m-NREM       Sik3                                           MAINT            PROMOTES_STATE     E-A
+   m-volatile   Ndufs4 (complex I accessory subunit); NDi1 (ye ENTRY+EXIT       PROMOTES_STATE     E-B
+
+C9  transcriptional / developmental reprogramming      [3 states]
+   w-lethargus  daf-16                                         MAINT            STRUCTURE_ONLY     E-B
+   w-lethargus  lim-6; aptf-1                                  BUILD            PROMOTES_STATE     E-B
+   w-dauer      daf-16; daf-12                                 ENTRY+BUILD      PROMOTES_STATE     E-B
+   w-anhydro    n/a                                            ENTRY            UNDETERMINED       E-E
+
+C10 structural / biophysical                           [3 states]
+   w-volatile   unc-1                                          ENTRY            UNDETERMINED       E-B
+   w-dauer      n/a                                            PROT             UNDETERMINED       E-D
+   w-anhydro    trehalose                                      PROT             UNDETERMINED       E-B
+
+C11 thermal / rate effects                             [2 states]
+   m-NREM       n/a                                            PROD             PROMOTES_STATE     E-B
+   m-volatile   n/a                                            EXIT             CONTEXT_DEPENDENT  E-B
+
+C12 electrical coupling / gap-junction regulation and remodelling [2 states]
+   w-volatile   unc-9; unc-1                                   ENTRY            CONTEXT_DEPENDENT  E-A
+   w-dauer      innexins (inx family)                          PROD             UNDETERMINED       E-B
+
+
+MATRIX 2 - MOLECULAR SYSTEM x STATE
+========================================================================================================================
+
+NALCN complex               states=3
+   nca-1                                        w-lethargus  c1  MAINT          CONTEXT_DEPENDENT  E-B
+   nca-2                                        w-lethargus  c1  MAINT          CONTEXT_DEPENDENT  E-B
+   unc-79                                       w-lethargus  c1  MAINT          CONTEXT_DEPENDENT  E-B
+   unc-79                                       w-volatile   c1  ENTRY          OPPOSES_STATE      E-A
+   unc-80                                       w-lethargus  c1  MAINT          CONTEXT_DEPENDENT  E-B
+   unc-80                                       w-volatile   c1  ENTRY          OPPOSES_STATE      E-A
+   Nalcn                                        m-REM        c1  ENTRY+MAINT    OPPOSES_STATE      E-A
+
+SIK kinase                  states=2
+   kin-29                                       w-lethargus  c8  ENTRY          PROMOTES_STATE     E-B
+   Sik3                                         m-NREM       c8  MAINT          PROMOTES_STATE     E-A
+
+Mito complex I / ETC        states=2
+   gas-1                                        w-volatile   c8  ENTRY          UNDETERMINED       E-B
+   Ndufs4 (complex I accessory subunit)         m-volatile   c8  ENTRY+EXIT     PROMOTES_STATE     E-B
+   NDi1 (yeast NADH dehydrogenase, transgenic b m-volatile   c8  ENTRY+EXIT     PROMOTES_STATE     E-B
+
+K+ channels                 states=2
+   slo-1                                        w-volatile   c2  ENTRY          PROMOTES_STATE     E-B
+   unidentified norfluoxetine-sensitive K+ leak m-volatile   c2  ENTRY          PROMOTES_STATE     E-B
+   Kcnk2/TREK-1, Kcnk10/TREK-2 (EXCLUDED)       m-volatile   c2  ENTRY          PROMOTES_STATE     E-B
+
+GABA-A / glycine / Cl-      states=3
+   unc-25 / GABA pathway                        w-lethargus  c3  NO-ROLE        CONTEXT_DEPENDENT  E-B
+   Gabrb3 (beta3 subunit, N265M)                m-volatile   c3  ENTRY          PROMOTES_STATE     E-B
+   Glra1 alpha1 (M287L, Q266I) - TESTED NEGATIV m-volatile   c3  ENTRY          PROMOTES_STATE     E-B
+   glycine (GlyT2+ neurons)                     m-REM        c3  PROD+MAINT     PROMOTES_STATE     E-B
+
+SNARE / release             states=3
+   unc-64                                       w-volatile   c5  ENTRY          OPPOSES_STATE      E-A
+   dgk-1                                        w-L1sleep    c5  PROD           PROMOTES_STATE     E-A
+   unc-13                                       w-L1sleep    c5  PROD           PROMOTES_STATE     E-A
+   adenosine                                    m-NREM       c5  MAINT          PROMOTES_STATE     E-B
+   Adora1 / A1 receptor                         m-NREM       c5  MAINT          PROMOTES_STATE     E-B
+
+Excitatory receptors        states=2
+   nmr-1 / NMDA receptor                        w-volatile   c4  ENTRY          PROMOTES_STATE     E-F
+   AMPA and NMDA receptors                      m-volatile   c4  NO-ROLE        UNDETERMINED       E-D
+
+Orexin / MCH                states=1
+   Hcrt / orexin; Hcrtr1 / OX1R                 m-volatile   c6  EXIT           OPPOSES_STATE      E-B
+
+Other neuropeptides         states=2
+   flp-11                                       w-lethargus  c6  PROD           PROMOTES_STATE     E-B
+   nlp-22                                       w-lethargus  c6  PROD           PROMOTES_STATE     E-B
+   Oprl1 / NOPR                                 m-NREM       c6  PROD+MAINT     PROMOTES_STATE     E-C
+   Gal / galanin                                m-NREM       c7  PROD           CONTEXT_DEPENDENT  E-B
+
+Insulin/IGF + TGF-b         states=1
+   insulin-like peptides / daf-2 pathway        w-L1sleep    c6  ENTRY          OPPOSES_STATE      E-B
+
+FOXO / NHR                  states=2
+   daf-16                                       w-lethargus  c9  MAINT          STRUCTURE_ONLY     E-B
+   daf-16                                       w-dauer      c9  ENTRY+BUILD    PROMOTES_STATE     E-B
+   daf-12                                       w-dauer      c9  ENTRY+BUILD    PROMOTES_STATE     E-B
+   lim-6                                        w-lethargus  c9  BUILD          PROMOTES_STATE     E-B
+
+Gap junction                states=1
+   innexins (inx family)                        w-dauer      c12 PROD           UNDETERMINED       E-B
+
+Stomatin / structural       states=2
+   unc-1                                        w-volatile   c1  ENTRY          UNDETERMINED       E-A
+   unc-1                                        w-volatile   c10 ENTRY          UNDETERMINED       E-B
+   unc-1                                        w-volatile   c12 ENTRY          CONTEXT_DEPENDENT  E-A
+   trehalose                                    w-anhydro    c10 PROT           UNDETERMINED       E-B
+   tps-1 / tps-2 trehalose synthesis            w-anhydro    c8  PROT+ENTRY     UNDETERMINED       E-B
+
+Muscarinic ACh              states=1
+   muscarinic acetylcholine receptors           h-propofol   c6  MAINT          OPPOSES_STATE      E-C

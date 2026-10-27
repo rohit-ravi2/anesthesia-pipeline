@@ -1,0 +1,1127 @@
+{
+ "row_id": "S5_ga_volatile_cele",
+ "state": "strong general anaesthesia",
+ "species": "cele",
+ "instantiation": "volatile agent (halothane / isoflurane), immobility endpoint",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "EXOGENOUS_AGENT",
+ "_note": "Full prose preserved in scoring/rows/S5_ga_volatile_cele.json.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "immobility; EC50 by agent and genotype",
+   "baseline": "unexposed animals of the same genotype",
+   "evidence_grade": "E-C",
+   "citation_ids": [
+    "PMID:3576211",
+    "PMID:2326259"
+   ],
+   "notes": "Unchanged. Best-quantified axis in the worm set; dose-response by agent and genotype."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "unchanged",
+     "evidence_grade": "E-D",
+     "note": "Dynamics shift to HIGHER frequencies with SMALLER dynamic range. Amplitude falls, frequency rises; there is no clean reduction in activity and the two move oppositely. Recorded as unchanged rather than decreased because the measurement does not support a reduction claim."
+    },
+    "coordination": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Inter-neuronal correlation R 0.196+/-0.070 unanaesthetised -> 0.026+/-0.010 at 4% isoflurane (p<0.0001). NON-MONOTONIC: R rises to 0.053+/-0.029 at 8%."
+    },
+    "dynamical_organization": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Variance captured by first 3 PCs 88.9+/-5.4% -> 57.9+/-11.2% at 4% and 76.0+/-7.9% at 8%. Distinct global states corresponding to known behavioural states are replaced by randomised dynamics. Also non-monotonic."
+    }
+   },
+   "magnitude": null,
+   "units": "n=10 animals, 120 neurons, light-sheet GCaMP6s",
+   "baseline": "unanaesthetised animals, same preparation",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:32282426",
+    "PMID:30004907"
+   ],
+   "notes": "THE CENTRAL v2 REPAIR IS VISIBLE HERE. v1 was forced to score a single direction and chose 'unchanged' with a long prose warning. v2 records what was actually measured: coordination and dynamical organisation collapse while activity amplitude does not simply fall. Worm volatile anaesthesia is a DECORRELATED, DISORGANISED state, not a low-activity one, and the dose-response on both collapsing measures is non-monotonic."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "not_applicable",
+   "measurability": "NOT_YET_MEASURED",
+   "direction": "not_measured",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": null,
+   "baseline": null,
+   "evidence_grade": null,
+   "citation_ids": [
+    "PMID:15277919"
+   ],
+   "notes": "CHANGED FROM v1. v1 scored 'decreased' at E-D on the basis of halothane inhibiting oxidative phosphorylation in ISOLATED MITOCHONDRIA. Under v2's scope field that is not a whole-organism measurement, and Kayser 2004 further report that in air, ATP concentrations were similar in N2 and gas-1 and fell with halothane ONLY in gas-1. Whole-animal metabolic rate under volatile anaesthetic is therefore unmeasured, and v1's 'decreased' overstated it."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 1,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Hypersensitivity is agent-specific: large for highly lipid-soluble agents, little or none for others, and extragenic suppressors fail to suppress the diethyl ether phenotype.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "unc-79 / unc-80 (NALCN complex accessory subunits) set volatile anaesthetic sensitivity",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211",
+        "PMID:2900611"
+       ],
+       "basis": "Alters the dose at which the drug-induced state occurs. The drug produces the state; these genes set the threshold."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "halothane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "double mutants slightly more sensitive than singles; unc-9 suppresses both"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The mutation is now shown to be an allele of unc-79. Other alleles of unc-79 are also associated with hypersensitivity to halothane. A strain with a mutation in a second gene, unc-80, is also hypersensitive to halothane. Mutations in a third gene, unc-9, suppress both unc-79 and unc-80.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "multiple",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "agent-specific: large increases to very lipid-soluble agents, little or none to others"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "These two mutants, unc-79 and unc-80, confer large increases in sensitivity to very lipid soluble agents but have little or no increases to other agents... a class of extragenic suppressor mutations exists that suppresses some altered sensitivities but specifically does not suppress the altered sensitivity to diethyl ether.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2326259"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "unc-79 / unc-80 loss of function",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "unc-79",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC79 family; NALCN complex"
+      },
+      {
+       "name": "unc-80",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC80 family; NALCN complex"
+      }
+     ],
+     "citation_ids": [
+      "PMID:3576211",
+      "PMID:2900611",
+      "PMID:2326259"
+     ],
+     "proximal_physical_effect": "altered background cation leak conductance (NALCN complex accessory subunits; stomatin-degenerin complex)"
+    },
+    {
+     "label": "UNC-1 stomatin / UNC-8 degenerin complex as candidate anaesthetic target",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:9671752",
+        "PMID:10581275"
+       ],
+       "basis": "Alters anaesthetic sensitivity; proposed as a target rather than as the executor of immobility."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "multiple",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "alters sensitivity; unc-1 and unc-8 alleles interact genetically"
+       },
+       "context_dependence": "none_reported",
+       "statement": "In C. elegans, mutations in the gene unc-1 alter anesthetic sensitivity... The data indicate that the protein products of these genes interact, and that an UNC-1/UNC-8 complex is a possible anesthetic target.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:10581275"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "unc-1 alleles alter anaesthetic sensitivity",
+       "class_id": 10,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:9671752"
+       ]
+      },
+      {
+       "step": "UNC-1/UNC-8 complex proposed as target",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:10581275"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [
+      10
+     ],
+     "molecules": [
+      {
+       "name": "unc-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "stomatin homologue"
+      },
+      {
+       "name": "unc-8",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "DEG/ENaC degenerin family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:9671752",
+      "PMID:10581275"
+     ],
+     "proximal_physical_effect": "altered background cation leak conductance (NALCN complex accessory subunits; stomatin-degenerin complex)"
+    }
+   ],
+   "discriminating_experiment": "Do unc-79/unc-80 mutants show BOTH the sleep fragmentation of Kamijo 2026 AND anaesthetic hypersensitivity in the same animals, and does one predict the other? This is the concrete cross-row experiment identified by the v1 audit (F.2) and it is unrun.",
+   "notes": "SAME GENE COMPLEX AS S2 CLASS 1, DIFFERENT ROLE AND DIFFERENT POLARITY. Here CONTROLS_ENTRY / OPPOSES_STATE (loss lowers the dose needed); in lethargus MAINTAINS_STATE / CONTEXT_DEPENDENT. Under v1 both cells read simply POSITIVE and this distinction was invisible in the structured data."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 2,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "The authors interpret slo-1's effect via increased transmitter release (class 5) rather than a direct membrane action; that interpretive step is inferred and scores no class-5 cell.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "slo-1 (BK, Ca2+-activated K+ channel) loss of function confers volatile anaesthetic resistance",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15514057"
+       ],
+       "basis": "Shifts the dose-response for a drug-induced state."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "isolated as a suppressor of unc-64(rf) phenotypes"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Loss-of-function mutations in slo-1, which encodes a Ca(2+)-activated K+ channel... were isolated as syntaxin suppressors. The slo-1 and egl-30 mutations conferred resistance to VAs.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "slo-1 loss of function",
+       "class_id": 2,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      },
+      {
+       "step": "interpreted as acting upstream of or parallel to syntaxin to increase excitatory release",
+       "class_id": 5,
+       "role": "upstream",
+       "inferred": true,
+       "evidence_grade": null,
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      }
+     ],
+     "proximal_class": 2,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "slo-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "BK / Slo1 family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:15514057"
+     ],
+     "proximal_physical_effect": "Ca2+-activated K+ (BK) conductance; loss confers anaesthetic resistance"
+    }
+   ],
+   "discriminating_experiment": "Test whether slo-1 resistance persists when transmitter release is independently restored, separating the conductance account from the release account.",
+   "notes": "Polarity PROMOTES_STATE: removing the K+ conductance makes the animal resistant, so this conductance acts in the direction of anaesthetic sensitivity. Only worm row in which class 2 is populated."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "unc-49 is a characterised worm GABA-A receptor (Bamber 2003). Its volatile-anaesthetic EC50 has not been tested. Cl-/GABA-A is the dominant intravenous-anaesthetic class in mammals, so this hole is about what has been asked, not about worm biology.",
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 4,
+   "coverage": "TESTED_POSITIVE",
+   "status": "SUGGESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Agent mismatch: nitrous oxide does not reach the immobility endpoint defining this row, and frozen criterion X4 places sub-endpoint anaesthetic states in their own rows.",
+   "strongest_grade": "E-F",
+   "all_grades": [
+    "E-F"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "NMDA receptor required for nitrous oxide action (different agent)",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-F",
+       "citation_ids": [
+        "PMID:15159532"
+       ],
+       "basis": "Required for the drug's behavioural action; role assigned by analogy with the rest of the row and is as provisional as the cell."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "nitrous oxide",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "N2O action abolished"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "Nitrous oxide (N2O) requires the N-methyl-D-aspartate receptor for its action in Caenorhabditis elegans.",
+       "evidence_grade": "E-F",
+       "citation_ids": [
+        "PMID:15159532"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "NMDA receptor loss abolishes N2O action",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-F",
+       "citation_ids": [
+        "PMID:15159532"
+       ]
+      }
+     ],
+     "proximal_class": 4,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "nmr-1 / NMDA receptor",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "NMDA receptor family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:15159532"
+     ],
+     "proximal_physical_effect": "ionotropic excitatory (NMDA) receptor function - nitrous oxide only, agent-mismatched"
+    }
+   ],
+   "discriminating_experiment": "Test NMDA-receptor mutants for halothane/isoflurane immobility EC50. Agent-general requirement would make class 4 a genuine positive here; N2O-specificity would support Morgan 1990's multiple-sites conclusion.",
+   "notes": "Preserved at SUGGESTED, unchanged from v1. A promising lead held at its correct grade rather than promoted or discarded."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 5,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Within the same screen, unc-43 (CaMKII) was isolated as a syntaxin suppressor but did NOT confer VA resistance - an internal specificity control constraining how the release account works.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "unc-64 syntaxin 1A and enhanced excitatory release set volatile anaesthetic sensitivity",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:15514057",
+        "PMID:18043066"
+       ],
+       "basis": "Allele-specific shifts in VA sensitivity; suppressors act by increasing release and confer resistance."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "large allele-specific differences in VA sensitivity"
+       },
+       "context_dependence": "none_reported",
+       "statement": "In C. elegans mutations in the gene unc-64, which encodes the presynaptic protein syntaxin 1A, produce large allele-specific differences in VA sensitivity.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      },
+      {
+       "manipulation": "gain_of_function",
+       "direction_of_manipulation": "increase",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "egl-30(gf) Gqalpha; effects explained by increased excitatory release"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The effects of slo-1 and egl-30 on VA sensitivity can be explained by their actions upstream or parallel to syntaxin to increase the level of excitatory neurotransmitter release. These results strengthen the link between transmitter release and VA action.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "unc-64 alleles and suppressor screen",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:15514057"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "unc-64",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "syntaxin 1A"
+      },
+      {
+       "name": "egl-30",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "Gq alpha"
+      }
+     ],
+     "citation_ids": [
+      "PMID:15514057",
+      "PMID:18043066"
+     ],
+     "proximal_physical_effect": "vesicular neurotransmitter release probability via syntaxin; increased excitatory release confers resistance"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "Polarity OPPOSES_STATE: MORE excitatory release gives resistance, so release opposes the anaesthetised state. Contrast S6 class 5, where RESTRAINT of release is required to produce sleep. Same class, opposite structural logic, now explicit."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "G-protein and cyclase signalling modulate volatile anaesthetic action",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11404329",
+        "PMID:22024713",
+        "PMID:15514057"
+       ],
+       "basis": "Shifts sensitivity in both directions."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "gain_of_function",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": ""
+       },
+       "context_dependence": "none_reported",
+       "statement": "A gain-of-function mutation in adenylate cyclase confers isoflurane resistance in Caenorhabditis elegans.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:22024713"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "Goalpha regulates VA action"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Goalpha regulates volatile anesthetic action in Caenorhabditis elegans.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11404329"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "goa-1 / egl-30 / acy-1 manipulation",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11404329",
+        "PMID:22024713"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "goa-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "Go alpha"
+      },
+      {
+       "name": "acy-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "adenylate cyclase"
+      }
+     ],
+     "citation_ids": [
+      "PMID:11404329",
+      "PMID:22024713",
+      "PMID:15514057"
+     ],
+     "proximal_physical_effect": "intracellular G-protein and cyclase transduction altering anaesthetic sensitivity"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "ONTOLOGY FLAG CARRIED FORWARD FROM v1, NOT REPAIRED: class 6 is named for released neuromodulatory drive but here carries intracellular transduction (Goalpha, Gqalpha, adenylate cyclase)."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 7,
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "ambiguity": "The assay is whole-brain calcium imaging with neuronal identification, not ablation. It establishes that the sleep-atonia ACTIVATION PATTERN is not reproduced under isoflurane; it does NOT establish that RIS or ALA are dispensable for anaesthetic immobility. A necessity test is still missing.",
+   "strongest_grade": "E-D",
+   "all_grades": [
+    "E-D"
+   ],
+   "negative_assay_statement": "Chang 2025 imaged 20 animals with NeuroPAL identification under graded isoflurane by light-sheet microscopy and analysed the identified sleep-atonia pathway (ALA, RIS, AVE, AVA). The assay could have detected recruitment of the quiescence pattern - strong ALA/RIS activation with increased ALA-AVE negative correlation - and detected the opposite: the baseline ALA-AVE negative correlation (r=-0.286 awake) progressively weakened and INVERTED to a significantly POSITIVE r=+0.229 under deep anaesthesia (p=0.003), while the AVE-AVA positive correlation was suppressed (p=0.007). SCOPE: the sleep-atonia activation pattern as a PRODUCES_STATE mechanism for isoflurane immobility. Does not test necessity of RIS/ALA.",
+   "mechanisms": [
+    {
+     "label": "Isoflurane immobility does not recruit the endogenous sleep-atonia circuit pattern",
+     "roles": [],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "ALA-AVE correlation inverts from r=-0.286 awake to r=+0.229 deeply anaesthetised (p=0.003); AVE-AVA positive correlation suppressed (p=0.007); quiescence normally shows strong ALA and RIS activation"
+       },
+       "context_dependence": "dose_dependent",
+       "statement": "Immobility is a fundamental characteristic of both anesthesia and naturally occurring sleep-states. However, we show that, in C. elegans, immobility in the anesthetized state is not produced by activating the innate neurological mechanism of quiescence.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:40446059"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "graded isoflurane exposure with whole-brain NeuroPAL imaging",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:40446059"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "ALA, RIS, AVE, AVA (identified neurons)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:40446059"
+     ],
+     "proximal_physical_effect": "reorganisation of inter-neuronal correlation structure in the command-interneuron circuit, opposite in sign to the quiescence pattern",
+     "overlap_resolution_vs_worm_sleep": "TESTED_DIFFERENT"
+    }
+   ],
+   "discriminating_experiment": "RIS/ALA ablation or silencing under isoflurane with immobility EC50 measured. Chang 2025 shows the pattern is not recruited; only a loss-of-function test can show whether the circuit is nonetheless required.",
+   "notes": "ADDED 2026-09-17 (AMENDMENTS Entry 9), PE-3 PARTIALLY RESOLVED. This is only the SECOND cell-level TESTED_NEGATIVE in the entire project. It directly answers the recurring question of whether anaesthesia co-opts endogenous sleep circuitry in worm: on this assay, it does not - and the correlation does not merely fail to increase, it INVERTS. Note this is the Chang/Connor graded-isoflurane NeuroPAL dataset (n=20) previously flagged in project notes as a high-value acquisition.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "ambiguity": "Positive for one role and explicitly negative for another within the same paper. v1 could not express this and carried it only as a prose warning.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": "Kayser 2004 measured oxidative phosphorylation (complex-I- and complex-II-specific electron donors) and ATP concentration in N2 and gas-1 at immobilising halothane concentrations. The assay could have detected energy-charge control of immobility and did not: the halothane concentrations immobilising 50% of N2 vs gas-1 did not reduce oxidative phosphorylation to identical rates, and ATP fell only in gas-1. Scope: the PRODUCES_STATE role in WILD TYPE; it does not touch the CONTROLS_ENTRY positive.",
+   "mechanisms": [
+    {
+     "label": "Mitochondrial complex I (gas-1) modulates sensitivity; isoflurane inhibits distal complex I",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15277919",
+        "PMID:21467554"
+       ],
+       "basis": "gas-1 mutation profoundly shifts the anaesthetic dose-response; the drug directly inhibits the complex."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "halothane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "complex I but not complex II activity lower in gas-1 at equal halothane"
+       },
+       "context_dependence": "none_reported",
+       "statement": "A mutation in gas-1 profoundly increases sensitivity of C. elegans to volatile anesthetics... At equal halothane concentrations, complex I activity but not complex II activity was lower in mitochondria from mutant (gas-1) animals than from wild-type.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15277919"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_block",
+       "direction_of_manipulation": "decrease",
+       "agent": "halothane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "not_reported",
+        "other": "OxPhos and ATP do NOT by themselves control immobility in wild type"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Rates of oxidative phosphorylation and changes in adenosine triphosphate concentrations by themselves do not control anesthetic-induced immobility of wild-type C. elegans. However, they may contribute to the increased sensitivity to volatile anesthetics of the gas-1 mutant. Oxidative damage to proteins may be an important contributor.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:15277919"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "gas-1 complex I mutation shifts anaesthetic dose-response",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15277919"
+       ]
+      },
+      {
+       "step": "isoflurane selectively inhibits distal mitochondrial complex I",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:21467554"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "gas-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "complex I 49 kDa subunit (NDUFS2)"
+      }
+     ],
+     "citation_ids": [
+      "PMID:15277919",
+      "PMID:21467554"
+     ],
+     "proximal_physical_effect": "mitochondrial complex I electron-transport capacity; drug directly inhibits the complex"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "THE CLEAREST DEMONSTRATION OF WHY THE ROLE AXIS WAS NEEDED. Any later energetic argument of the form 'anaesthetics reduce metabolism therefore reduce activity' must answer the role-scoped negative recorded here."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 9,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Applicability QUESTIONABLE on timescale grounds: acute volatile anaesthesia acts in minutes, transcriptional reprogramming over hours to days. Gentry 2013 and Wirak 2020 report persistent changes AFTER developmental exposure - consequences, not mechanisms of the acute state."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 10,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "UNC-1's proximal effect is genuinely ambiguous: it is a lipid-raft membrane-organising protein (class 10), proposed to act through a degenerin channel (class 1), and regulates gap junctions (class 12). Three classes, one molecule, separate evidence for each.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Stomatin / lipid-raft membrane-associated protein complexes as a volatile anaesthetic target",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:9671752",
+        "PMID:10581275",
+        "PMID:15102610"
+       ],
+       "basis": "Controls sensitivity to the agent."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "multiple",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "altered sensitivity; stomatin and degenerin interact in lipid rafts"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Unc-1: a stomatin homologue controls sensitivity to volatile anesthetics in Caenorhabditis elegans. We propose that membrane-associated protein complexes may represent a general target for volatile anesthetics.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:9671752",
+        "PMID:10581275"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "unc-1 loss of function alters anaesthetic sensitivity",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:9671752"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "unc-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "stomatin / PHB-domain family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:9671752",
+      "PMID:10581275",
+      "PMID:15102610"
+     ],
+     "proximal_physical_effect": "membrane organisation via stomatin/lipid-raft protein complexes"
+    }
+   ],
+   "discriminating_experiment": "Separate UNC-1's channel-regulatory, raft-organising and gap-junction-regulatory functions with separation-of-function alleles, then re-test anaesthetic EC50 for each.",
+   "notes": "Morgan 1990's Meyer-Overton analysis independently argues the site involves protein rather than pure lipid, supporting a class-10 reading over a bulk-membrane one."
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Measure worm volatile-anaesthetic immobility EC50 across a cultivation-temperature range (15-25C). A poikilotherm is the ideal preparation for separating Q10 effects from regulated thermoregulation, because the latter is absent by construction.",
+   "notes": "PE-5 CORRECTION: applicability changed NOT_APPLICABLE -> APPLICABLE. The earlier label was too strong. C. elegans is a poikilotherm, so the REGULATED-THERMOREGULATION sub-sense of class 11 (centrally driven heat loss, active cooling) is indeed unavailable - but the frozen class-11 definition ALSO covers Q10 kinetic slowing and temperature-mediated kinetics, which are fully applicable to a poikilotherm and are in fact easier to manipulate in one. Coverage remains NOT_TESTED: no qualifying evidence was identified under the standardized five-route search (queries included 'temperature Caenorhabditis elegans volatile anesthetic sensitivity halothane', 'temperature dependence anesthetic potency C elegans immobility', 'elegans lethargus temperature quiescence Q10', 'cold temperature C elegans sleep quiescence induction'). Given that hypothermia reduces isoflurane MAC 5.1%/degC in humans and eliminates the requirement entirely at 20C in goats, the temperature-dependence of worm anaesthetic potency is a cheap and conspicuous untested question.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "class_id": 12,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "unc-9's action is known as a SUPPRESSOR of unc-79/unc-80 hypersensitivity, i.e. an interaction. v2 records it as a separate mechanism and therefore loses the epistatic relationship (declared limitation, REPERTOIRE_v2 section 7.2).",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "unc-9 innexin suppresses unc-79/unc-80 halothane hypersensitivity; UNC-1 regulates gap junctions",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211",
+        "PMID:17658257"
+       ],
+       "basis": "Gap-junction gene mutations shift halothane sensitivity."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "halothane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "suppresses unc-79 and unc-80 hypersensitivity; unc-9 alone has NORMAL halothane sensitivity"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Mutations in a third gene, unc-9, suppress both unc-79 and unc-80. Nematodes bearing the suppressor mutations alone have normal sensitivity to halothane.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "UNC-1 regulates gap junctions important to locomotion"
+       },
+       "context_dependence": "none_reported",
+       "statement": "UNC-1 regulates gap junctions important to locomotion in C. elegans.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:17658257"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "unc-9 innexin loss of function in unc-79/unc-80 background",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:3576211"
+       ]
+      }
+     ],
+     "proximal_class": 12,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "unc-9",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "innexin"
+      },
+      {
+       "name": "unc-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "stomatin homologue"
+      }
+     ],
+     "citation_ids": [
+      "PMID:3576211",
+      "PMID:17658257"
+     ],
+     "proximal_physical_effect": "junctional electrical coupling via innexins, modifying the NALCN-complex phenotype"
+    }
+   ],
+   "discriminating_experiment": "unc-9 alone has normal halothane sensitivity but suppresses the NALCN-complex phenotype. Testing whether other innexins also suppress, and whether junctional coupling is measurably altered under halothane, would establish whether class 12 is a genuine anaesthetic axis or specifically a modifier of the NALCN pathway.",
+   "notes": "NEW CELL CREATED BY v2, FROM EVIDENCE PRESENT IN v1 BUT UNSCOREABLE. Under v1 the unc-9 result was recorded only in an ontology_flag; there was no class to put it in. Polarity CONTEXT_DEPENDENT is important and honest: unc-9 loss alone does nothing to halothane sensitivity and only acts in the sensitised background. This cell's very existence was a v1 blind spot, not a v1 judgement call."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S5_ga_volatile_cele",
+  "coverage_denominator": 9,
+  "n_positive": 7,
+  "n_suggested": 1,
+  "n_negative": 1,
+  "n_not_tested": 3,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 15,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 9,
+   "MAINTAINS_STATE": 0,
+   "PROTECTS_THROUGH_STATE": 0,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": "scoring/rows/S5_ga_volatile_cele.json",
+  "cells_changed": [
+   "class 12 CREATED as TESTED_POSITIVE from unc-9 (Sedensky 1987) and UNC-1 gap-junction regulation (Chen 2007). Under v1 this evidence existed but had no class and appeared only as an ontology flag. Cause: new class - a v1 blind spot, not a v1 error of judgement.",
+   "class 8 gains roles_tested_negative PRODUCES_STATE with a negative_assay_statement. Cause: ontology repair; the evidence is unchanged.",
+   "A_met changed from 'decreased' (E-D) to 'not_measured' (NOT_YET_MEASURED). Cause: CORRECTION OF AN EARLIER MISTAKE surfaced by the new scope field - v1 scored an isolated-mitochondria result as a whole-organism axis value.",
+   "A_neu decomposed: coordination and dynamical_organization decreased, rate_amplitude unchanged. Cause: ontology repair.",
+   "class 9 and 11 gain applicability QUESTIONABLE / NOT_APPLICABLE. Cause: ontology repair.",
+   "All mechanisms assigned CONTROLS_ENTRY; agent field populated throughout. Cause: ontology repair."
+  ],
+  "new_evidence_added": []
+ },
+ "ontology_flags_v2": [
+  "THE WHOLE ROW IS CONTROLS_ENTRY: 9 of 9 role assignments, zero PRODUCES_STATE, zero MAINTAINS_STATE. Worm volatile-anaesthesia genetics is threshold genetics. Nothing in the located literature addresses what actually produces or sustains the anaesthetised state once the dose is delivered.",
+  "Class 6 still carries intracellular transduction under a name written for released drive. Unrepaired in v2.",
+  "v2 records mechanisms but not INTERACTIONS: unc-9 suppressing unc-79/unc-80 is an epistatic relationship that becomes two independent cells. Declared limitation REPERTOIRE_v2 section 7.2, and this row is where it bites hardest."
+ ],
+ "citations_pending_verification": []
+}

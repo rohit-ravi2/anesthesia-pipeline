@@ -1,0 +1,989 @@
+{
+ "row_id": "S6_starv_L1_cele",
+ "state": "starvation quiescence",
+ "species": "cele",
+ "instantiation": "L1 arrest (starvation-induced developmental arrest, with sleep episodes)",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "ENDOGENOUS",
+ "_note": "Full prose preserved in scoring/rows/S6_starv_L1_cele.json.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "acute_food_deprivation",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "increased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "foraging behaviours; responsiveness to food-related cues",
+   "baseline": "fed animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:29386137"
+   ],
+   "notes": "CHANGED FROM v1, AND THE CHANGE MATTERS. v1 had one A_beh record scored 'decreased' with a prose note that the response is biphasic. v2's condition field lets the two phases be separate records. Acute food deprivation produces a TRANSIENTLY ELEVATED AROUSAL state - behavioural activity goes UP, not down - before any quiescence appears."
+  },
+  {
+   "axis": "A_beh",
+   "condition": "long_term_starvation",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "increased sleep fraction; intermittent sleep episodes",
+   "baseline": "fed larvae; and awake bouts within the same starved animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:37682641",
+    "PMID:29386137",
+    "PMID:30416057"
+   ],
+   "notes": "Sleep is increased when development is arrested upon starvation. This is the phase that satisfies the frozen entry gate E3."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "starved_awake",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "unchanged",
+     "evidence_grade": "E-D",
+     "note": "Brain-wide population dynamics are explicitly ROBUST to starvation during wake bouts."
+    },
+    "coordination": {
+     "direction": "unchanged",
+     "evidence_grade": "E-D",
+     "note": "Population dynamics described as robust; no separate correlation collapse reported for the awake phase."
+    },
+    "dynamical_organization": {
+     "direction": "unchanged",
+     "evidence_grade": "E-D",
+     "note": "As above."
+    }
+   },
+   "magnitude": null,
+   "units": null,
+   "baseline": "fed animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:29386137"
+   ],
+   "notes": "Skora 2018: 'Brain-wide neuronal population dynamics, which are likely energetically costly but important for behavior, are robust to starvation while animals are awake.'"
+  },
+  {
+   "axis": "A_neu",
+   "condition": "starved_asleep",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Brain dynamics systemically downregulated during starvation-induced sleep."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not separately reported."
+    },
+    "dynamical_organization": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "'Systemically downregulated' describes the global dynamics; the paper does not decompose further."
+    }
+   },
+   "magnitude": null,
+   "units": null,
+   "baseline": "starved-awake bouts in the same animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:29386137"
+   ],
+   "notes": "THE SHARPEST DISSOCIATION IN THE WORM SET AND NOW STRUCTURALLY REPRESENTED RATHER THAN BURIED IN PROSE. Metabolic scarcity by itself does not downregulate brain dynamics; the downregulation is bound to the sleep bouts, not to the energy state. Under v1 this row carried a single A_neu record scored 'unchanged' and the sleep-bout finding lived only in a note."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "whole-organism heat production (microcalorimetry); metabolomic profile",
+   "baseline": "RIS-impaired larvae vs controls during arrest",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:37682641"
+   ],
+   "notes": "THE ONLY DIRECT HEAT-PRODUCTION MEASUREMENT ANYWHERE IN THE WORM SET. Inference structure unchanged from v1 and still important: it measures the energetic consequence of REMOVING the sleep-inducing neuron, not the metabolic rate of the sleep state itself. A direct calorimetric sleep-vs-wake comparison within arrested L1 larvae remains the obvious missing measurement."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 1,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "CLASS ASSIGNMENT IS DIRECT, NOT INFERRED: the frozen class-1 definition names 'TRP leak' among its representative implementations, and OCR-2 is a TRPV channel. DIRECTION: inactivating ocr-2 EXTENDS starvation survival, so the channel's normal activity SHORTENS it - the wild-type gene opposes survival through the state. The mechanism is sensory rather than cell-autonomous: OCR-2 sits in the cilia of a small subset of primary sensory neurons and regulates peptide-hormone secretion, so the channel reports food availability rather than executing the arrest. SPECIFICITY CONTROL, and it is a strong one: the survival extension is daf-16 dependent, yet insulin-independent pathways that also control metabolism, adult lifespan and dauer formation did NOT promote starvation survival - the authors conclude starvation survival is a DISTINCT programme, not a generic stress-resistance readout.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "OCR-2 TRPV channel in sensory-neuron cilia couples food perception to L1 starvation survival via dense-core peptide release",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ],
+       "basis": "Channel inactivation significantly extends survival through L1 arrest, so the channel sets how long the arrested animal persists. Scored as PROTECTS_THROUGH_STATE with polarity OPPOSES, because the wild-type activity reduces rather than increases through-state survival."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "ocr-2 inactivation extends L1 starvation survival and adult lifespan; OCR-2 localises to cilia of a small subset of primary sensory neurons and regulates peptide-hormone secretion; the parallel unc-31 phenotype is daf-16 dependent; insulin-INDEPENDENT pathways controlling metabolism, lifespan and dauer did NOT promote starvation survival"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "We isolated mutations in unc-31, encoding a calcium-activated regulator of neural dense-core vesicle release, which conferred enhanced starvation survival. This extended survival was reminiscent of that seen in daf-2 insulin-signaling deficient mutants and was ultimately dependent on daf-16... Cell-specific rescue experiments identified a small subset of primary sensory neurons where unc-31 reconstitution modulated starvation survival, suggesting that these neurons mediate perception of food availability. We found that OCR-2, a transient receptor potential vanilloid (TRPV) channel that localizes to the cilia of this subset of neurons, regulates peptide-hormone secretion and L1 starvation survival. Moreover, inactivation of ocr-2 caused a significant extension in adult lifespan.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "ocr-2 TRPV channel inactivation in ciliated sensory neurons",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "reduced dense-core vesicle peptide-hormone secretion",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "reduced insulin-like signalling and DAF-16/FOXO activation",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "extended survival of L1 starvation arrest",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "OCR-2 (TRPV channel)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "Every other class-1 entry in this table is a NALCN-complex component. This is the only TRP entry, and the frozen class definition admits it explicitly ('TRP leak'). No NALCN correspondence is claimed."
+      }
+     ],
+     "citation_ids": [
+      "PMID:18846209"
+     ],
+     "proximal_physical_effect": "ciliary cation influx in food-sensing neurons driving peptide release that shortens survivable arrest"
+    }
+   ],
+   "discriminating_experiment": "Kamijo 2026 tested NALCN in DTS and SIS but not in starvation-arrest sleep, despite RIS being the shared effector. Direct transfer experiment.",
+   "notes": "Unchanged from v1. Not inherited from S2.",
+   "discovery_route": "MOLECULE_SYSTEM_FIRST"
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged. The Koutsoumparis screen was metabolism-targeted by design and could not have detected ion-channel mechanisms; NOT_TESTED here reflects screen design, not biology."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 5,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "dgk-1 is a lipid-metabolism enzyme (class 8 by molecular identity) whose proximal action is on synaptic transmission (class 5 by physical effect). The proximal-effect rule assigns class 5; the consequence is that a metabolism-screen hit scores as synaptic. PE-5 R2: A SECOND, INDEPENDENT ROUTE INTO THIS CELL and it points the opposite way from the dgk-1 mechanism already recorded here. dgk-1 RESTRAINS synaptic transmission to PERMIT arrest; unc-31 loss REDUCES dense-core release and EXTENDS survival. Both are release machinery, both change starvation outcome, and the two sit on different secretory pathways (small clear vesicle versus dense-core), which is why class 5 must not be summarised by a single direction. The paper's own specificity control is worth keeping: insulin-independent pathways that govern metabolism, adult lifespan and dauer formation did NOT promote starvation survival, so this is a state-specific programme and not general stress resistance.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "dgk-1 restraint of synaptic transmission is required to permit RIS activation and sleep",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ],
+       "basis": "Loss abolishes RIS activation transients and causes strong sleep loss; the state fails to occur."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "RIS activation transients abolished; impaired L1 arrest survival; dampened hsp-12.6"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "A strong sleep loss was caused by the loss of function of the diacylglycerol kinase 1 gene, dgk-1, a negative regulator of synaptic transmission. Rescue experiments indicated that dgk-1 is required for sleep in cholinergic and tyraminergic neurons. RIS activation transients were abolished in dgk-1 mutant animals.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "RIS Ca2+ transients partially rescued by independently reducing release"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Calcium transients were partially rescued by a reduction-of-function mutation of unc-13, suggesting that dgk-1 might be required for RIS activation by limiting synaptic vesicle release.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "dgk-1 loss of function",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "step": "RIS activation transients abolished",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "step": "unc-13(rf) partially rescues RIS transients",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "step": "interpretation: dgk-1 permits RIS activation by limiting vesicle release",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": true,
+       "evidence_grade": null,
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "dgk-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "diacylglycerol kinase"
+      },
+      {
+       "name": "unc-13",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "UNC13/Munc13 family"
+      }
+     ],
+     "citation_ids": [
+      "PMID:37682641"
+     ],
+     "proximal_physical_effect": "restraint of vesicular release (DGK-1) permitting RIS activation; independently reducing release rescues"
+    },
+    {
+     "label": "UNC-31/CAPS-dependent dense-core vesicle release in a small subset of sensory neurons limits L1 starvation survival",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ],
+       "basis": "Mutations isolated in a forward screen for enhanced starvation survival; cell-specific rescue localises the requirement to a small subset of primary sensory neurons; the effect is daf-16 dependent."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "unc-31 mutations conferred ENHANCED starvation survival, resembling daf-2 insulin-signalling mutants and ultimately dependent on daf-16; cell-specific reconstitution in a small subset of primary sensory neurons was sufficient to modulate survival"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "We isolated mutations in unc-31, encoding a calcium-activated regulator of neural dense-core vesicle release, which conferred enhanced starvation survival. This extended survival was reminiscent of that seen in daf-2 insulin-signaling deficient mutants and was ultimately dependent on daf-16... Cell-specific rescue experiments identified a small subset of primary sensory neurons where unc-31 reconstitution modulated starvation survival, suggesting that these neurons mediate perception of food availability. We found that OCR-2, a transient receptor potential vanilloid (TRPV) channel that localizes to the cilia of this subset of neurons, regulates peptide-hormone secretion and L1 starvation survival. Moreover, inactivation of ocr-2 caused a significant extension in adult lifespan.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "unc-31 loss of function",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "reduced calcium-activated dense-core vesicle release in food-sensing neurons",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "reduced insulin-like peptide signalling; DAF-16 nuclear activity",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      },
+      {
+       "step": "extended L1 starvation survival",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:18846209"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "UNC-31 / CAPS (calcium-activated protein for secretion)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "The frozen class-5 definition names unc-31 explicitly as the dense-core release implementation of this class."
+      }
+     ],
+     "citation_ids": [
+      "PMID:18846209"
+     ],
+     "proximal_physical_effect": "reduced peptide-hormone output from food-sensing neurons, lowering insulin-like signalling during arrest"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "POLARITY IS THE POINT AND IS NOW EXPLICIT. Release machinery acts here by being RESTRAINED: losing the restraint abolishes sleep, and independently reducing release rescues it. Compare S5 class 5, where MORE excitatory release confers anaesthetic resistance (OPPOSES_STATE). Same class, opposite structural logic, different roles."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Insulin-like signalling maintains arousal during acute food deprivation",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29386137"
+       ],
+       "basis": "Sets whether and when the animal transitions from the aroused phase into quiescence; acts as a brake on entry."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "arousal not maintained upon acute food deprivation"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "Neuromodulation via insulin-like signaling is required to transiently maintain the animals' arousal state upon acute food deprivation.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29386137"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "insulin-like signalling manipulation",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:29386137"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "insulin-like peptides / daf-2 pathway",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "insulin/IGF-1 signalling"
+      }
+     ],
+     "citation_ids": [
+      "PMID:29386137"
+     ],
+     "proximal_physical_effect": "insulin-like peptide signalling sustaining arousal against the quiescent state"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "Polarity OPPOSES_STATE: this neuromodulatory system sustains arousal and is therefore a brake on the state, not its driver. Tyraminergic involvement is implied by the dgk-1 rescue site but tyramine signalling itself was not manipulated and is not scored."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "RIS is required for sleep during L1 arrest and for survival of the arrest",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37682641",
+        "PMID:30416057"
+       ],
+       "basis": "RIS impairment removes the sleep; the same neuron is the PRODUCES_STATE mechanism in lethargus."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "altered whole-organism heat production and metabolite profile"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The Ring Interneuron S (RIS) neuron is crucial for sleep in C. elegans and activates to induce sleep... Microcalorimetry and metabolomic analyses of larvae with impaired RIS showed that RIS is broadly required for energy conservation and metabolic control.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "ageing phenotypes accelerate"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Sleep counteracts aging phenotypes to survive starvation-induced developmental arrest in C. elegans.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30416057"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "RIS impairment",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      },
+      {
+       "step": "loss of sleep; altered heat production and metabolites",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:37682641",
+      "PMID:30416057"
+     ],
+     "proximal_physical_effect": "firing of the RIS sleep-active interneuron; its loss alters whole-organism heat production"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "SHARED EFFECTOR CIRCUIT. RIS is the PRODUCES_STATE mechanism in both this row and S2_core_cele, reached by different upstream triggers (energy scarcity vs developmental timing). Recorded as an observation, NOT as an enrichment claim."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "The sphingolipid 'enrichment' is internal to a metabolism-targeted screen: the background was already metabolic. This cannot be used to argue class 8 is enriched relative to other classes (prohibition 1).",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Sphingolipid metabolism and a broad metabolic gene requirement for sleep during arrest",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ],
+       "basis": "Over 100 metabolism-associated genes are required for the sleep to occur; loss reduces sleep."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "sphingolipid metabolism identified as a key controlling pathway"
+       },
+       "context_dependence": "none_reported",
+       "statement": "We performed a reverse genetic sleep screen in arrested L1 larvae for genes that are associated with metabolism. We found over 100 genes that are associated with a reduced sleep phenotype. Enrichment analysis revealed sphingolipid metabolism as a key pathway that controls sleep.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "reverse genetic screen of metabolism-associated genes",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37682641"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "sphingolipid pathway genes",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:37682641"
+     ],
+     "proximal_physical_effect": "sphingolipid and broad metabolic pathway function required for sleep; RIS loss alters calorimetric heat output"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "Ceramide/sphingolipid involvement in the starvation response is independently reported (Cui 2017) but not in a sleep readout, and is not scored."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 9,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "PREPRINT, NOT PEER REVIEWED (bioRxiv 2025.10.31.685810). Graded E-C on that ground alone and flagged; if it does not appear in a peer-reviewed venue this cell must be revisited. The scientific content is directly on-role: loss of HLH-30 does not prevent L1 arrest from being entered, it disrupts the MAINTENANCE of arrest - seam cell cycle arrest breaks down and developmental programs start prematurely under starvation - and separately reduces survival. Those are two distinct frozen roles and are recorded separately.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "HLH-30/TFEB maintains L1 starvation arrest and, with DAF-16/FOXO, supports survival through it",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ],
+       "basis": "Loss of HLH-30 disrupts seam cell cycle arrest and causes premature initiation of developmental programs DURING starvation - failure to hold the state, not failure to enter it."
+      },
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ],
+       "basis": "HLH-30 and DAF-16 collaborate to ensure survival under starvation, a through-state protective function distinct from holding the arrest."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "loss of fasting-induced 3D chromatin reorganisation; BLMP-1 overactivation; premature developmental programs; reciprocal regulation with DAF-16 localisation"
+       },
+       "context_dependence": "none_reported",
+       "statement": "We show that HLH-30 and DAF-16 collaborate to ensure survival under starvation, with reciprocal regulation of their subcellular localization and transcriptional activity. HLH-30 exerts broad transcriptional control during L1 arrest... Loss of HLH-30 disrupts seam cell cycle arrest and leads to overactivation of the pioneer transcription factor BLMP-1, leading to premature initiation of developmental programs under starvation.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "hlh-30 loss of function",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ]
+      },
+      {
+       "step": "failure of fasting-induced 3D chromatin reorganisation",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ]
+      },
+      {
+       "step": "BLMP-1 overactivation and premature developmental programs",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ]
+      },
+      {
+       "step": "breakdown of seam cell cycle arrest; reduced starvation survival",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41279428"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "HLH-30/TFEB; DAF-16/FOXO; BLMP-1",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "DAF-16/FOXO already carries the dauer row's class-9 entry. ORTHOLOGOUS_MOLECULE across the two worm arrest states, with HLH-30/TFEB as the added partner here."
+      }
+     ],
+     "citation_ids": [
+      "PMID:41279428"
+     ],
+     "proximal_physical_effect": "transcription-factor-dependent chromatin reorganisation that holds the cell cycle arrested while nutrients are absent"
+    }
+   ],
+   "discriminating_experiment": "Test whether daf-16 or hlh-30 loss alters SLEEP FRACTION during L1 arrest specifically, holding survival separate. Both are heavily documented in L1 starvation but for survival of arrest and for cell-cycle quiescence, which are different explananda from behavioural quiescence.",
+   "notes": "Unchanged from v1. A deliberate near-miss: scoring DAF-16/HLH-30 here would import a different explanandum.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Measure worm volatile-anaesthetic immobility EC50 across a cultivation-temperature range (15-25C). A poikilotherm is the ideal preparation for separating Q10 effects from regulated thermoregulation, because the latter is absent by construction.",
+   "notes": "PE-5 CORRECTION: applicability changed NOT_APPLICABLE -> APPLICABLE. The earlier label was too strong. C. elegans is a poikilotherm, so the REGULATED-THERMOREGULATION sub-sense of class 11 (centrally driven heat loss, active cooling) is indeed unavailable - but the frozen class-11 definition ALSO covers Q10 kinetic slowing and temperature-mediated kinetics, which are fully applicable to a poikilotherm and are in fact easier to manipulate in one. Coverage remains NOT_TESTED: no qualifying evidence was identified under the standardized five-route search (queries included 'temperature Caenorhabditis elegans volatile anesthetic sensitivity halothane', 'temperature dependence anesthetic potency C elegans immobility', 'elegans lethargus temperature quiescence Q10', 'cold temperature C elegans sleep quiescence induction'). Given that hypothermia reduces isoflurane MAC 5.1%/degC in humans and eliminates the requirement entirely at 20C in goats, the temperature-dependence of worm anaesthetic potency is a cheap and conspicuous untested question.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Electrical coupling has not been examined in starvation-arrest sleep. Given that dauer (a different starvation-triggered state in the same animal) remodels innexins extensively, this is a motivated question.",
+   "notes": "New class in v2; untested here."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S6_starv_L1_cele",
+  "coverage_denominator": 6,
+  "n_positive": 6,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 6,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 5,
+  "role_counts": {
+   "PRODUCES_STATE": 3,
+   "CONTROLS_ENTRY": 1,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 3,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": "scoring/rows/S6_starv_L1_cele.json",
+  "cells_changed": [
+   "A_beh SPLIT into two condition records: acute_food_deprivation 'increased' (arousal) and long_term_starvation 'decreased'. v1 forced a single 'decreased'. Cause: ontology repair; this is the clearest case where the v1 axis schema was actively misleading.",
+   "A_neu SPLIT into starved_awake (all sub-measures unchanged) and starved_asleep (rate_amplitude and dynamical_organization decreased). v1 had one record scored 'unchanged'. Cause: ontology repair.",
+   "All four positive cells assigned roles; three are PRODUCES_STATE, one CONTROLS_ENTRY with OPPOSES_STATE polarity. Cause: ontology repair.",
+   "class 11 applicability NOT_APPLICABLE; class 12 added as NOT_TESTED. Cause: ontology repair / new class."
+  ],
+  "new_evidence_added": []
+ },
+ "ontology_flags_v2": [
+  "n_distinct_sources = 4 for this row, and three of four positive cells trace to PMID:37682641 alone. The new field makes this visible; v1 could not show it.",
+  "Class 5 / class 8 entanglement persists: dgk-1 is a lipid-metabolism enzyme scored as synaptic by the proximal-effect rule. Correct under the rule, but it means this row's class profile understates metabolic involvement.",
+  "The A_beh sign reversal between the two conditions means that any summary statistic computed over A_beh directions without conditioning would be wrong for this row."
+ ],
+ "citations_pending_verification": []
+}

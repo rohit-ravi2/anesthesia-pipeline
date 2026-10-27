@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "title": "Cell and axis record schema for the reduced-activity mechanism table",
+    "frozen_utc": "2026-09-16T12:45:24Z",
+    "schema_version": "1",
+    "governed_by": ["INCLUSION_CRITERION.md", "REPERTOIRE.md"],
+    "note": "Scoring code must validate every record against this schema before it is written. A record that cannot be expressed in this schema is not scored; it is logged as a schema gap."
+  },
+
+  "axis_record": {
+    "_one_per": "(row_id, axis)",
+    "row_id": "string, from states.json",
+    "axis": "enum: A_beh | A_neu | A_met",
+    "direction": "enum: decreased | unchanged | increased | not_measured",
+    "magnitude": "number or null — as published",
+    "units": "string or null — e.g. 'percent of wake baseline', 'ml O2/g/h'",
+    "baseline": "string — what the comparison baseline was, in the source's terms",
+    "evidence_grade": "enum: E-A | E-B | E-C | E-D | E-E | E-F",
+    "citation_ids": ["string — keys into citations/ledger.json, all verified"],
+    "notes": "string"
+  },
+
+  "cell_record": {
+    "_one_per": "(row_id, class_id)",
+    "row_id": "string, from states.json",
+    "class_id": "integer 1-11",
+    "coverage": "enum: TESTED_POSITIVE | TESTED_NEGATIVE | NOT_TESTED",
+    "status": "enum: POSITIVE | NEGATIVE | SUGGESTED | NOT_TESTED",
+    "_status_rule": "POSITIVE requires coverage TESTED_POSITIVE and strongest_grade in {E-A,E-B,E-C,E-D}. If coverage is TESTED_POSITIVE but strongest_grade is E-E or E-F, status is SUGGESTED. NEGATIVE requires coverage TESTED_NEGATIVE and a negative_assay_statement. Otherwise NOT_TESTED.",
+    "strongest_grade": "enum: E-A | E-B | E-C | E-D | E-E | E-F | null",
+    "all_grades": ["enum values present among the supporting evidence"],
+    "negative_assay_statement": "string or null — what the assay could have detected, required when coverage is TESTED_NEGATIVE",
+    "mechanisms": ["mechanism_record"],
+    "notes": "string"
+  },
+
+  "mechanism_record": {
+    "_nested_in": "cell_record.mechanisms",
+    "label": "string — short name of the mechanism as documented",
+    "chain": [
+      {
+        "step": "string — the causal step in the source's own terms",
+        "class_id": "integer 1-11 or null",
+        "role": "enum: proximal | upstream",
+        "inferred": "boolean — true if this step has no direct evidence in THIS (row_id); inferred steps score no cell",
+        "evidence_grade": "enum or null — null iff inferred is true",
+        "citation_ids": ["string"]
+      }
+    ],
+    "proximal_class": "integer 1-11 — most membrane/metabolism-proximal step with direct evidence in this row",
+    "upstream_classes": ["integer"],
+    "molecules": [
+      {
+        "name": "string",
+        "species": "string — must equal the row's species",
+        "identifier": "string — WormBase ID, HGNC, UniProt, as available",
+        "ortholog_relation": "string or null — named and sourced; never used to score a cell"
+      }
+    ],
+    "citation_ids": ["string"]
+  },
+
+  "row_summary": {
+    "_one_per": "row_id",
+    "row_id": "string",
+    "coverage_denominator": "integer 0-11 — count of classes with coverage != NOT_TESTED",
+    "n_positive": "integer",
+    "n_suggested": "integer",
+    "n_negative": "integer",
+    "n_not_tested": "integer",
+    "_reporting_rule": "Every proportion derived from this row is reported over coverage_denominator, never over 11."
+  },
+
+  "citation_record": {
+    "_note": "Mirrors the earlier dauer-gate citation harness (eutils title fetch; reimplemented in scoring/lit.py). No cell may reference a citation_id absent from the verified ledger.",
+    "citation_id": "string",
+    "pmid_or_doi": "string",
+    "title_retrieved": "string — fetched, not recalled",
+    "title_matches_claim": "boolean — set by a human or by title-content verification, not by resolution alone",
+    "verified_utc": "string",
+    "verifier": "string"
+  },
+
+  "forbidden_operations": [
+    "any enrichment statistic over cells",
+    "any count or proportion reported against 11 rather than coverage_denominator",
+    "any aggregation of A_beh, A_neu, A_met into a single value",
+    "scoring a cell from an inferred chain step",
+    "scoring a cell from orthology",
+    "scoring a cell from literature co-occurrence",
+    "treating NOT_TESTED as NEGATIVE in any output"
+  ]
+}

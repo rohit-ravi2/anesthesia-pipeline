@@ -1,0 +1,2304 @@
+{
+ "PMID:18185515": {
+  "pmid": "18185515",
+  "title": "Lethargus is a Caenorhabditis elegans sleep-like state.",
+  "journal": "Nature",
+  "year": "2008",
+  "doi": "10.1038/nature06535",
+  "first_author": "Raizen DM",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:24184105": {
+  "pmid": "24184105",
+  "title": "An AP2 transcription factor is required for a sleep-active neuron to induce sleep-like quiescence in C. elegans.",
+  "journal": "Curr Biol",
+  "year": "2013",
+  "doi": "10.1016/j.cub.2013.09.028",
+  "first_author": "Turek M",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:26949257": {
+  "pmid": "26949257",
+  "title": "Sleep-active neuron specification and sleep induction require FLP-11 neuropeptides to systemically induce sleep.",
+  "journal": "Elife",
+  "year": "2016",
+  "doi": "10.7554/eLife.12499",
+  "first_author": "Turek M",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:24301180": {
+  "pmid": "24301180",
+  "title": "The neuropeptide NLP-22 regulates a sleep-like state in Caenorhabditis elegans.",
+  "journal": "Nat Commun",
+  "year": "2013",
+  "doi": "10.1038/ncomms3846",
+  "first_author": "Nelson MD",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32555288": {
+  "pmid": "32555288",
+  "title": "RPamide neuropeptides NLP-22 and NLP-2 act through GnRH-like receptors to promote sleep and wakefulness in C. elegans.",
+  "journal": "Sci Rep",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-66536-2",
+  "first_author": "Van der Auwera P",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:31506439": {
+  "pmid": "31506439",
+  "title": "A GABAergic and peptidergic sleep neuron as a locomotion stop neuron with compartmentalized Ca2+ dynamics.",
+  "journal": "Nat Commun",
+  "year": "2019",
+  "doi": "10.1038/s41467-019-12098-5",
+  "first_author": "Steuer Costa W",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:23477722": {
+  "pmid": "23477722",
+  "title": "DAF-16/FOXO regulates homeostasis of essential sleep-like behavior during larval transitions in C. elegans.",
+  "journal": "Curr Biol",
+  "year": "2013",
+  "doi": "10.1016/j.cub.2013.02.009",
+  "first_author": "Driver RJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:42084332": {
+  "pmid": "42084332",
+  "title": "The NALCN channel complex is necessary for stabilizing sleep in Caenorhabditis elegans.",
+  "journal": "G3 (Bethesda)",
+  "year": "2026",
+  "doi": "10.1093/g3journal/jkag112",
+  "first_author": "Kamijo T",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32315298": {
+  "pmid": "32315298",
+  "title": "A salt-induced kinase is required for the metabolic regulation of sleep.",
+  "journal": "PLoS Biol",
+  "year": "2020",
+  "doi": "10.1371/journal.pbio.3000220",
+  "first_author": "Grubbs JJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29514087": {
+  "pmid": "29514087",
+  "title": "Glia Modulate a Neuronal Circuit for Locomotion Suppression during Sleep in C.\u00a0elegans.",
+  "journal": "Cell Rep",
+  "year": "2018",
+  "doi": "10.1016/j.celrep.2018.02.036",
+  "first_author": "Katz M",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32078631": {
+  "pmid": "32078631",
+  "title": "A wake-active locomotion circuit depolarizes a sleep-active neuron to switch on sleep.",
+  "journal": "PLoS Biol",
+  "year": "2020",
+  "doi": "10.1371/journal.pbio.3000361",
+  "first_author": "Maluck E",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:26154367": {
+  "pmid": "26154367",
+  "title": "Sensory Neurons Arouse C. elegans Locomotion via Both Glutamate and Neuropeptide Release.",
+  "journal": "PLoS Genet",
+  "year": "2015",
+  "doi": "10.1371/journal.pgen.1005359",
+  "first_author": "Choi S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:37682641": {
+  "pmid": "37682641",
+  "title": "Reverse genetic screening during L1 arrest reveals a role of the diacylglycerol kinase 1 gene dgk-1 and sphingolipid metabolism genes in sleep regulation.",
+  "journal": "Genetics",
+  "year": "2023",
+  "doi": "10.1093/genetics/iyad124",
+  "first_author": "Koutsoumparis A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32433687": {
+  "pmid": "32433687",
+  "title": "Teething during sleep: Ultrastructural analysis of pharyngeal muscle and cuticular grinder during the molt in Caenorhabditis elegans.",
+  "journal": "PLoS One",
+  "year": "2020",
+  "doi": "10.1371/journal.pone.0233059",
+  "first_author": "Sparacio AP",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:3576211": {
+  "pmid": "3576211",
+  "title": "Genetic analysis of halothane sensitivity in Caenorhabditis elegans.",
+  "journal": "Science",
+  "year": "1987",
+  "doi": "10.1126/science.3576211",
+  "first_author": "Sedensky MM",
+  "pubtype": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S.",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:2900611": {
+  "pmid": "2900611",
+  "title": "The effect of two genes on anesthetic response in the nematode Caenorhabditis elegans.",
+  "journal": "Anesthesiology",
+  "year": "1988",
+  "doi": "10.1097/00000542-198808000-00015",
+  "first_author": "Morgan PG",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:2326259": {
+  "pmid": "2326259",
+  "title": "Multiple sites of action of volatile anesthetics in Caenorhabditis elegans.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "1990",
+  "doi": "10.1073/pnas.87.8.2965",
+  "first_author": "Morgan PG",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:9671752": {
+  "pmid": "9671752",
+  "title": "Unc-1: a stomatin homologue controls sensitivity to volatile anesthetics in Caenorhabditis elegans.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "1998",
+  "doi": "10.1073/pnas.95.15.8761",
+  "first_author": "Rajaram S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:10581275": {
+  "pmid": "10581275",
+  "title": "A stomatin and a degenerin interact to control anesthetic sensitivity in Caenorhabditis elegans.",
+  "journal": "Genetics",
+  "year": "1999",
+  "doi": "10.1093/genetics/153.4.1673",
+  "first_author": "Rajaram S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:15102610": {
+  "pmid": "15102610",
+  "title": "A stomatin and a degenerin interact in lipid rafts of the nervous system of Caenorhabditis elegans.",
+  "journal": "Am J Physiol Cell Physiol",
+  "year": "2004",
+  "doi": "10.1152/ajpcell.00182.2003",
+  "first_author": "Sedensky MM",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:15514057": {
+  "pmid": "15514057",
+  "title": "Resistance to volatile anesthetics by mutations enhancing excitatory neurotransmitter release in Caenorhabditis elegans.",
+  "journal": "Genetics",
+  "year": "2004",
+  "doi": "10.1534/genetics.104.030502",
+  "first_author": "Hawasli AH",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:18043066": {
+  "pmid": "18043066",
+  "title": "An evolutionarily conserved presynaptic protein is required for isoflurane sensitivity in Caenorhabditis elegans.",
+  "journal": "Anesthesiology",
+  "year": "2007",
+  "doi": "10.1097/01.anes.0000291451.49034.b8",
+  "first_author": "Metz LB",
+  "pubtype": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:11404329": {
+  "pmid": "11404329",
+  "title": "Goalpha regulates volatile anesthetic action in Caenorhabditis elegans.",
+  "journal": "Genetics",
+  "year": "2001",
+  "doi": "10.1093/genetics/158.2.643",
+  "first_author": "van Swinderen B",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:22024713": {
+  "pmid": "22024713",
+  "title": "A gain-of-function mutation in adenylate cyclase confers isoflurane resistance in Caenorhabditis elegans.",
+  "journal": "Anesthesiology",
+  "year": "2011",
+  "doi": "10.1097/ALN.0b013e318239355d",
+  "first_author": "Saifee O",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:15277919": {
+  "pmid": "15277919",
+  "title": "Mitochondrial complex I function affects halothane sensitivity in Caenorhabditis elegans.",
+  "journal": "Anesthesiology",
+  "year": "2004",
+  "doi": "10.1097/00000542-200408000-00017",
+  "first_author": "Kayser EB",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:21467554": {
+  "pmid": "21467554",
+  "title": "Isoflurane selectively inhibits distal mitochondrial complex I in Caenorhabditis elegans.",
+  "journal": "Anesth Analg",
+  "year": "2011",
+  "doi": "10.1213/ANE.0b013e3182121d37",
+  "first_author": "Kayser EB",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32282426": {
+  "pmid": "32282426",
+  "title": "Collapse of Global Neuronal States in Caenorhabditis elegans under Isoflurane Anesthesia.",
+  "journal": "Anesthesiology",
+  "year": "2020",
+  "doi": "10.1097/ALN.0000000000003304",
+  "first_author": "Awal MR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30004907": {
+  "pmid": "30004907",
+  "title": "Breakdown of Neural Function under Isoflurane Anesthesia: In Vivo, Multineuronal Imaging in Caenorhabditis elegans.",
+  "journal": "Anesthesiology",
+  "year": "2018",
+  "doi": "10.1097/ALN.0000000000002342",
+  "first_author": "Awal MR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:15159532": {
+  "pmid": "15159532",
+  "title": "Nitrous oxide (N(2)O) requires the N-methyl-D-aspartate receptor for its action in Caenorhabditis elegans.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2004",
+  "doi": "10.1073/pnas.0402825101",
+  "first_author": "Nagele P",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:22137475": {
+  "pmid": "22137475",
+  "title": "Optical reversal of halothane-induced immobility in C. elegans.",
+  "journal": "Curr Biol",
+  "year": "2011",
+  "doi": "10.1016/j.cub.2011.10.042",
+  "first_author": "Singaram VK",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:17658257": {
+  "pmid": "17658257",
+  "title": "UNC-1 regulates gap junctions important to locomotion in C. elegans.",
+  "journal": "Curr Biol",
+  "year": "2007",
+  "doi": "10.1016/j.cub.2007.06.060",
+  "first_author": "Chen B",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:12642390": {
+  "pmid": "12642390",
+  "title": "Pharmacological characterization of the homomeric and heteromeric UNC-49 GABA receptors in C. elegans.",
+  "journal": "Br J Pharmacol",
+  "year": "2003",
+  "doi": "10.1038/sj.bjp.0705119",
+  "first_author": "Bamber BA",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:23223110": {
+  "pmid": "23223110",
+  "title": "Early developmental exposure to volatile anesthetics causes behavioral defects in Caenorhabditis elegans.",
+  "journal": "Anesth Analg",
+  "year": "2013",
+  "doi": "10.1213/ANE.0b013e31826d37c5",
+  "first_author": "Gentry KR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32452864": {
+  "pmid": "32452864",
+  "title": "Isoflurane Exposure in Juvenile Caenorhabditis elegans Causes Persistent Changes in Neuron Dynamics.",
+  "journal": "Anesthesiology",
+  "year": "2020",
+  "doi": "10.1097/ALN.0000000000003335",
+  "first_author": "Wirak GS",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:12213552": {
+  "pmid": "12213552",
+  "title": "Ageing is reversed, and metabolism is reset to young levels in recovering dauer larvae of C. elegans.",
+  "journal": "Exp Gerontol",
+  "year": "2002",
+  "doi": "10.1016/s0531-5565(02)00063-3",
+  "first_author": "Houthoofd K",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:12581801": {
+  "pmid": "12581801",
+  "title": "The metabolic rate of Caenorhabditis elegans dauer larvae: comments on a recent paper by Houthoofd et al.",
+  "journal": "Exp Gerontol",
+  "year": "2003",
+  "doi": "10.1016/s0531-5565(02)00272-3",
+  "first_author": "Van Voorhies W",
+  "pubtype": [
+   "Comment",
+   "Letter"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:21782434": {
+  "pmid": "21782434",
+  "title": "Trehalose renders the dauer larva of Caenorhabditis elegans resistant to extreme desiccation.",
+  "journal": "Curr Biol",
+  "year": "2011",
+  "doi": "10.1016/j.cub.2011.06.064",
+  "first_author": "Erkut C",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:23604840": {
+  "pmid": "23604840",
+  "title": "Patterns of metabolic activity during aging of the wild type and longevity mutants of Caenorhabditis elegans.",
+  "journal": "J Am Aging Assoc",
+  "year": "2000",
+  "doi": "10.1007/s11357-000-0007-8",
+  "first_author": "Braeckman BP",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:24324795": {
+  "pmid": "24324795",
+  "title": "Molecular strategies of the Caenorhabditis elegans dauer larva to survive extreme desiccation.",
+  "journal": "PLoS One",
+  "year": "2013",
+  "doi": "10.1371/journal.pone.0082473",
+  "first_author": "Erkut C",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:25290156": {
+  "pmid": "25290156",
+  "title": "The role of phospholipid headgroup composition and trehalose in the desiccation tolerance of Caenorhabditis elegans.",
+  "journal": "Langmuir",
+  "year": "2014",
+  "doi": "10.1021/la502654j",
+  "first_author": "Abusharkh SE",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:25868548": {
+  "pmid": "25868548",
+  "title": "The C. elegans dauer larva as a paradigm to study metabolic suppression and desiccation tolerance.",
+  "journal": "Planta",
+  "year": "2015",
+  "doi": "10.1007/s00425-015-2300-x",
+  "first_author": "Erkut C",
+  "pubtype": [
+   "Journal Article",
+   "Review"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:27974500": {
+  "pmid": "27974500",
+  "title": "Starvation-Induced Stress Response Is Critically Impacted by Ceramide Levels in Caenorhabditis elegans.",
+  "journal": "Genetics",
+  "year": "2017",
+  "doi": "10.1534/genetics.116.194282",
+  "first_author": "Cui M",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29386137": {
+  "pmid": "29386137",
+  "title": "Energy Scarcity Promotes a Brain-wide Sleep State Modulated by Insulin Signaling in C.\u00a0elegans.",
+  "journal": "Cell Rep",
+  "year": "2018",
+  "doi": "10.1016/j.celrep.2017.12.091",
+  "first_author": "Skora S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30416057": {
+  "pmid": "30416057",
+  "title": "Sleep Counteracts Aging Phenotypes to Survive Starvation-Induced Developmental Arrest in C.\u00a0elegans.",
+  "journal": "Curr Biol",
+  "year": "2018",
+  "doi": "10.1016/j.cub.2018.10.009",
+  "first_author": "Wu Y",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30686580": {
+  "pmid": "30686580",
+  "title": "Plasticity of the Electrical Connectome of C.\u00a0elegans.",
+  "journal": "Cell",
+  "year": "2019",
+  "doi": "10.1016/j.cell.2018.12.024",
+  "first_author": "Bhattacharya A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:31012266": {
+  "pmid": "31012266",
+  "title": "Functional assessment of hydrophilic domains of late embryogenesis abundant proteins from distant organisms.",
+  "journal": "Microb Biotechnol",
+  "year": "2019",
+  "doi": "10.1111/1751-7915.13416",
+  "first_author": "Liu Y",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32188449": {
+  "pmid": "32188449",
+  "title": "A metabolic switch regulates the transition between growth and diapause in C. elegans.",
+  "journal": "BMC Biol",
+  "year": "2020",
+  "doi": "10.1186/s12915-020-0760-3",
+  "first_author": "Penkov S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32778668": {
+  "pmid": "32778668",
+  "title": "C. elegans possess a general program to enter cryptobiosis that allows dauer larvae to survive different kinds of abiotic stress.",
+  "journal": "Sci Rep",
+  "year": "2020",
+  "doi": "10.1038/s41598-020-70311-8",
+  "first_author": "Gade VR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32997655": {
+  "pmid": "32997655",
+  "title": "Mutually exclusive dendritic arbors in C. elegans neurons share a common architecture and convergent molecular cues.",
+  "journal": "PLoS Genet",
+  "year": "2020",
+  "doi": "10.1371/journal.pgen.1009029",
+  "first_author": "Androwski RJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33268389": {
+  "pmid": "33268389",
+  "title": "Starvation Responses Throughout the Caenorhabditiselegans Life Cycle.",
+  "journal": "Genetics",
+  "year": "2020",
+  "doi": "10.1534/genetics.120.303565",
+  "first_author": "Baugh LR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Review"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33712439": {
+  "pmid": "33712439",
+  "title": "Dauer Formation in C. elegans Is Modulated through AWC and ASI-Dependent Chemosensation.",
+  "journal": "eNeuro",
+  "year": "2021",
+  "doi": "10.1523/ENEURO.0473-20.2021",
+  "first_author": "Pandey P",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33891586": {
+  "pmid": "33891586",
+  "title": "DAF-16/FoxO and DAF-12/VDR control cellular plasticity both cell-autonomously and via interorgan signaling.",
+  "journal": "PLoS Biol",
+  "year": "2021",
+  "doi": "10.1371/journal.pbio.3001204",
+  "first_author": "Aghayeva U",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:36194018": {
+  "pmid": "36194018",
+  "title": "A genetic screen for aldicarb resistance of Caenorhabditiselegans dauer larvae uncovers 2 alleles of dach-1, a cytochrome P450 gene.",
+  "journal": "G3 (Bethesda)",
+  "year": "2022",
+  "doi": "10.1093/g3journal/jkac266",
+  "first_author": "Son S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:42244529": {
+  "pmid": "42244529",
+  "title": "Comparative connectomics reveals stage-specific gap junction rewiring that reshapes avoidance behavior.",
+  "journal": "bioRxiv",
+  "year": "2026",
+  "doi": "10.64898/2026.05.28.728331",
+  "first_author": "Choe DT",
+  "pubtype": [
+   "Journal Article",
+   "Preprint"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33372061": {
+  "pmid": "33372061",
+  "title": "A Discrete Glycinergic Neuronal Population in the Ventromedial Medulla That Induces Muscle Atonia during REM Sleep and Cataplexy in Mice.",
+  "journal": "J Neurosci",
+  "year": "2021",
+  "doi": "10.1523/JNEUROSCI.0688-20.2020",
+  "first_author": "Uchida S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:39946231": {
+  "pmid": "39946231",
+  "title": "Orexin/hypocretin receptor 2 signaling in MCH neurons regulates REM sleep and insulin sensitivity.",
+  "journal": "Cell Rep",
+  "year": "2025",
+  "doi": "10.1016/j.celrep.2025.115277",
+  "first_author": "Izawa S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:42418402": {
+  "pmid": "42418402",
+  "title": "GABA neurons in the sublaterodorsal tegmental nucleus suppress wakefulness in healthy and narcoleptic mice.",
+  "journal": "PLoS Biol",
+  "year": "2026",
+  "doi": "10.1371/journal.pbio.3003303",
+  "first_author": "Lee H",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:17274181": {
+  "pmid": "17274181",
+  "title": "REM sleep related increase in brain temperature: a physiologic problem.",
+  "journal": "Arch Ital Biol",
+  "year": "2007",
+  "doi": "",
+  "first_author": "Parmeggiani PL",
+  "pubtype": [
+   "Journal Article",
+   "Review"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29402935": {
+  "pmid": "29402935",
+  "title": "Ventromedial medulla inhibitory neuron inactivation induces REM sleep without atonia and REM sleep behavior disorder.",
+  "journal": "Nat Commun",
+  "year": "2018",
+  "doi": "10.1038/s41467-017-02761-0",
+  "first_author": "Valencia Garcia S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:28007991": {
+  "pmid": "28007991",
+  "title": "Genetic inactivation of glutamate neurons in the rat sublaterodorsal tegmental nucleus recapitulates REM sleep behaviour disorder.",
+  "journal": "Brain",
+  "year": "2017",
+  "doi": "10.1093/brain/aww310",
+  "first_author": "Valencia Garcia S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:39121093": {
+  "pmid": "39121093",
+  "title": "Major alteration of motor control during rapid eye movements sleep in mice models of sleep disorders.",
+  "journal": "Sleep",
+  "year": "2024",
+  "doi": "10.1093/sleep/zsae178",
+  "first_author": "Grenot M",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:18517040": {
+  "pmid": "18517040",
+  "title": "Cold exposure and sleep in the rat: REM sleep homeostasis and body size.",
+  "journal": "Sleep",
+  "year": "2008",
+  "doi": "10.1093/sleep/31.5.708",
+  "first_author": "Amici R",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:16477956": {
+  "pmid": "16477956",
+  "title": "Cold exposure and sleep in the rat: effects on sleep architecture and the electroencephalogram.",
+  "journal": "Sleep",
+  "year": "2005",
+  "doi": "10.1093/sleep/28.6.694",
+  "first_author": "Cerri M",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:35108682": {
+  "pmid": "35108682",
+  "title": "[Sleep and Body Temperature].",
+  "journal": "Brain Nerve",
+  "year": "2022",
+  "doi": "10.11477/mf.1416202003",
+  "first_author": "Ishihara A",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30297727": {
+  "pmid": "30297727",
+  "title": "Galanin neurons in the ventrolateral preoptic area promote sleep and heat loss in mice.",
+  "journal": "Nat Commun",
+  "year": "2018",
+  "doi": "10.1038/s41467-018-06590-7",
+  "first_author": "Kroeger D",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:36947514": {
+  "pmid": "36947514",
+  "title": "Activation of the nociceptin/orphanin-FQ receptor promotes NREM sleep and EEG slow wave activity.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2023",
+  "doi": "10.1073/pnas.2214171120",
+  "first_author": "Morairty SR",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:19186164": {
+  "pmid": "19186164",
+  "title": "Astrocytic modulation of sleep homeostasis and cognitive consequences of sleep loss.",
+  "journal": "Neuron",
+  "year": "2009",
+  "doi": "10.1016/j.neuron.2008.11.024",
+  "first_author": "Halassa MM",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:23378051": {
+  "pmid": "23378051",
+  "title": "Astrocyte-derived adenosine modulates increased sleep pressure during inflammatory response.",
+  "journal": "Glia",
+  "year": "2013",
+  "doi": "10.1002/glia.22465",
+  "first_author": "Nadjar A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:24361452": {
+  "pmid": "24361452",
+  "title": "Ketone body metabolism and sleep homeostasis in mice.",
+  "journal": "Neuropharmacology",
+  "year": "2014",
+  "doi": "10.1016/j.neuropharm.2013.12.009",
+  "first_author": "Chikahisa S",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:31761703": {
+  "pmid": "31761703",
+  "title": "An Inhibitory Lateral Hypothalamic-Preoptic Circuit Mediates Rapid Arousals from Sleep.",
+  "journal": "Curr Biol",
+  "year": "2019",
+  "doi": "10.1016/j.cub.2019.10.026",
+  "first_author": "Venner A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29935583": {
+  "pmid": "29935583",
+  "title": "Comparative effects of dexmedetomidine, propofol, sevoflurane, and S-ketamine on regional cerebral glucose metabolism in humans: a positron emission tomography study.",
+  "journal": "Br J Anaesth",
+  "year": "2018",
+  "doi": "10.1016/j.bja.2018.04.008",
+  "first_author": "Laaksonen L",
+  "pubtype": [
+   "Clinical Trial, Phase IV",
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:10969304": {
+  "pmid": "10969304",
+  "title": "Physostigmine reverses propofol-induced unconsciousness and attenuation of the auditory steady state response and bispectral index in human volunteers.",
+  "journal": "Anesthesiology",
+  "year": "2000",
+  "doi": "10.1097/00000542-200009000-00020",
+  "first_author": "Meuret P",
+  "pubtype": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:36897972": {
+  "pmid": "36897972",
+  "title": "Propofol disrupts alpha dynamics in functionally distinct thalamocortical networks during loss of consciousness.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2023",
+  "doi": "10.1073/pnas.2207831120",
+  "first_author": "Weiner VS",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:31236577": {
+  "pmid": "31236577",
+  "title": "Propofol-induced loss of consciousness is associated with a decrease in thalamocortical connectivity in humans.",
+  "journal": "Brain",
+  "year": "2019",
+  "doi": "10.1093/brain/awz169",
+  "first_author": "Malekmohammadi M",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:28743752": {
+  "pmid": "28743752",
+  "title": "Thalamocortical synchronization during induction and emergence from propofol-induced unconsciousness.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2017",
+  "doi": "10.1073/pnas.1700148114",
+  "first_author": "Flores FJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30639334": {
+  "pmid": "30639334",
+  "title": "The spectral exponent of the resting EEG indexes the presence of consciousness during unresponsiveness induced by propofol, xenon, and ketamine.",
+  "journal": "Neuroimage",
+  "year": "2019",
+  "doi": "10.1016/j.neuroimage.2019.01.024",
+  "first_author": "Colombo MA",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:40568363": {
+  "pmid": "40568363",
+  "title": "Unresponsiveness induced by sevoflurane and propofol is associated with reduced basal forebrain cholinergic nuclei functional connectivity in humans, a pilot exploratory study.",
+  "journal": "Neuroimage Rep",
+  "year": "2024",
+  "doi": "10.1016/j.ynirp.2024.100224",
+  "first_author": "Zimmermann J",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:7856898": {
+  "pmid": "7856898",
+  "title": "Cerebral metabolism during propofol anesthesia in humans studied with positron emission tomography.",
+  "journal": "Anesthesiology",
+  "year": "1995",
+  "doi": "10.1097/00000542-199502000-00010",
+  "first_author": "Alkire MT",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:40128306": {
+  "pmid": "40128306",
+  "title": "General anaesthesia decreases the uniqueness of brain functional connectivity across individuals and species.",
+  "journal": "Nat Hum Behav",
+  "year": "2025",
+  "doi": "10.1038/s41562-025-02121-9",
+  "first_author": "Luppi AI",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:37467269": {
+  "pmid": "37467269",
+  "title": "Modulatory dynamics mark the transition between anesthetic states of unconsciousness.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2023",
+  "doi": "10.1073/pnas.2300058120",
+  "first_author": "Adam E",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:27806374": {
+  "pmid": "27806374",
+  "title": "Forward-genetics analysis of sleep in randomly mutagenized mice.",
+  "journal": "Nature",
+  "year": "2016",
+  "doi": "10.1038/nature20142",
+  "first_author": "Funato H",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:37027798": {
+  "pmid": "37027798",
+  "title": "TREK-1 and TREK-2 Knockout Mice Are Not Resistant to Halothane or Isoflurane.",
+  "journal": "Anesthesiology",
+  "year": "2023",
+  "doi": "10.1097/ALN.0000000000004577",
+  "first_author": "Spencer KA",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:21173083": {
+  "pmid": "21173083",
+  "title": "Etomidate and propofol inhibit the neurotransmitter release machinery at different sites.",
+  "journal": "J Physiol",
+  "year": "2011",
+  "doi": "10.1113/jphysiol.2010.200964",
+  "first_author": "Herring BE",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:19228970": {
+  "pmid": "19228970",
+  "title": "The involvement of hypothalamic sleep pathways in general anesthesia: testing the hypothesis using the GABAA receptor beta3N265M knock-in mouse.",
+  "journal": "J Neurosci",
+  "year": "2009",
+  "doi": "10.1523/JNEUROSCI.4997-08.2009",
+  "first_author": "Zecharia AY",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29320738": {
+  "pmid": "29320738",
+  "title": "Trapping of Syntaxin1a in Presynaptic Nanoclusters by a Clinically Relevant General Anesthetic.",
+  "journal": "Cell Rep",
+  "year": "2018",
+  "doi": "10.1016/j.celrep.2017.12.054",
+  "first_author": "Bademosi AT",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:16046472": {
+  "pmid": "16046472",
+  "title": "Distinct molecular targets for the central respiratory and cardiac actions of the general anesthetics etomidate and propofol.",
+  "journal": "FASEB J",
+  "year": "2005",
+  "doi": "10.1096/fj.04-3443fje",
+  "first_author": "Zeller A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-16",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:38147628": {
+  "pmid": "38147628",
+  "title": "Potassium Leak Channels and Mitochondrial Complex I Interact in Glutamatergic Interneurons of the Mouse Spinal Cord.",
+  "journal": "Anesthesiology",
+  "year": "2024",
+  "doi": "10.1097/ALN.0000000000004891",
+  "first_author": "Woods CB",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33909880": {
+  "pmid": "33909880",
+  "title": "Mitochondrial Function and Anesthetic Sensitivity in the Mouse Spinal Cord.",
+  "journal": "Anesthesiology",
+  "year": "2021",
+  "doi": "10.1097/ALN.0000000000003794",
+  "first_author": "Woods CB",
+  "pubtype": [
+   "Editorial",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Comment"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30707122": {
+  "pmid": "30707122",
+  "title": "Mitochondrial Function in Astrocytes Is Essential for Normal Emergence from Anesthesia in Mice.",
+  "journal": "Anesthesiology",
+  "year": "2019",
+  "doi": "10.1097/ALN.0000000000002528",
+  "first_author": "Ramadasan-Nair R",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30074932": {
+  "pmid": "30074932",
+  "title": "Anesthetics Have Different Effects on the Electrocorticographic Spectra of Wild-type and Mitochondrial Mutant Mice.",
+  "journal": "Anesthesiology",
+  "year": "2018",
+  "doi": "10.1097/ALN.0000000000002368",
+  "first_author": "Carspecken CW",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:29661379": {
+  "pmid": "29661379",
+  "title": "Isoflurane disrupts excitatory neurotransmitter dynamics via inhibition of mitochondrial complex I.",
+  "journal": "Br J Anaesth",
+  "year": "2018",
+  "doi": "10.1016/j.bja.2018.01.036",
+  "first_author": "Zimin PI",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:22885675": {
+  "pmid": "22885675",
+  "title": "Mutations M287L and Q266I in the glycine receptor \u03b11 subunit change sensitivity to volatile anesthetics in oocytes and neurons, but not the minimal alveolar concentration in knockin mice.",
+  "journal": "Anesthesiology",
+  "year": "2012",
+  "doi": "10.1097/ALN.0b013e31826a0d93",
+  "first_author": "Borghese CM",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, N.I.H., Intramural"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:17319964": {
+  "pmid": "17319964",
+  "title": "Mapping the contribution of beta3-containing GABAA receptors to volatile and intravenous general anesthetic actions.",
+  "journal": "BMC Pharmacol",
+  "year": "2007",
+  "doi": "10.1186/1471-2210-7-2",
+  "first_author": "Zeller A",
+  "pubtype": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:15913600": {
+  "pmid": "15913600",
+  "title": "Isoflurane-induced surgical tolerance mediated only in part by beta3-containing GABA(A) receptors.",
+  "journal": "Eur J Pharmacol",
+  "year": "2005",
+  "doi": "10.1016/j.ejphar.2005.04.030",
+  "first_author": "Lambert S",
+  "pubtype": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:11020764": {
+  "pmid": "11020764",
+  "title": "Enflurane directly depresses glutamate AMPA and NMDA currents in mouse spinal cord motor neurons independent of actions on GABAA or glycine receptors.",
+  "journal": "Anesthesiology",
+  "year": "2000",
+  "doi": "10.1097/00000542-200010000-00032",
+  "first_author": "Cheng G",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:18195361": {
+  "pmid": "18195361",
+  "title": "An essential role for orexins in emergence from general anesthesia.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2008",
+  "doi": "10.1073/pnas.0707146105",
+  "first_author": "Kelz MB",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:23477964": {
+  "pmid": "23477964",
+  "title": "The impact of hypothermia on emergence from isoflurane anesthesia in orexin neuron-ablated mice.",
+  "journal": "Anesth Analg",
+  "year": "2013",
+  "doi": "10.1213/ANE.0b013e31828842f0",
+  "first_author": "Kuroki C",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:30348769": {
+  "pmid": "30348769",
+  "title": "Activation of orexin system facilitates anesthesia emergence and pain control.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2018",
+  "doi": "10.1073/pnas.1808622115",
+  "first_author": "Zhou W",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:19809293": {
+  "pmid": "19809293",
+  "title": "Halothane-induced hypnosis is not accompanied by inactivation of orexinergic output in rodents.",
+  "journal": "Anesthesiology",
+  "year": "2009",
+  "doi": "10.1097/ALN.0b013e3181b764b3",
+  "first_author": "Gompf H",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32807382": {
+  "pmid": "32807382",
+  "title": "Circadian differences in emergence from volatile anaesthesia in mice: involvement of the locus coeruleus noradrenergic system.",
+  "journal": "Br J Anaesth",
+  "year": "2020",
+  "doi": "10.1016/j.bja.2020.07.012",
+  "first_author": "Wang D",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:40379709": {
+  "pmid": "40379709",
+  "title": "A ventral pallidum-locus coeruleus-lateral hypothalamus pathway modulates brain arousal in freely behaving and isoflurane-anesthetized male mice.",
+  "journal": "Nat Commun",
+  "year": "2025",
+  "doi": "10.1038/s41467-025-59857-1",
+  "first_author": "Xu XY",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:17448995": {
+  "pmid": "17448995",
+  "title": "The neuronal channel NALCN contributes resting sodium permeability and is required for normal respiratory rhythm.",
+  "journal": "Cell",
+  "year": "2007",
+  "doi": "10.1016/j.cell.2007.02.041",
+  "first_author": "Lu B",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32620897": {
+  "pmid": "32620897",
+  "title": "Intellectual disability-associated UNC80 mutations reveal inter-subunit interaction and dendritic function of the NALCN channel complex.",
+  "journal": "Nat Commun",
+  "year": "2020",
+  "doi": "10.1038/s41467-020-17105-8",
+  "first_author": "Wie J",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:21040849": {
+  "pmid": "21040849",
+  "title": "Extracellular calcium controls background current and neuronal excitability via an UNC79-UNC80-NALCN cation channel complex.",
+  "journal": "Neuron",
+  "year": "2010",
+  "doi": "10.1016/j.neuron.2010.09.014",
+  "first_author": "Lu B",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:19092807": {
+  "pmid": "19092807",
+  "title": "Peptide neurotransmitters activate a cation channel complex of NALCN and UNC-80.",
+  "journal": "Nature",
+  "year": "2009",
+  "doi": "10.1038/nature07579",
+  "first_author": "Lu B",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:20714347": {
+  "pmid": "20714347",
+  "title": "Conserved role of unc-79 in ethanol responses in lightweight mutant mice.",
+  "journal": "PLoS Genet",
+  "year": "2010",
+  "doi": "10.1371/journal.pgen.1001057",
+  "first_author": "Speca DJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, Non-P.H.S."
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:37339878": {
+  "pmid": "37339878",
+  "title": "Effects of NALCN-Encoded Na(+) Leak Currents on the Repetitive Firing Properties of SCN Neurons Depend on K(+)-Driven Rhythmic Changes in Input Resistance.",
+  "journal": "J Neurosci",
+  "year": "2023",
+  "doi": "10.1523/JNEUROSCI.0182-23.2023",
+  "first_author": "Yang ND",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:36749664": {
+  "pmid": "36749664",
+  "title": "Circadian regulation of dentate gyrus excitability mediated by G-protein signaling.",
+  "journal": "Cell Rep",
+  "year": "2023",
+  "doi": "10.1016/j.celrep.2023.112039",
+  "first_author": "Gonzalez JC",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:40446059": {
+  "pmid": "40446059",
+  "title": "Anesthesia isn't sleep: The neuronal dynamics of immobility in isoflurane-anesthetized C. elegans differ from the activity patterns of previously established sleep-like quiescent states.",
+  "journal": "PLoS One",
+  "year": "2025",
+  "doi": "10.1371/journal.pone.0324323",
+  "first_author": "Chang AS",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:8512109": {
+  "pmid": "8512109",
+  "title": "Hypothermia eliminates isoflurane requirements at 20 degrees C.",
+  "journal": "Anesthesiology",
+  "year": "1993",
+  "doi": "10.1097/00000542-199306000-00020",
+  "first_author": "Antognini JF",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:39254055": {
+  "pmid": "39254055",
+  "title": "The impact of isoflurane anesthesia on brain metabolism in mice: An MRI and electroencephalography study.",
+  "journal": "NMR Biomed",
+  "year": "2024",
+  "doi": "10.1002/nbm.5260",
+  "first_author": "Wei Z",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:11374601": {
+  "pmid": "11374601",
+  "title": "The effect of hypothermia on isoflurane MAC in children.",
+  "journal": "Anesthesiology",
+  "year": "2001",
+  "doi": "10.1097/00000542-200103000-00011",
+  "first_author": "Liu M",
+  "pubtype": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:3631594": {
+  "pmid": "3631594",
+  "title": "MAC of I-653 in rats, including a test of the effect of body temperature and anesthetic duration.",
+  "journal": "Anesth Analg",
+  "year": "1987",
+  "doi": "",
+  "first_author": "Eger EI 2nd",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:16897251": {
+  "pmid": "16897251",
+  "title": "Hypothermia decreases ethanol MAC in rats.",
+  "journal": "J Anesth",
+  "year": "2006",
+  "doi": "10.1007/s00540-006-0412-y",
+  "first_author": "Won A",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:11748406": {
+  "pmid": "11748406",
+  "title": "Widespread inhibition of sodium channel-dependent glutamate release from isolated nerve terminals by isoflurane and propofol.",
+  "journal": "Anesthesiology",
+  "year": "2001",
+  "doi": "10.1097/00000542-200112000-00027",
+  "first_author": "Lingamaneni R",
+  "pubtype": [
+   "Comparative Study",
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:14504163": {
+  "pmid": "14504163",
+  "title": "Antagonism of sevoflurane anaesthesia by physostigmine: effects on the auditory steady-state response and bispectral index.",
+  "journal": "Br J Anaesth",
+  "year": "2003",
+  "doi": "10.1093/bja/aeg209",
+  "first_author": "Plourde G",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:9398952": {
+  "pmid": "9398952",
+  "title": "Physostigmine increases the dose of propofol required to induce anaesthesia.",
+  "journal": "Can J Anaesth",
+  "year": "1997",
+  "doi": "10.1007/BF03013335",
+  "first_author": "Fassoulaki A",
+  "pubtype": [
+   "Clinical Trial",
+   "Journal Article",
+   "Randomized Controlled Trial"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:37659409": {
+  "pmid": "37659409",
+  "title": "Differential cortical network engagement during states of un/consciousness in humans.",
+  "journal": "Neuron",
+  "year": "2023",
+  "doi": "10.1016/j.neuron.2023.08.007",
+  "first_author": "Zelmann R",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:35302854": {
+  "pmid": "35302854",
+  "title": "Deep brain stimulation of the thalamus restores signatures of consciousness in a nonhuman primate model.",
+  "journal": "Sci Adv",
+  "year": "2022",
+  "doi": "10.1126/sciadv.abl5547",
+  "first_author": "Tasserie J",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32053769": {
+  "pmid": "32053769",
+  "title": "Thalamus Modulates Consciousness via Layer-Specific Control of Cortex.",
+  "journal": "Neuron",
+  "year": "2020",
+  "doi": "10.1016/j.neuron.2020.01.005",
+  "first_author": "Redinbaugh MJ",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:35649726": {
+  "pmid": "35649726",
+  "title": "NMDA Receptors in the Lateral Preoptic Hypothalamus Are Essential for Sustaining NREM and REM Sleep.",
+  "journal": "J Neurosci",
+  "year": "2022",
+  "doi": "10.1523/JNEUROSCI.0350-21.2022",
+  "first_author": "Miracca G",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:40204438": {
+  "pmid": "40204438",
+  "title": "A Role for \u03b4 Subunit-Containing GABA(A) Receptors on Parvalbumin-Positive Neurons in Maintaining Electrocortical Signatures of Sleep States.",
+  "journal": "J Neurosci",
+  "year": "2025",
+  "doi": "10.1523/JNEUROSCI.0601-24.2025",
+  "first_author": "Lambert PM",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, N.I.H., Extramural"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:32773689": {
+  "pmid": "32773689",
+  "title": "Volatile Anesthetics Activate a Leak Sodium Conductance in Retrotrapezoid Nucleus Neurons to Maintain Breathing during Anesthesia in Mice.",
+  "journal": "Anesthesiology",
+  "year": "2020",
+  "doi": "10.1097/ALN.0000000000003493",
+  "first_author": "Yang Y",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:8712437": {
+  "pmid": "8712437",
+  "title": "Isoflurane produces marked and nonlinear decreases in the vasoconstriction and shivering thresholds.",
+  "journal": "Anesthesiology",
+  "year": "1996",
+  "doi": "10.1097/00000542-199608000-00003",
+  "first_author": "Xiong J",
+  "pubtype": [
+   "Clinical Trial",
+   "Comparative Study",
+   "Journal Article",
+   "Randomized Controlled Trial",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:38767833": {
+  "pmid": "38767833",
+  "title": "Sodium Leak Channel in Glutamatergic Neurons of the Lateral Parabrachial Nucleus Helps to Maintain Respiratory Frequency Under Sevoflurane Anesthesia.",
+  "journal": "Neurosci Bull",
+  "year": "2024",
+  "doi": "10.1007/s12264-024-01223-0",
+  "first_author": "Wu L",
+  "pubtype": [
+   "Journal Article"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:33314505": {
+  "pmid": "33314505",
+  "title": "Acute blockade of NR2C/D subunit-containing N-methyl-D-aspartate receptors modifies sleep and neural oscillations in mice.",
+  "journal": "J Sleep Res",
+  "year": "2021",
+  "doi": "10.1111/jsr.13257",
+  "first_author": "P\u00e1lfi E",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't"
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:9105220": {
+  "pmid": "9105220",
+  "title": "Lack of nonshivering thermogenesis in infants anesthetized with fentanyl and propofol.",
+  "journal": "Anesthesiology",
+  "year": "1997",
+  "doi": "10.1097/00000542-199704000-00006",
+  "first_author": "Plattner O",
+  "pubtype": [
+   "Journal Article",
+   "Research Support, Non-U.S. Gov't",
+   "Research Support, U.S. Gov't, P.H.S."
+  ],
+  "verified_utc": "2026-09-17",
+  "verifier": "lit.py eutils esummary",
+  "title_matches_claim": null
+ },
+ "PMID:12797957": {
+  "pmid": "12797957",
+  "title": "Distinct narcolepsy syndromes in Orexin receptor-2 and Orexin null mice: molecular genetic dissection of Non-REM and REM sleep regulatory processes.",
+  "journal": "Neuron",
+  "year": "2003",
+  "first_author": "Willie JT",
+  "doi": "10.1016/s0896-6273(03)00330-1",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:16931982": {
+  "pmid": "16931982",
+  "title": "Tail clamp responses in stomatin knockout mice compared with mobility assays in Caenorhabditis elegans during exposure to diethyl ether, halothane, and isoflurane.",
+  "journal": "Anesthesiology",
+  "year": "2006",
+  "first_author": "Sedensky MM",
+  "doi": "10.1097/00000542-200609000-00013",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:22540145": {
+  "pmid": "22540145",
+  "title": "5'-Ectonucleotidase-knockout mice lack non-REM sleep responses to sleep deprivation.",
+  "journal": "Eur J Neurosci",
+  "year": "2012",
+  "first_author": "Zielinski MR",
+  "doi": "10.1111/j.1460-9568.2012.08112.x",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:25548191": {
+  "pmid": "25548191",
+  "title": "Optogenetic activation of cholinergic neurons in the PPT or LDT induces REM sleep.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2015",
+  "first_author": "Van Dort CJ",
+  "doi": "10.1073/pnas.1423136112",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:27498564": {
+  "pmid": "27498564",
+  "title": "Glutamatergic Neurotransmission Links Sensitivity to Volatile Anesthetics with Mitochondrial Function.",
+  "journal": "Curr Biol",
+  "year": "2016",
+  "first_author": "Zimin PI",
+  "doi": "10.1016/j.cub.2016.06.020",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:33942407": {
+  "pmid": "33942407",
+  "title": "GABA(A) receptor \u03b2(1) -subunit knock-out mice show increased delta power in NREM sleep and decreased theta power in REM sleep.",
+  "journal": "Eur J Neurosci",
+  "year": "2021",
+  "first_author": "Lie MEK",
+  "doi": "10.1111/ejn.15267",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:37682636": {
+  "pmid": "37682636",
+  "title": "Forward genetic screen of Caenorhabditis elegans mutants with impaired sleep reveals a crucial role of neuronal diacylglycerol kinase DGK-1 in regulating sleep.",
+  "journal": "Genetics",
+  "year": "2023",
+  "first_author": "Chen CK",
+  "doi": "10.1093/genetics/iyad140",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:38371321": {
+  "pmid": "38371321",
+  "title": "New alleles of nlp-2 , nlp-22 , and nlp-23 demonstrate that they are dispensable for stress-induced sleep in C. elegans.",
+  "journal": "MicroPubl Biol",
+  "year": "2024",
+  "first_author": "Aviles S",
+  "doi": "10.17912/micropub.biology.001109",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:40240218": {
+  "pmid": "40240218",
+  "title": "Parafacial GABAergic neurone ablation induces behavioural resistance to volatile anaesthetic-induced hypnosis without reducing sleep.",
+  "journal": "Br J Anaesth",
+  "year": "2025",
+  "first_author": "Imamura T",
+  "doi": "10.1016/j.bja.2025.02.035",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:41279428": {
+  "pmid": "41279428",
+  "title": "HLH-30/TFEB is necessary for chromatin reorganization and maintenance of cell quiescence during starvation in C. elegans.",
+  "journal": "bioRxiv",
+  "year": "2025",
+  "first_author": "Mu\u00f1oz-Barrera M",
+  "doi": "10.1101/2025.10.31.685810",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:18485607": {
+  "pmid": "18485607",
+  "title": "Normal sleep homeostasis and lack of epilepsy phenotype in GABA A receptor alpha3 subunit-knockout mice.",
+  "journal": "Neuroscience",
+  "year": "2008",
+  "first_author": "Winsky-Sommerer R",
+  "doi": "10.1016/j.neuroscience.2008.03.081",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:20875840": {
+  "pmid": "20875840",
+  "title": "Glutamate transporter type 3 knockout mice have a decreased isoflurane requirement to induce loss of righting reflex.",
+  "journal": "Neuroscience",
+  "year": "2010",
+  "first_author": "Lee SN",
+  "doi": "10.1016/j.neuroscience.2010.09.044",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:27769744": {
+  "pmid": "27769744",
+  "title": "Sleep-wakefulness cycle and behavior in pannexin1 knockout mice.",
+  "journal": "Behav Brain Res",
+  "year": "2017",
+  "first_author": "Kovalzon VM",
+  "doi": "10.1016/j.bbr.2016.10.015",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:36510822": {
+  "pmid": "36510822",
+  "title": "Atypical hypnotic compound ML297 restores sleep architecture immediately following emotionally valenced learning, to promote memory consolidation and hippocampal network activation during recall.",
+  "journal": "Sleep",
+  "year": "2023",
+  "first_author": "Martinez JD",
+  "doi": "10.1093/sleep/zsac301",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:37198238": {
+  "pmid": "37198238",
+  "title": "Tfap2b acts in GABAergic neurons to control sleep in mice.",
+  "journal": "Sci Rep",
+  "year": "2023",
+  "first_author": "Hu Y",
+  "doi": "10.1038/s41598-023-34772-x",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:27090086": {
+  "pmid": "27090086",
+  "title": "The glyoxylate shunt is essential for desiccation tolerance in C. elegans and budding yeast.",
+  "journal": "Elife",
+  "year": "2016",
+  "first_author": "Erkut C",
+  "doi": "10.7554/eLife.13614",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:30044241": {
+  "pmid": "30044241",
+  "title": "Caffeine Accelerates Emergence from Isoflurane Anesthesia in Humans: A Randomized, Double-blind, Crossover Study.",
+  "journal": "Anesthesiology",
+  "year": "2018",
+  "first_author": "Fong R",
+  "doi": "10.1097/ALN.0000000000002367",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:34903234": {
+  "pmid": "34903234",
+  "title": "LEA motifs promote desiccation tolerance in vivo.",
+  "journal": "BMC Biol",
+  "year": "2021",
+  "first_author": "Hibshman JD",
+  "doi": "10.1186/s12915-021-01176-0",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:37770252": {
+  "pmid": "37770252",
+  "title": "Volatile anaesthetic toxicity in the genetic mitochondrial disease Leigh syndrome.",
+  "journal": "Br J Anaesth",
+  "year": "2023",
+  "first_author": "Spencer KA",
+  "doi": "10.1016/j.bja.2023.08.009",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:42117732": {
+  "pmid": "42117732",
+  "title": "Effects of a Mitochondrial Genetic Variant on Sevoflurane Hypersensitivity.",
+  "journal": "Anesthesiology",
+  "year": "2026",
+  "first_author": "Sanz-Pons J",
+  "doi": "10.1097/ALN.0000000000006029",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:18846209": {
+  "pmid": "18846209",
+  "title": "A TRPV channel modulates C. elegans neurosecretion, larval starvation survival, and adult lifespan.",
+  "journal": "PLoS Genet",
+  "year": "2008",
+  "first_author": "Lee BH",
+  "doi": "10.1371/journal.pgen.1000213",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:21418043": {
+  "pmid": "21418043",
+  "title": "The role of connexin36 gap junctions in modulating the hypnotic effects of isoflurane and propofol in mice.",
+  "journal": "Anaesthesia",
+  "year": "2011",
+  "first_author": "Jacobson GM",
+  "doi": "10.1111/j.1365-2044.2011.06658.x",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:30323068": {
+  "pmid": "30323068",
+  "title": "Gap Junctions and NCA Cation Channels Are Critical for Developmentally Timed Sleep and Arousal in Caenorhabditis elegans.",
+  "journal": "Genetics",
+  "year": "2018",
+  "first_author": "Huang H",
+  "doi": "10.1534/genetics.118.301551",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:12962913": {
+  "pmid": "12962913",
+  "title": "Increased sensitivity to halothane but decreased sensitivity to propofol in mice lacking the N-type Ca2+ channel.",
+  "journal": "Neurosci Lett",
+  "year": "2003",
+  "first_author": "Takei T",
+  "doi": "10.1016/s0304-3940(03)00634-7",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:32958651": {
+  "pmid": "32958651",
+  "title": "Melatonin promotes sleep by activating the BK channel in C. elegans.",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "2020",
+  "first_author": "Niu L",
+  "doi": "10.1073/pnas.2010928117",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:35163194": {
+  "pmid": "35163194",
+  "title": "Role of Dorsomedial Hypothalamus GABAergic Neurons in Sleep-Wake States in Response to Changes in Ambient Temperature in Mice.",
+  "journal": "Int J Mol Sci",
+  "year": "2022",
+  "first_author": "Li L",
+  "doi": "10.3390/ijms23031270",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:41573848": {
+  "pmid": "41573848",
+  "title": "Synthetic modulation of brain-wide anesthesia-activated neural ensembles using a transgenic mouse system.",
+  "journal": "bioRxiv",
+  "year": "2025",
+  "first_author": "Nota MHC",
+  "doi": "10.64898/2025.12.02.691631",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:11893609": {
+  "pmid": "11893609",
+  "title": "Periodic arousal from hibernation is necessary for initiation of immune responses in ground squirrels.",
+  "journal": "Am J Physiol Regul Integr Comp Physiol",
+  "year": "2002",
+  "first_author": "Prendergast BJ",
+  "doi": "10.1152/ajpregu.00562.2001",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:20808804": {
+  "pmid": "20808804",
+  "title": "Deletion of Nhlh2 results in a defective torpor response and reduced Beta adrenergic receptor expression in adipose tissue.",
+  "journal": "PLoS One",
+  "year": "2010",
+  "first_author": "Wankhade UD",
+  "doi": "10.1371/journal.pone.0012324",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:22785425": {
+  "pmid": "22785425",
+  "title": "Central adenosine receptor signaling is necessary for daily torpor in mice.",
+  "journal": "Am J Physiol Regul Integr Comp Physiol",
+  "year": "2012",
+  "first_author": "Iliff BW",
+  "doi": "10.1152/ajpregu.00081.2012",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:2762331": {
+  "pmid": "2762331",
+  "title": "Central vasopressin infusion prevents hibernation in the European hamster (Cricetus cricetus).",
+  "journal": "Proc Natl Acad Sci U S A",
+  "year": "1989",
+  "first_author": "Hermes ML",
+  "doi": "10.1073/pnas.86.16.6408",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:28378088": {
+  "pmid": "28378088",
+  "title": "Central activation of the A(1) adenosine receptor in fed mice recapitulates only some of the attributes of daily torpor.",
+  "journal": "J Comp Physiol B",
+  "year": "2017",
+  "first_author": "Vicent MA",
+  "doi": "10.1007/s00360-017-1084-7",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:34739575": {
+  "pmid": "34739575",
+  "title": "Changes in CO(2) sensitivity during entrance into, and arousal from hibernation in Ictidomys tridecemlineatus.",
+  "journal": "J Comp Physiol B",
+  "year": "2022",
+  "first_author": "Sprenger RJ",
+  "doi": "10.1007/s00360-021-01418-1",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:40593766": {
+  "pmid": "40593766",
+  "title": "Brainstem catecholaminergic neurons induce torpor during fasting by orchestrating cardiovascular and thermoregulation changes.",
+  "journal": "Nat Commun",
+  "year": "2025",
+  "first_author": "Cheng M",
+  "doi": "10.1038/s41467-025-61179-1",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ },
+ "PMID:41280034": {
+  "pmid": "41280034",
+  "title": "Preoptic activation induces a torpor-like hypothermic and hypometabolic state that is cerebroprotective.",
+  "journal": "bioRxiv",
+  "year": "2025",
+  "first_author": "Kamal A",
+  "doi": "10.1101/2025.10.24.684192",
+  "verified_utc": "2026-09-17",
+  "verification": "title fetched from eutils esummary in the PE-5 round-2 run"
+ }
+}

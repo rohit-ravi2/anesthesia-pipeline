@@ -1,0 +1,141 @@
+{
+  "_meta": {
+    "title": "v2 record schema — adds mechanism role, perturbation direction, class 12, neural sub-axes",
+    "schema_version": "2",
+    "frozen_utc": "2026-09-16",
+    "frozen_before": "any v2 cell was scored",
+    "supersedes": "SCHEMA.json (v1), which is preserved unchanged as the record of v1 scoring",
+    "governed_by": ["INCLUSION_CRITERION.md", "REPERTOIRE_v2.md"],
+    "unchanged_from_v1": [
+      "three-valued coverage: TESTED_POSITIVE / TESTED_NEGATIVE / NOT_TESTED, identical meaning",
+      "evidence grades E-A..E-F and the SUGGESTED rule for E-E/E-F",
+      "coverage_denominator and its mandatory use in every derived proportion",
+      "chain recording with inferred steps scoring no cell",
+      "assignment by proximal physical effect",
+      "all prohibitions in REPERTOIRE.md section 6"
+    ]
+  },
+
+  "row_record": {
+    "row_id": "string, from states_v2.json",
+    "schema_version": "2",
+    "state_production": "enum: ENDOGENOUS | EXOGENOUS_AGENT | PHYSICALLY_IMPOSED",
+    "_state_production_rule": "A PHYSICALLY_IMPOSED row should carry no PRODUCES_STATE role. If one appears, either the row classification or the role assignment is wrong; the validator flags it.",
+    "axes": ["axis_record"],
+    "cells": ["cell_record"],
+    "row_summary": "row_summary",
+    "ontology_flags": ["string"],
+    "schema_gaps": ["string"],
+    "v1_migration": {
+      "source_row_file": "string — the v1 file this row was migrated from",
+      "cells_changed": ["string — human-readable description of each change and its cause"],
+      "new_evidence_added": ["string — evidence NOT present in v1, discovered during v2, kept separate from migration"]
+    }
+  },
+
+  "axis_record": {
+    "_keyed_by": "(axis, condition)",
+    "axis": "enum: A_beh | A_neu | A_met",
+    "condition": "string — within-state sub-phase, or 'whole_state' when undivided",
+    "scope": "enum: whole_brain | population_subset | single_cells | whole_organism | not_applicable",
+    "measurability": "enum: MEASURED | NOT_YET_MEASURED | NOT_CURRENTLY_DEFINABLE",
+    "direction": "enum: decreased | unchanged | increased | not_measured — A_beh and A_met only; null for A_neu",
+    "neural_submeasures": {
+      "_applies_to": "A_neu only; null for A_beh and A_met",
+      "rate_amplitude": {"direction": "enum as above", "evidence_grade": "enum or null", "note": "string"},
+      "coordination": {"direction": "enum as above", "evidence_grade": "enum or null", "note": "string"},
+      "dynamical_organization": {"direction": "enum as above", "evidence_grade": "enum or null", "note": "string"}
+    },
+    "magnitude": "number or null",
+    "units": "string or null",
+    "baseline": "string",
+    "evidence_grade": "enum E-A..E-F or null",
+    "citation_ids": ["string"],
+    "notes": "string"
+  },
+
+  "cell_record": {
+    "_one_per": "(row_id, class_id)",
+    "row_id": "string",
+    "class_id": "integer 1-12",
+    "coverage": "enum: TESTED_POSITIVE | TESTED_NEGATIVE | NOT_TESTED — MEANING UNCHANGED FROM v1",
+    "status": "enum: POSITIVE | NEGATIVE | SUGGESTED | NOT_TESTED",
+    "_status_rule": "UNCHANGED FROM v1. TESTED_POSITIVE + strongest_grade in {E-A,E-B,E-C,E-D} => POSITIVE; TESTED_POSITIVE + E-E/E-F => SUGGESTED; TESTED_NEGATIVE => NEGATIVE and requires negative_assay_statement; else NOT_TESTED.",
+    "applicability": "enum: APPLICABLE | QUESTIONABLE | NOT_APPLICABLE — ORTHOGONAL to coverage; never substitutes for it",
+    "roles_present": ["enum: PRODUCES_STATE | CONTROLS_ENTRY | MAINTAINS_STATE | PROTECTS_THROUGH_STATE | BUILDS_MACHINERY — union of roles over this cell's mechanisms"],
+    "roles_tested_negative": ["enum as above — roles looked for in this state and NOT found; populated for scoped negatives even in a TESTED_POSITIVE cell"],
+    "ambiguity": "string or null — conflicting evidence across readouts, agents, or interpretations, recorded rather than resolved",
+    "strongest_grade": "enum or null",
+    "all_grades": ["enum"],
+    "negative_assay_statement": "string or null — required when coverage is TESTED_NEGATIVE OR when roles_tested_negative is non-empty",
+    "mechanisms": ["mechanism_record"],
+    "discriminating_experiment": "string or null — what measurement would resolve an ambiguity or fill this cell",
+    "notes": "string"
+  },
+
+  "mechanism_record": {
+    "label": "string",
+    "roles": [{
+      "role": "enum of the five instantiated roles",
+      "evidence_grade": "enum",
+      "citation_ids": ["string"],
+      "basis": "string — why this role and not another, in terms of what the experiment showed"
+    }],
+    "_role_rule": "Reserved roles ENABLES_EXIT and PERMISSIVE_BACKGROUND must NOT be used until a cell requires one and an amendment records it.",
+    "perturbations": ["perturbation_record"],
+    "state_polarity": "enum: PROMOTES_STATE | OPPOSES_STATE | STRUCTURE_ONLY | CONTEXT_DEPENDENT | UNDETERMINED — DERIVED AND SECONDARY; must be computable from the perturbation records alone",
+    "chain": [{
+      "step": "string",
+      "class_id": "integer 1-12 or null",
+      "role": "enum: proximal | upstream",
+      "inferred": "boolean — inferred steps score no cell and carry no grade",
+      "evidence_grade": "enum or null",
+      "citation_ids": ["string"]
+    }],
+    "proximal_class": "integer 1-12",
+    "upstream_classes": ["integer"],
+    "molecules": [{"name": "string", "species": "string", "identifier": "string or null", "ortholog_relation": "string or null"}],
+    "citation_ids": ["string"]
+  },
+
+  "perturbation_record": {
+    "_authoritative_field": "statement",
+    "manipulation": "enum: loss_of_function | gain_of_function | ablation | optogenetic_activation | optogenetic_inhibition | pharmacological_block | pharmacological_activation | expression_change | environmental | other",
+    "direction_of_manipulation": "enum: decrease | increase | remove | not_applicable",
+    "agent": "string or null — specific drug where the state is drug-induced",
+    "observed_effect": {
+      "total_quiescence": "enum: increase | decrease | unchanged | not_reported",
+      "state_structure": "enum: increase | decrease | unchanged | not_reported — plus detail in other",
+      "entry_threshold": "enum: hypersensitive | resistant | unchanged | not_reported",
+      "survival_recovery": "enum: increase | decrease | unchanged | not_reported",
+      "other": "string"
+    },
+    "context_dependence": "enum: none_reported | dose_dependent | timing_dependent | readout_dependent | cell_type_dependent",
+    "statement": "string — REQUIRED. The experimental result in the source's own terms. Governs if the compact fields disagree.",
+    "evidence_grade": "enum",
+    "citation_ids": ["string"]
+  },
+
+  "row_summary": {
+    "row_id": "string",
+    "coverage_denominator": "integer 0-12",
+    "n_positive": "integer", "n_suggested": "integer", "n_negative": "integer", "n_not_tested": "integer",
+    "n_not_applicable": "integer",
+    "n_distinct_sources": "integer — distinct citation_ids across all populated cells",
+    "role_counts": {"PRODUCES_STATE": "integer", "CONTROLS_ENTRY": "integer", "MAINTAINS_STATE": "integer", "PROTECTS_THROUGH_STATE": "integer", "BUILDS_MACHINERY": "integer"},
+    "_reporting_rule": "Every proportion is reported over coverage_denominator, never over 12. Role counts are descriptive tallies and are NOT an enrichment statistic; prohibition 1 still binds."
+  },
+
+  "forbidden_operations": [
+    "any enrichment statistic over cells or over roles",
+    "any count reported against 12 rather than coverage_denominator",
+    "aggregating A_beh, A_neu, A_met into a single value",
+    "aggregating the three A_neu sub-measures into a single neural direction",
+    "recording rate_amplitude:decrease when the experiment measured correlation, dimensionality or spectral content",
+    "assigning state_polarity from a mechanism's name or from expectation rather than from its perturbation records",
+    "using reserved roles ENABLES_EXIT or PERMISSIVE_BACKGROUND without an amendment",
+    "scoring a cell from an inferred chain step, from orthology, or from literature co-occurrence",
+    "treating NOT_TESTED as NEGATIVE, or NOT_APPLICABLE as either",
+    "converting CeNGEN or any expression evidence into TESTED_POSITIVE"
+  ]
+}

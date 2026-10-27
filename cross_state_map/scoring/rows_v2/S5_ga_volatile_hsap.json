@@ -1,0 +1,706 @@
+{
+ "row_id": "S5_ga_volatile_hsap",
+ "state": "strong general anaesthesia",
+ "species": "hsap",
+ "instantiation": "volatile agent at surgical endpoint",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "EXOGENOUS_AGENT",
+ "agent_scope": "PE-5 CHANGE, LOGGED: widened from 'sevoflurane only' to AGENT-GENERAL with agent recorded per perturbation. Reason: the FROZEN instantiation in states_v2 is agent-general ('volatile agent at surgical endpoint'); the earlier sevoflurane-only narrowing was a scoring decision, not a frozen constraint, and it was inconsistent with S5_ga_volatile_mmus which was scored agent-general. Agents now present: sevoflurane (class 6), isoflurane (class 11).",
+ "state_production_justification": {
+  "assigned": "EXOGENOUS_AGENT",
+  "assigned_when": "2026-09-16, during the v2 freeze, BEFORE any mammalian mechanism search",
+  "operational_basis": "The state exists only while an externally administered drug is present at sufficient effect-site concentration, and terminates on washout. No endogenous programme produces it.",
+  "ambiguity": "Volatile anaesthetics recruit endogenous sleep-promoting circuitry in rodents, which could be read as co-opting an endogenous producer. That concerns the MECHANISM, not what produces the state; the drug remains the proximate cause. Recorded because it is the point at which this row could be argued to resemble an ENDOGENOUS one.",
+  "note": "Assignment did not dictate roles."
+ },
+ "_species_rule_note": "HUMAN ROW. Under frozen REPERTOIRE_v2 section 3.3 a mechanism documented in another species never scores a cell here. Almost all causal molecular and circuit dissection of general anaesthesia is rodent or in vitro, so it scores nothing in this row. The row is therefore rich on AXES (which are measured in humans) and sparse on MECHANISM CELLS. That asymmetry is the row's principal finding, not a scoring failure.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 85,
+   "units": "percent of subjects unresponsive to verbal command at 0.9% end-tidal sevoflurane (n=40)",
+   "baseline": "placebo group (0% unresponsive, n=20)",
+   "evidence_grade": "E-C",
+   "citation_ids": [
+    "PMID:29935583"
+   ],
+   "notes": "Quantified, dose-anchored, and from a randomised design. NOTE THE ENDPOINT: unresponsiveness to verbal command, i.e. hypnosis, NOT immobility to noxious stimulus. The frozen row instantiation says 'at surgical endpoint'; the best-quantified human evidence located is at an equi-sedative EC50 endpoint. This is a scope mismatch between the frozen row definition and the available human data, recorded rather than smoothed over."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "No human measurement of population firing rate or amplitude under sevoflurane located. Human work is connectivity- and spectrum-based."
+    },
+    "coordination": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Sevoflurane-induced unresponsiveness is associated with reduced basal forebrain cholinergic nuclei functional connectivity (Zimmermann 2024). General anaesthesia also reduces the uniqueness of brain functional connectivity across individuals and species (Luppi 2025) - a convergence of connectivity patterns, not simply a reduction."
+    },
+    "dynamical_organization": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Network integration and segregation are disrupted and recover across loss and recovery of consciousness (Dong 2023). Not scored from Colombo 2019, which studied propofol, xenon and ketamine, not sevoflurane."
+    }
+   },
+   "magnitude": null,
+   "units": "fMRI functional connectivity",
+   "baseline": "awake same subjects",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:40568363",
+    "PMID:40128306"
+   ],
+   "notes": "Coordination and dynamical organisation fall; rate/amplitude is simply not measured in humans. Compare the worm volatile row, where rate_amplitude WAS measured and did NOT fall. The mammalian and worm anaesthesia rows are therefore not measuring the same things, which limits the cross-species comparison to the coordination sub-measure."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 71,
+   "units": "percent of placebo whole-brain CMRglu (absolute quantification, 18F-FDG PET with arterial sampling, n=40)",
+   "baseline": "placebo group (n=20)",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:29935583"
+   ],
+   "notes": "THE BEST-QUANTIFIED A_met MEASUREMENT ANYWHERE IN THE TABLE, worm rows included. Absolute whole-brain CMRglu, randomised, n=160 total. Crucially the SAME study measured propofol at the SAME endpoint, enabling a matched agent comparison that no other axis in this project supports. S-ketamine at equi-sedative dose gave 96% of placebo, i.e. no metabolic reduction despite sedation - a within-study demonstration that unresponsiveness and metabolic suppression are dissociable."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing cation-leak conductance as a sevoflurane mechanism. NALCN and leak-conductance work is rodent/in vitro and does not transfer."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "K2P (TREK/TASK) is the leading molecular candidate for volatile anaesthetic action and is supported by rodent knockout work. A human-tractable test (e.g. pharmacogenetic association with sevoflurane EC50) is the obvious route to populating this cell.",
+   "notes": "No human study located testing K2P or other K+ conductance as a sevoflurane mechanism."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Flumazenil does not reverse volatile anaesthesia, so the benzodiazepine-site route is closed; a GABA-A-selective human probe would be needed.",
+   "notes": "No human causal study located testing GABA-A modulation as a sevoflurane mechanism. Human GABA-A evidence is in vitro/heterologous, which is not a human in vivo state manipulation."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing excitatory receptor suppression as a sevoflurane mechanism."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 5,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing presynaptic release machinery as a sevoflurane mechanism. This is the best-evidenced class in the WORM volatile row (unc-64 syntaxin, E-A) and is entirely untested in humans - the sharpest cross-species asymmetry in the project."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "PARTIAL AND LESS RELIABLE THAN THE PROPOFOL EQUIVALENT, by the authors' own comparison. 5 of 8 subjects regained consciousness or wakefulness; the other 3 showed no behavioural change. ASSR amplitude rose significantly (p<0.05) but the BIS increase (66->74) was NOT significant. The authors state the antagonism 'is not as clear or reliable as with propofol'. PE-5 R2: THE HUMAN ROWS' FIRST ENABLES_EXIT, and it matters out of proportion to its size. Emergence occurred at a HIGHER expired isoflurane concentration, so this is not faster drug washout - the same brain concentration no longer sustained the state. That is the cleanest available human evidence that the anaesthetised state is actively held rather than passively imposed, and it is a direct instance of the project's central claim: the state is afforded by machinery the organism already has, and the machinery can be pushed the other way. SCOPE: n=8 healthy males, one agent, one dose.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C",
+    "E-E",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Central cholinergic muscarinic transmission partially opposes maintenance of sevoflurane hypnosis",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:14504163"
+       ],
+       "basis": "Physostigmine was given while END-TIDAL SEVOFLURANE WAS HELD CONSTANT, so the manipulation acts on the already-established state at fixed drug exposure. This is a maintenance manipulation by design."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "sevoflurane (constant end-tidal) + physostigmine",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "5/8 regained consciousness or wakefulness; ASSR 0.11->0.17 microV p<0.05; BIS 66->74 not significant; 3/8 no behavioural change"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Eight healthy volunteers received sevoflurane adjusted to produce loss of consciousness. Physostigmine (plus glycopyrrolate) was given while the end-tidal concentration of sevoflurane was kept constant... Five subjects had return of consciousness or wakefulness after physostigmine... Physostigmine can antagonize, at least partially, the hypnotic effect of sevoflurane... However, the antagonism is not as clear or reliable as with propofol.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:14504163"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "sevoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "reduced basal forebrain cholinergic nuclei functional connectivity during drug-induced unresponsiveness (observational)"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Unresponsiveness induced by sevoflurane and propofol is associated with reduced basal forebrain cholinergic nuclei functional connectivity in humans.",
+       "evidence_grade": "E-E",
+       "citation_ids": [
+        "PMID:40568363"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "cholinesterase inhibition raises central acetylcholine at constant sevoflurane",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:14504163"
+       ]
+      },
+      {
+       "step": "partial restoration of consciousness and of auditory evoked response",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:14504163"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "muscarinic acetylcholine receptors (cholinesterase inhibition)",
+       "species": "hsap",
+       "identifier": null,
+       "ortholog_relation": "Same probe and same class as S5_ga_propofol_hsap c6. Resolution vs propofol: EXACT_MOLECULE, same role, same polarity, but QUANTITATIVELY WEAKER."
+      }
+     ],
+     "citation_ids": [
+      "PMID:14504163",
+      "PMID:40568363"
+     ],
+     "proximal_physical_effect": "increased cholinergic muscarinic receptor activation partially restoring cortical responsiveness at fixed anaesthetic concentration",
+     "overlap_resolution_vs_propofol": "EXACT_MOLECULE, same role, weaker effect"
+    },
+    {
+     "label": "Intravenous caffeine accelerates emergence from isoflurane anaesthesia in humans",
+     "roles": [
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30044241"
+       ],
+       "basis": "Randomised, double-blind, within-subject crossover in healthy volunteers, with the drug given DURING maintained anaesthesia and the endpoint measured after discontinuation. Exit kinetics, cleanly separated from induction."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane 1.2% for 1 h; caffeine citrate 15 mg/kg IV vs saline",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "emergence 16.5 +/- 3.9 min on saline vs 9.6 +/- 5.1 min on caffeine, a 42% reduction (P=0.002, 99% CI 1.8-12 min); emergence occurred at a HIGHER expired isoflurane concentration; faster return of BIS to baseline; earlier psychomotor testing; n=8 healthy males; no significant vital-sign differences"
+       },
+       "context_dependence": "none_reported",
+       "statement": "We conducted a single-center, randomized, double-blind crossover study with eight healthy males. Each subject was anesthetized twice with 1.2% isoflurane for 1 h. During the final 10 min of each session, participants received an IV infusion of either caffeine citrate (15 mg/kg...) or saline placebo... The mean time to emergence with saline was 16.5 +/- 3.9 (SD) min compared to 9.6 +/- 5.1 (SD) min with caffeine (P = 0.002), a difference of 6.9 min (99% CI, 1.8 to 12), a 42% reduction. Participants emerged at a higher expired isoflurane concentration, manifested more rapid return to baseline Bispectral Index values, and were able to participate in psychomotor testing sooner when receiving caffeine.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30044241"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "intravenous caffeine during maintained isoflurane anaesthesia",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30044241"
+       ]
+      },
+      {
+       "step": "adenosine receptor antagonism and phosphodiesterase inhibition raising arousal drive",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30044241"
+       ]
+      },
+      {
+       "step": "emergence at a higher end-tidal anaesthetic concentration",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:30044241"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "caffeine; adenosine receptors",
+       "species": "hsap",
+       "identifier": null,
+       "ortholog_relation": "Adenosine also carries the mouse NREM class-6 entry (CD73), where it PROMOTES the state. Here an adenosine ANTAGONIST opposes the anaesthetised state. SAME_PATHWAY_MODULE, opposite intervention sign, consistent direction of effect."
+      }
+     ],
+     "citation_ids": [
+      "PMID:30044241"
+     ],
+     "proximal_physical_effect": "raised arousal drive at a fixed anaesthetic concentration, shifting the concentration at which consciousness returns"
+    }
+   ],
+   "discriminating_experiment": "Quantify the agent difference: dose-matched physostigmine at equi-MAC sevoflurane vs equi-effect propofol in the same subjects, with ASSR and BIS as continuous readouts. The published comparison is across studies, not within-subject.",
+   "notes": "CHANGED SUGGESTED->POSITIVE BY PE-5, route SPECIES_ENDPOINT_FIRST. NOTABLE: in the previous run I proposed exactly this experiment as 'the single most informative available test for the volatile-vs-propofol comparison'. IT WAS PUBLISHED IN 2003. The prior class-first and molecule-first passes both missed it because it is indexed under evoked potentials and BIS rather than under a mechanism class. This is a second clean instance of the PE-5 rationale.",
+   "discovery_route": "SPECIES_ENDPOINT_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 7,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Whether volatile anaesthesia co-opts the endogenous sleep-promoting circuitry is the central open question linking this row to S4_deep_mmus, and in humans it is untested.",
+   "notes": "No human causal study located establishing a sleep/arousal circuit as a sevoflurane mechanism. Rodent work implicating VLPO and other sleep circuitry does not transfer."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "ENDPOINT SCOPE IS CRITICAL AND IS STATED FIRST. The human endpoint here is PERIOPERATIVE NEUROLOGIC OUTCOME - severe acute deterioration or death after general anaesthesia - NOT the depth, onset or maintenance of the anaesthetised state. The paper's title says 'hypersensitivity'; the measured human phenotype is harm sustained THROUGH the state. It is therefore scored PROTECTS_THROUGH_STATE (intact complex I protects the organism across anaesthesia; the variant removes that protection), which is the same reading already applied to the NALCN/retrotrapezoid entry in the mouse volatile row. DESIGN SCOPE: this is an observational human genetic association in seven patients plus in vitro work on fibroblasts and cybrids, NOT an experimental manipulation in humans - hence E-C despite the strength of the mechanistic arm. AGENT DISSOCIATION, and it is the load-bearing control: no adverse events in a subset of the SAME individuals under intravenous-only anaesthesia, and propofol produced no differential effect in variant-carrying cells.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Mitochondrial complex I ND4 variant m.11232T>C removes protection against volatile, but not intravenous, anaesthesia in humans",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:42117732"
+       ],
+       "basis": "A shared mtDNA haplotype in seven patients who deteriorated after volatile anaesthesia, with an in vitro demonstration that sevoflurane suppresses complex I-dependent respiration specifically in variant-carrying cells and propofol does not."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "natural_genetic_variant",
+       "direction_of_manipulation": "decrease",
+       "agent": "sevoflurane and other volatile agents; propofol as control",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "severe acute neurologic deterioration or death after predominantly minor surgery; NO adverse events in a subset of the SAME individuals under intravenous-only anaesthesia; in fibroblasts and cybrids, sevoflurane pronouncedly suppressed oxygen consumption via complex I-dependent pathways; propofol showed no differential effect"
+       },
+       "context_dependence": "agent_dependent",
+       "statement": "All patients shared a mitochondrial DNA haplotype that includes the m.11232T>C genetic variant, which results in the substitution of proline for leucine at position 158 (L158P) of the ND4 subunit of respiratory complex I in the electron transport chain. In vitro studies showed that sevoflurane exposure in cells carrying this genetic variant induces a pronounced suppression of mitochondrial oxygen consumption, with prominent effects on complex I-dependent respiratory pathways. In contrast, propofol did not elicit a differential effect in cells harboring this genetic variant... No adverse events were observed in a subset of the same individuals when only intravenous anesthesia was used.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:42117732"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "m.11232T>C (ND4 L158P) mitochondrial DNA variant",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:42117732"
+       ]
+      },
+      {
+       "step": "sevoflurane-induced suppression of complex I-dependent oxygen consumption",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:42117732"
+       ]
+      },
+      {
+       "step": "severe perioperative neurologic deterioration",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:42117732"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "MT-ND4 (complex I subunit), m.11232T>C / L158P",
+       "species": "hsap",
+       "identifier": "m.11232T>C",
+       "ortholog_relation": "Complex I now carries an entry in THREE rows: worm volatile (gas-1), mouse volatile (Ndufs4), human volatile (MT-ND4). Different subunits of the same complex, same agent class, same direction. SAME_COMPLEX across three species - the widest mechanism correspondence in the table."
+      }
+     ],
+     "citation_ids": [
+      "PMID:42117732"
+     ],
+     "proximal_physical_effect": "volatile-agent inhibition of an already-compromised complex I, collapsing oxidative capacity below demand",
+     "overlap_resolution": {
+      "level": "SAME_COMPLEX",
+      "partner": "S5_ga_volatile_cele c8 (gas-1); S5_ga_volatile_mmus c8 (Ndufs4)",
+      "justification": "Three species, three different complex I subunits, one agent class, one direction: reduced complex I capacity worsens the organism's response to volatile anaesthetics and not to intravenous ones. The ENDPOINTS differ (immobility EC50 in worm, loss of response in mouse, neurologic injury in human), which is why this is recorded as a correspondence of mechanism and not of phenotype."
+     }
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing a mitochondrial or metabolic MECHANISM of sevoflurane action. Note the distinction from the A_met axis: CMRglu falls to 71% of placebo, but that is a measured CONSEQUENCE, not evidence that metabolic machinery is the mechanism. The worm row carries the opposite structure - gas-1 Complex I is a causally demonstrated modifier there, with an explicit negative for it producing immobility.",
+   "discovery_route": "MOLECULE_SYSTEM_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 9,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No transcriptional mechanism of acute volatile anaesthesia located."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing membrane/lipid-raft structural mechanisms. The worm row carries stomatin/lipid-raft evidence at E-B; nothing equivalent exists in humans."
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 11,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Temperature was the manipulated variable and MAC the readout, so the causal direction is unambiguous - but the subjects are children on cardiopulmonary bypass for congenital heart disease, not healthy adults, and nasopharyngeal temperature is a proxy for brain temperature. PE-5 ADDITION - THE COUPLING IS BIDIRECTIONAL. Existing evidence is temperature -> anaesthetic requirement (cooling lowers MAC). Added evidence is the REVERSE: isoflurane dose-dependently and NON-LINEARLY lowers the vasoconstriction and shivering thresholds by ~4.6 degC at 1% end-tidal in humans. The two variables are mutually coupled rather than one being a confound on the other.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Hypothermia reduces isoflurane requirement in humans, dose-dependently",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:11374601"
+       ],
+       "basis": "MAC is by definition the entry/threshold endpoint; temperature shifts it monotonically."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "MAC 1.69+/-0.14% at 37C, 1.47+/-0.10% at 34C, 1.22+/-0.15% at 31C; n=33; Dixon up-and-down; end-tidal and temperature held stable >=15 min"
+       },
+       "context_dependence": "dose_dependent",
+       "statement": "Isoflurane minimum alveolar concentration values were 1.69 +/- 0.14%, 1.47 +/- 0.10%, and 1.22 +/- 0.15% at 37, 34, and 31 degrees C, respectively. Hypothermia decreases the isoflurane requirement in children by 5.1% per degree C.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:11374601"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "controlled reduction of core/nasopharyngeal temperature",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:11374601"
+       ]
+      },
+      {
+       "step": "reduced isoflurane MAC",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:11374601"
+       ]
+      }
+     ],
+     "proximal_class": 11,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:11374601"
+     ],
+     "proximal_physical_effect": "reduced tissue temperature, slowing all temperature-dependent processes and lowering the anaesthetic concentration required for immobility",
+     "overlap_resolution_vs_mouse": "SAME_PHYSICAL_CLASS - mouse class 11 evidence is ENABLES_EXIT (cooling prolongs emergence); this human evidence is CONTROLS_ENTRY (cooling lowers MAC). Same physical operation, two different causal phases, two species."
+    },
+    {
+     "label": "Volatile anaesthesia impairs thermoregulatory defences in humans (state-induced consequence, not a state mechanism)",
+     "roles": [],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "vasoconstriction and shivering thresholds each reduced ~4.6 degC at 1% end-tidal, non-linearly and dose-dependently; vasoconstriction-to-shivering range unchanged (1.5+/-0.8 degC); n=8 volunteers, 4 randomised days"
+       },
+       "context_dependence": "dose_dependent",
+       "statement": "Isoflurane administration produced a dose-dependent reduction in the vasoconstriction and shivering thresholds, decreasing each approximately 4.6 degrees C at an end-tidal concentration of 1%.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:8712437"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "volatile anaesthetic exposure",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:8712437"
+       ]
+      },
+      {
+       "step": "reduced thermoregulatory response thresholds",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:8712437"
+       ]
+      }
+     ],
+     "proximal_class": 11,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:8712437"
+     ],
+     "proximal_physical_effect": "suppression of central thermoregulatory response thresholds, widening the interthreshold range and permitting core cooling",
+     "overlap_resolution": "state-induced consequence; no causal role on the state"
+    }
+   ],
+   "discriminating_experiment": "Whether the MAC reduction and the emergence prolongation are the same mechanism (slowed kinetics) or separable is untested; measuring alveolar washout under both conditions would separate slowed elimination from slowed neural recovery.",
+   "notes": "NEW CELL FROM PE-5, route CITATION_CHAIN (reached from the mouse thermal cell). Human, quantitative, 5.1% MAC reduction per degree C. This is class 11's first HUMAN content and its first CONTROLS_ENTRY role anywhere in the table - mouse class 11 carries ENABLES_EXIT. Together with Antognini 1993 (MAC eliminated entirely at 20C, goats) this makes temperature a quantitative determinant of anaesthetic requirement across three mammalian species. PE-5: role-less mechanism added capturing the REVERSE causal direction. Class 11 here now holds both directions: temperature -> MAC (CONTROLS_ENTRY) and anaesthesia -> thermoregulation (no role, consequence). This bidirectionality is the strongest single argument for a dedicated thermal PHENOTYPE axis, because the consequence direction has nowhere to live except as a role-less mechanism.",
+   "discovery_route": "CITATION_CHAIN"
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "No human study located testing electrical coupling as a sevoflurane mechanism. The worm volatile row carries unc-9 innexin evidence at E-A."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S5_ga_volatile_hsap",
+  "coverage_denominator": 3,
+  "n_positive": 3,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 9,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 6,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 1,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 1,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 1
+  }
+ },
+ "v1_migration": {
+  "source_row_file": null,
+  "cells_changed": [],
+  "new_evidence_added": [
+   "Entire row is new."
+  ]
+ },
+ "ontology_flags_v2": [
+  "ZERO ROLES ASSIGNED IN THE ENTIRE ROW. Not because the state is mysterious, but because human in vivo causal manipulation of anaesthetic mechanism is almost nonexistent and the species rule forbids importing the rodent work. v2 represents this honestly - one SUGGESTED cell, eleven NOT_TESTED, three fully measured axes.",
+  "A MECHANISM WITH NO ROLE IS REPRESENTABLE BUT AWKWARD. Class 6 carries a mechanism whose roles list is empty because the evidence is observational. The schema permits it and the validator accepts it, but roles_present then understates that a class IS implicated. A role value such as OBSERVED_NO_CAUSAL_TEST would be the minimal repair.",
+  "The frozen row instantiation says 'at surgical endpoint' while the best human evidence is at an equi-sedative EC50-for-verbal-command endpoint. v2 has no field for the ENDPOINT at which a row's evidence was obtained, and endpoints are not interchangeable."
+ ],
+ "citations_pending_verification": []
+}

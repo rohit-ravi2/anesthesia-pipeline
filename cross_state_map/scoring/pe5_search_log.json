@@ -1,0 +1,5762 @@
+[
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep GABA-A receptor",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep transcription factor DAF-16 FoxO",
+  "n_hits": 2,
+  "n_new": 1
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep state specific gene expression",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans lethargus sleep innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S2_core_cele",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans lethargus sleep quiescence bout arousal threshold gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane UNC79 UNC80",
+  "n_hits": 2,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane UNC79 UNC80 not required normal no difference",
+  "n_hits": 2,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane GABA-A receptor",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane syntaxin SNAP-25 SNARE",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane state specific gene expression",
+  "n_hits": 1,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_cele",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans volatile anesthetic halothane isoflurane immobility EC50 sensitivity gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence state specific gene expression",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S6_starv_L1_cele",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans L1 arrest starvation sleep quiescence sleep fraction survival arrest gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva cholinergic acetylcholine muscarinic",
+  "n_hits": 4,
+  "n_new": 3
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 4,
+  "n_new": 3
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva transcription factor DAF-16 FoxO",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva DAF-12 developmental program",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva state specific gene expression",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva DAF-12 developmental program not required normal no difference",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans dauer larva connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans dauer larva innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S7_dauer_cele",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans dauer larva dauer formation entry recovery gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer state specific gene expression",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S8_crypto_cele",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "Caenorhabditis elegans anhydrobiosis desiccation cryptobiosis dauer desiccation survival recovery gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep NALCN sodium leak channel",
+  "n_hits": 1,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep GABA-A receptor",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep NMDA receptor",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep AMPA glutamate receptor",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep excitatory receptor block",
+  "n_hits": 5,
+  "n_new": 5
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep AMPA glutamate receptor not required normal no difference",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep cholinergic acetylcholine muscarinic",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep arousal circuit thalamus brainstem",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep state specific gene expression",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse REM sleep paradoxical sleep connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse REM sleep paradoxical sleep innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S3_rem_mmus",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse REM sleep paradoxical sleep REM amount episode duration atonia gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep GABA-A receptor",
+  "n_hits": 5,
+  "n_new": 5
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep NMDA receptor",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep AMPA glutamate receptor",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep AMPA glutamate receptor not required normal no difference",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep cholinergic acetylcholine muscarinic",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep state specific gene expression",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse NREM slow wave sleep connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse NREM slow wave sleep innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S4_deep_mmus",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse NREM slow wave sleep NREM amount slow wave activity sleep need gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia background sodium leak conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia GABA-A receptor",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia NMDA receptor",
+  "n_hits": 3,
+  "n_new": 3
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia AMPA glutamate receptor",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia AMPA glutamate receptor not required normal no difference",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia state specific gene expression",
+  "n_hits": 1,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "mouse isoflurane halothane volatile anesthesia innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_mmus",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "mouse isoflurane halothane volatile anesthesia MAC loss of righting emergence gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia NALCN sodium leak channel",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia background sodium leak conductance",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia GABA-A receptor",
+  "n_hits": 3,
+  "n_new": 3
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia glycine receptor chloride",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia inhibitory shunting conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia glycine receptor chloride not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia NMDA receptor",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia AMPA glutamate receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia excitatory receptor block",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia AMPA glutamate receptor not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia cholinergic acetylcholine muscarinic",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia arousal circuit thalamus brainstem",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia oxidative phosphorylation ATP",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia state specific gene expression",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia thermoregulation cooling core temperature",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human sevoflurane isoflurane volatile anesthesia innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_volatile_hsap",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human sevoflurane isoflurane volatile anesthesia MAC bispectral index consciousness gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia NALCN sodium leak channel",
+  "n_hits": 3,
+  "n_new": 3
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia UNC79 UNC80",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia background sodium leak conductance",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia NALCN sodium leak channel knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia UNC79 UNC80 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 1,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS NALCN sodium leak channel",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia BK channel KCNMA1 SLO-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia GIRK potassium conductance",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia potassium leak K2P TREK TASK knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia BK channel KCNMA1 SLO-1 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 2,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS potassium leak K2P TREK TASK",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia GABA-A receptor",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia glycine receptor chloride",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia inhibitory shunting conductance",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia GABA-A receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia glycine receptor chloride not required normal no difference",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 3,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS GABA-A receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia NMDA receptor",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia AMPA glutamate receptor",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia excitatory receptor block",
+  "n_hits": 4,
+  "n_new": 4
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia NMDA receptor knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia AMPA glutamate receptor not required normal no difference",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 4,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS NMDA receptor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia syntaxin SNAP-25 SNARE",
+  "n_hits": 1,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia Munc13 Munc18 STXBP synaptotagmin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia vesicle release probability presynaptic calcium",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia syntaxin SNAP-25 SNARE knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia Munc13 Munc18 STXBP synaptotagmin not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 5,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS syntaxin SNAP-25 SNARE",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia cholinergic acetylcholine muscarinic",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia neuropeptide neuromodulator FLP-11",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia adenosine galanin orexin hypocretin knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia cholinergic acetylcholine muscarinic not required normal no difference",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 6,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS adenosine galanin orexin hypocretin",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia arousal circuit thalamus brainstem",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia RIS ALA state switching neuron",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia sleep active neuron circuit VLPO MnPO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia arousal circuit thalamus brainstem not required normal no difference",
+  "n_hits": 2,
+  "n_new": 2
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 7,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS sleep active neuron circuit VLPO MnPO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia oxidative phosphorylation ATP",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia AMPK NADH redox metabolic sensor",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia mitochondrial complex I NDUFS4 GAS-1 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia oxidative phosphorylation ATP not required normal no difference",
+  "n_hits": 1,
+  "n_new": 1
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 8,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS mitochondrial complex I NDUFS4 GAS-1",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia DAF-12 developmental program",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia state specific gene expression",
+  "n_hits": 4,
+  "n_new": 4
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia transcription factor DAF-16 FoxO knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia DAF-12 developmental program not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 9,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS transcription factor DAF-16 FoxO",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia permeability barrier membrane stabilization",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia structural protection vitrification",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia trehalose LEA intrinsically disordered protein knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia permeability barrier membrane stabilization not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 10,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS trehalose LEA intrinsically disordered protein",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia thermoregulation cooling core temperature",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia temperature dependent potency emergence",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia temperature hypothermia Q10 knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia thermoregulation cooling core temperature not required normal no difference",
+  "n_hits": 6,
+  "n_new": 6
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 11,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS temperature hypothermia Q10",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia innexin UNC-9 INX-6 CHE-7",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "CLASS_FIRST/MOLECULE_SYSTEM_FIRST",
+  "query": "human propofol anesthesia connexin astrocytic coupling",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia gap junction electrical coupling knockout no effect unchanged",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "NEGATIVE_RESULT_SEARCH",
+  "query": "human propofol anesthesia innexin UNC-9 INX-6 CHE-7 not required normal no difference",
+  "n_hits": 0,
+  "n_new": 0
+ },
+ {
+  "row": "S5_ga_propofol_hsap",
+  "cls": 12,
+  "route": "SPECIES_ENDPOINT_FIRST",
+  "query": "human propofol anesthesia loss of consciousness induction dose BIS gap junction electrical coupling",
+  "n_hits": 0,
+  "n_new": 0
+ }
+]

@@ -1,0 +1,93 @@
+{
+ "S2_core_cele": {
+  "recall": 1.0,
+  "n_known": 14,
+  "n_recovered": 14,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S5_ga_volatile_cele": {
+  "recall": 1.0,
+  "n_known": 15,
+  "n_recovered": 15,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S6_starv_L1_cele": {
+  "recall": 1.0,
+  "n_known": 5,
+  "n_recovered": 5,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S7_dauer_cele": {
+  "recall": 1.0,
+  "n_known": 8,
+  "n_recovered": 8,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S8_crypto_cele": {
+  "recall": 1.0,
+  "n_known": 6,
+  "n_recovered": 6,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S3_rem_mmus": {
+  "recall": 1.0,
+  "n_known": 10,
+  "n_recovered": 10,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S4_deep_mmus": {
+  "recall": 1.0,
+  "n_known": 16,
+  "n_recovered": 16,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S5_ga_volatile_mmus": {
+  "recall": 1.0,
+  "n_known": 26,
+  "n_recovered": 26,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S5_ga_volatile_hsap": {
+  "recall": 1.0,
+  "n_known": 6,
+  "n_recovered": 6,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S5_ga_propofol_hsap": {
+  "recall": 1.0,
+  "n_known": 6,
+  "n_recovered": 6,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S9_hib_seasonal_isp": {
+  "recall": 1.0,
+  "n_known": 3,
+  "n_recovered": 3,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "S9_hib_daily_mmus": {
+  "recall": 1.0,
+  "n_known": 5,
+  "n_recovered": 5,
+  "missed_unexplained": [],
+  "gate_c_pass": true
+ },
+ "_overall": {
+  "n_known": 120,
+  "n_recovered": 120,
+  "recall": 1.0,
+  "rows_passing": 12,
+  "interpretation": "internal protocol sensitivity on already-scored rows; NOT an estimate of literature-wide recall"
+ }
+}

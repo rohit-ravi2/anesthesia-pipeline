@@ -1,0 +1,982 @@
+{
+ "row_id": "S7_dauer_cele",
+ "state": "dauer",
+ "species": "cele",
+ "instantiation": "dauer larva",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "ENDOGENOUS",
+ "_note": "Full prose preserved in scoring/rows/S7_dauer_cele.json.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "non-feeding; altered locomotory and chemosensory behaviour; quiescence modulated by dach-1",
+   "baseline": "stage-matched non-dauer larvae",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:36194018",
+    "PMID:30686580"
+   ],
+   "notes": "Scored with the same reservation as v1: dauer behaviour is DIFFERENT, not merely less. Dauers nictate, an active behaviour. Bhattacharya 2019 describe 'altered' rather than reduced. No quantitative locomotor comparison against a stated threshold was located; this is the weakest A_beh in the worm set."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "not_applicable",
+   "measurability": "NOT_YET_MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Never measured."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Never measured."
+    },
+    "dynamical_organization": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Never measured."
+    }
+   },
+   "magnitude": null,
+   "units": null,
+   "baseline": null,
+   "evidence_grade": null,
+   "citation_ids": [],
+   "notes": "NOT_YET_MEASURED, EXPLICITLY DISTINCT FROM S8's NOT_CURRENTLY_DEFINABLE. Whole-brain single-neuron calcium imaging is routine in this organism and exists for lethargus, starvation and volatile anaesthesia. It appears not to exist for dauer. The obstacle is technical (thick low-permeability cuticle, immobilisation) but the measurement is well defined. STILL THE SINGLE MOST VALUABLE MISSING MEASUREMENT IN THE WORM SET."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "O2 consumption and heat production - MAGNITUDE DISPUTED",
+   "baseline": "non-dauer larvae / recovering dauers",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:12213552",
+    "PMID:12581801",
+    "PMID:23604840"
+   ],
+   "notes": "DIRECTION REPORTED, MAGNITUDE A PUBLISHED DISPUTE, RECORDED NOT RESOLVED. Houthoofd 2002 vs Van Voorhies 2003, the latter a direct commentary contesting the measurements; the groups differ on methodology and normalisation. Any claim placing dauer at a particular point on a metabolic or dissipation ladder must engage this dispute explicitly. v2 still has no structured field for a CONTESTED axis value - carried forward as a schema gap."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1. Not inherited from S5 or S2 despite the same genes being central there."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged. CeNGEN cannot prioritise here: it is L4 hermaphrodite, non-dauer, and cannot report dauer expression."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Cholinergic transduction is altered in dauer (class 5) but via a cholinesterase-inhibitor readout, not a receptor manipulation. Receptor-level tests remain unasked.",
+   "notes": "Unchanged from v1."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 5,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "dach-1 has two separable documented effects - modulating aldicarb sensitivity and regulating quiescence - and the causal link between them is not established. The role assignment rests on the quiescence effect.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A",
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Dauer-specific alteration of cholinergic synaptic transduction; dach-1/cyp-34A4 modulates it cell-nonautonomously and regulates quiescence",
+     "roles": [
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:36194018"
+       ],
+       "basis": "dach-1 regulates quiescence within the established dauer state; it does not determine whether the animal becomes a dauer."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_block",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "aldicarb",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "hypersensitivity is to the cholinesterase inhibitor, despite REDUCED cuticle permeability which would predict resistance"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Although dauer is known to have reduced permeability and increased resistance to most known exogenous chemicals, we discovered that dauer is hypersensitive to a cholinesterase inhibitor, aldicarb.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "decrease",
+        "entry_threshold": "resistant",
+        "survival_recovery": "decrease",
+        "other": "forward screen with a secondary screen excluding adult-affecting mutations; cell-nonautonomous rescue from dauer epidermis; pleiotropic for heat and hyperosmolar stress survival"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "We isolated 2 different mutations of a single gene called cyp-34A4 or dach-1... By tissue-specific rescue experiments, we found that dach-1 modulates aldicarb sensitivity in a cell nonautonomous manner. In addition, dach-1 plays pleiotropic functions in dauers by regulating quiescence and surviving heat shock and hyperosmolar stress.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "forward screen for aldicarb resistance in dauer, secondary screen for dauer specificity",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      },
+      {
+       "step": "dach-1 acts cell-nonautonomously from dauer epidermis",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "dach-1 / cyp-34A4",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "cytochrome P450"
+      }
+     ],
+     "citation_ids": [
+      "PMID:36194018"
+     ],
+     "proximal_physical_effect": "cholinergic synaptic transduction, altered (hypersensitive to cholinesterase inhibition) rather than silenced"
+    }
+   ],
+   "discriminating_experiment": "Does dach-1 loss change dauer quiescence independently of its effect on cholinergic sensitivity? Separating the two pleiotropic effects would determine whether the MAINTAINS_STATE role is mediated by synaptic transduction at all.",
+   "notes": "STILL THE PARTIAL FALSIFIER OF PRECOMMITTED P2, AND METHODOLOGICALLY THE STRONGEST DESIGN IN THE WORM SET. Direction remains against a simple suppression reading: dauer is HYPERsensitive to aldicarb, so cholinergic transduction is not silenced and if anything is less buffered. The permeability-only explanation is rejected by the authors, since reduced permeability predicts resistance. Polarity UNDETERMINED is the honest value: the perturbations report threshold and survival effects, not a clean change in amount of quiescence."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Insulin-like and TGF-beta signalling control dauer entry",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580",
+        "PMID:33712439"
+       ],
+       "basis": "Determines the developmental decision to enter the state; does not execute moment-to-moment quiescence."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "reduced insulin signalling promotes dauer entry; AWC/ASI chemosensation modulates the decision"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Dauer is an insulin-controlled diapause arrest stage entered under harsh environmental conditions. Dauer formation in C. elegans is modulated through AWC and ASI-dependent chemosensation.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580",
+        "PMID:33712439"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "insulin/TGF-beta pathway manipulation and chemosensory input",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "daf-2 / insulin-like peptides",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "insulin/IGF-1 receptor"
+      },
+      {
+       "name": "daf-7",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "TGF-beta"
+      }
+     ],
+     "citation_ids": [
+      "PMID:30686580",
+      "PMID:33712439"
+     ],
+     "proximal_physical_effect": "insulin-like and TGF-beta signalling setting the developmental decision to enter diapause"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "The v1 scope note is now carried by the role field itself rather than by prose: these pathways occupy a different causal position from FLP-11 in lethargus, which is a proximal maintenance/production effector."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "SCOPE: the dauer readout is partial maintenance of reproductive growth in a daf-7 mutant background, i.e. a modifier experiment rather than a clean dauer-formation quantification in wild type. Direction is therefore 'modulates entry', and the evidence grade reflects that. EXP-1 is an EXCITATORY, cation-selective GABA receptor, so its presence here does NOT make this a class-3 inhibitory mechanism; the shared ligand is real and the ionic consequence is opposite, which is exactly the distinction SAME_PHYSICAL_CLASS is meant to carry.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "ASI and AWC chemosensory neurons, via EXP-1 and STR-2, modulate dauer entry through DAF-7/TGF-beta",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ],
+       "basis": "Genetic modifier experiment in a daf-7 background; ASI-expressed EXP-1 and STR-2 partially maintain reproductive growth, i.e. partially suppress dauer entry."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "exp-1 mutants defective in responses to AWC-sensed odours, non-autonomously through ASI; in daf-7 mutants, ASI-expressed EXP-1 and STR-2 partially maintained reproductive growth"
+       },
+       "context_dependence": "genetic_background_dependent",
+       "statement": "Our dauer experiments reveal that in daf-7 mutants, ASI expressed EXP-1 and STR-2 (a G-protein-coupled receptor; GPCR) that partially maintained reproductive growth of animals. Further, studies suggest that neuronal connections between ASI and AWC neurons are allowed at least partially through ASI secreted DAF-7 or through alternate TGF-beta pathway/s regulated by EXP-1 and STR-2.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "loss of EXP-1 or STR-2 in ASI",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      },
+      {
+       "step": "altered ASI-AWC chemosensory integration of food cues",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      },
+      {
+       "step": "reduced DAF-7/TGF-beta neuroendocrine output",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      },
+      {
+       "step": "shifted dauer-versus-reproductive-growth decision",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:33712439"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "ASI and AWC amphid chemosensory neurons; EXP-1 (excitatory GABA receptor); STR-2 (GPCR); DAF-7/TGF-beta",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:33712439"
+     ],
+     "proximal_physical_effect": "sensory-neuron-level integration of food and population cues setting neuroendocrine output that gates the developmental decision"
+    }
+   ],
+   "discriminating_experiment": "Is RIS required for, or active during, dauer quiescence? RIS is the PRODUCES_STATE mechanism in both other endogenous quiescent worm rows (S2, S6), is fully characterised with existing reagents, and has never been tested in dauer. A positive makes RIS a shared effector across developmental sleep, starvation sleep and diapause; a negative shows diapause quiescence uses different machinery from sleep quiescence in the same animal. Informative either way.",
+   "notes": "Unchanged from v1. Highest-value cheap experiment identified in the worm set. Dropped in error from the first v2 draft of this row and restored; caught by validate_v2.py.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "A metabolic switch regulates the growth-to-diapause transition",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32188449"
+       ],
+       "basis": "Regulates the transition into diapause, i.e. entry."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "expression_change",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "metabolic switch governs the growth/diapause transition"
+       },
+       "context_dependence": "none_reported",
+       "statement": "A metabolic switch regulates the transition between growth and diapause in C. elegans.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32188449"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "metabolic switch at the growth/diapause transition",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32188449"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:32188449",
+      "PMID:25868548"
+     ],
+     "proximal_physical_effect": "metabolic switch governing the growth-to-diapause transition"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "Documented as a mechanism of the developmental transition and of stress tolerance, NOT as a demonstrated cause of behavioural quiescence. Erkut 2015 is a review used for orientation only."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 9,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Two roles with separate evidence: control of the dauer decision, and construction of the dauer-specific electrical-coupling configuration. v1 collapsed both into one POSITIVE.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "DAF-16/FoxO and DAF-12/NHR transcriptional control of the dauer programme, including of innexin plasticity",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:33891586"
+       ],
+       "basis": "Controls the dauer developmental decision and cellular plasticity, cell-autonomously and via interorgan signalling."
+      },
+      {
+       "role": "BUILDS_MACHINERY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ],
+       "basis": "An intersectional terminal-selector/FoxO mechanism constructs the neuron-type-specific innexin complement that the dauer state then uses - the class-12 effector does not exist without it."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "cellular plasticity lost; dauer-specific innexin expression plasticity not established"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "DAF-16/FoxO and DAF-12/VDR control cellular plasticity both cell-autonomously and via interorgan signaling. We describe an intersectional gene regulatory mechanism involving terminal selector and FoxO transcription factors mediating dynamic innexin expression plasticity in a neuron-type- and environment-specific manner.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:33891586",
+        "PMID:30686580"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "DAF-16/DAF-12 transcriptional control",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:33891586"
+       ]
+      },
+      {
+       "step": "terminal selector + FoxO drive neuron-type-specific innexin expression change",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      },
+      {
+       "step": "altered electrical coupling",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "daf-16",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "FOXO family"
+      },
+      {
+       "name": "daf-12",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "nuclear hormone receptor"
+      }
+     ],
+     "citation_ids": [
+      "PMID:33891586",
+      "PMID:30686580"
+     ],
+     "proximal_physical_effect": "transcriptional reprogramming (DAF-16/DAF-12) building the dauer state including its electrical-coupling configuration"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "LIMIT ON WHAT THIS CELL MEANS, PRESERVED FROM v1: the frozen dauer gene set (96 genes, 73 tier-A, 93 verified PMIDs) describes the dauer FORMATION programme. Being a dauer gene is not the same as being a mechanism that reduces activity, and the table must not silently convert one into the other."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 10,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": " PE-5 R2: ONE GENE, TWO STATES, DIFFERENT PHENOTYPES. In cryptobiosis lea-1 loss costs survival THROUGH the state; in dauer it costs correct FORMATION of the state, and only at high temperature. The dauer phenotype is the more surprising of the two, because a desiccation-protectant protein would not be predicted to be needed to build a larva. Recorded in both rows with the phenotypes kept distinct rather than merged into 'lea-1 is required for stress states'.",
+   "strongest_grade": "E-D",
+   "all_grades": [
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Reduced cuticle permeability in dauer",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36194018"
+       ],
+       "basis": "A barrier property that governs chemical access and stress resistance during the state; no evidence it contributes to producing the inactivity."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "other",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "increase",
+        "other": "resistance to most exogenous chemicals; NOT to aldicarb"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Dauer is known to have reduced permeability and increased resistance to most known exogenous chemicals.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "reduced cuticle permeability",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:36194018"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:36194018"
+     ],
+     "proximal_physical_effect": "cuticle permeability barrier restricting chemical access during the state"
+    },
+    {
+     "label": "LEA-1, a late-embryogenesis-abundant disordered protein, is required in vivo for desiccation survival and acts through short defined motifs",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ],
+       "basis": "The same null mutant forms DEFECTIVE DAUER LARVAE at high temperature, and motif replacement restores normal dauer formation - a dauer-state phenotype distinct from the desiccation-survival phenotype."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "null mutants sensitive to desiccation, heat and osmotic stress and prone to protein aggregation; defective dauer larvae at high temperature; LEA-1 expression rises and spreads during desiccation; required at high levels in body wall muscle but muscle expression alone NOT sufficient; replacing the gene with minimal motifs restored normal dauer formation and survival of osmotic stress and mild desiccation"
+       },
+       "context_dependence": "tissue_dependent",
+       "statement": "We created a null mutant of C. elegans LEA-1... LEA-1 mutant animals formed defective dauer larvae at high temperature. We confirmed that C. elegans lacking LEA-1 are sensitive to desiccation. LEA-1 mutants were also sensitive to heat and osmotic stress and were prone to protein aggregation. During desiccation, LEA-1 expression increased and became more widespread throughout the body. LEA-1 was required at high levels in body wall muscle for animals to survive desiccation and osmotic stress, but expression in body wall muscle alone was not sufficient for stress resistance, indicating a likely requirement in multiple tissues... we then replaced the sequence of lea-1 with these minimal motifs and found that C. elegans dauer larvae formed normally and survived osmotic stress and mild desiccation at the same levels as worms with the full-length protein.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "lea-1 null mutation",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      },
+      {
+       "step": "loss of disordered-protein buffering; protein aggregation",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      },
+      {
+       "step": "failure to survive desiccation and osmotic stress",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "LEA-1 (late embryogenesis abundant protein)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "LEA proteins occur in plants, nematodes, tardigrades and rotifers but not in mammals. As with the glyoxylate shunt, this is an affordance mammals do not have."
+      }
+     ],
+     "citation_ids": [
+      "PMID:34903234"
+     ],
+     "proximal_physical_effect": "disordered-protein stabilisation of cellular components as water is removed, preventing aggregation"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "MAJOR CHANGE FROM v1: the innexin-remodelling mechanism has been MOVED OUT of this cell into class 12, where it belongs. What remains is the permeability barrier, which v2 correctly types as PROTECTS_THROUGH_STATE - the first demonstration that the protective role is NOT unique to cryptobiosis. Cell status remains POSITIVE but its strongest grade falls from E-B to E-D because the E-B evidence was the innexin work."
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Measure worm volatile-anaesthetic immobility EC50 across a cultivation-temperature range (15-25C). A poikilotherm is the ideal preparation for separating Q10 effects from regulated thermoregulation, because the latter is absent by construction.",
+   "notes": "PE-5 CORRECTION: applicability changed NOT_APPLICABLE -> APPLICABLE. The earlier label was too strong. C. elegans is a poikilotherm, so the REGULATED-THERMOREGULATION sub-sense of class 11 (centrally driven heat loss, active cooling) is indeed unavailable - but the frozen class-11 definition ALSO covers Q10 kinetic slowing and temperature-mediated kinetics, which are fully applicable to a poikilotherm and are in fact easier to manipulate in one. Coverage remains NOT_TESTED: no qualifying evidence was identified under the standardized five-route search (queries included 'temperature Caenorhabditis elegans volatile anesthetic sensitivity halothane', 'temperature dependence anesthetic potency C elegans immobility', 'elegans lethargus temperature quiescence Q10', 'cold temperature C elegans sleep quiescence induction'). Given that hypothermia reduces isoflurane MAC 5.1%/degC in humans and eliminates the requirement entirely at 20C in goats, the temperature-dependence of worm anaesthetic potency is a cheap and conspicuous untested question.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "class_id": 12,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Dauer-specific electrical synapse (innexin) remodelling causally alters dauer behaviour",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ],
+       "basis": "Analysis of individual synapses demonstrates the remodelling is RESPONSIBLE FOR specific aspects of the altered dauer behaviour - a demonstrated causal chain from molecular change to behavioural output."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "expression_change",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "altered locomotory and chemosensory behaviour attributable to specific remodelled electrical synapses"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "Innexin expression patterns change in a strikingly neuron-type-specific manner when animals enter the dauer stage. By analyzing several individual synapses, we demonstrate that dauer-specific electrical synapse remodeling is responsible for specific aspects of the altered locomotory and chemosensory behavior of dauers.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      },
+      {
+       "manipulation": "other",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "stage-specific gap junction rewiring reshapes avoidance behaviour"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Comparative connectomics reveals stage-specific gap junction rewiring that reshapes avoidance behavior.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:42244529"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "terminal selector + FoxO transcription factors drive neuron-type-specific innexin expression change",
+       "class_id": 9,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      },
+      {
+       "step": "dauer-specific electrical synapse remodelling",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      },
+      {
+       "step": "altered locomotory and chemosensory behaviour",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30686580"
+       ]
+      }
+     ],
+     "proximal_class": 12,
+     "upstream_classes": [
+      9
+     ],
+     "molecules": [
+      {
+       "name": "innexins (inx family)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "invertebrate electrical synapse constituents"
+      }
+     ],
+     "citation_ids": [
+      "PMID:30686580",
+      "PMID:42244529"
+     ],
+     "proximal_physical_effect": "neuron-type-specific innexin remodelling altering electrical coupling and behaviour"
+    }
+   ],
+   "discriminating_experiment": "The remodelling is demonstrated to alter behaviour but the direction with respect to quiescence is not reported - hence polarity UNDETERMINED. Measuring quiescence, not just avoidance and locomotion pattern, in innexin-manipulated dauers would assign the sign and test whether class 12 is a genuine quiescence mechanism or a behaviour-reconfiguration mechanism that happens to occur in a quiescent state.",
+   "notes": "THE CELL THAT JUSTIFIED v2's NEW CLASS. Under v1 this was force-assigned to class 10 with an explicit 'FORCED CLASS ASSIGNMENT' flag. It is the strongest causal behavioural mechanism in the row and it now sits in a class defined for it. Note honestly that PRODUCES_STATE here is weaker than in S2/S6: it produces the altered BEHAVIOUR of dauers, and whether that includes the quiescence as such is exactly what is not reported."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S7_dauer_cele",
+  "coverage_denominator": 7,
+  "n_positive": 7,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 5,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 8,
+  "role_counts": {
+   "PRODUCES_STATE": 1,
+   "CONTROLS_ENTRY": 4,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 2,
+   "BUILDS_MACHINERY": 1,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": "scoring/rows/S7_dauer_cele.json",
+  "cells_changed": [
+   "INNEXIN REMODELLING MOVED class 10 -> class 12, role PRODUCES_STATE. This is the headline v2 change. Cause: new class; v1 had flagged the assignment as forced.",
+   "class 10 retained only the permeability-barrier mechanism, now typed PROTECTS_THROUGH_STATE; strongest_grade falls E-B -> E-D because the E-B evidence moved to class 12. Cause: ontology repair.",
+   "class 9 split into two roles (CONTROLS_ENTRY and BUILDS_MACHINERY) with separate evidence. Cause: ontology repair.",
+   "class 5 dach-1 typed MAINTAINS_STATE with polarity UNDETERMINED. Cause: ontology repair.",
+   "A_neu measurability NOT_YET_MEASURED, explicitly distinguished from S8's NOT_CURRENTLY_DEFINABLE. Cause: ontology repair.",
+   "class 11 applicability NOT_APPLICABLE. Cause: ontology repair."
+  ],
+  "new_evidence_added": []
+ },
+ "ontology_flags_v2": [
+  "This row instantiates FIVE of the five roles - the only worm row that does - which is what one expects of a developmental diapause that is decided, entered, maintained, protected against and built. It is the best evidence that the role axis carves real distinctions.",
+  "PRODUCES_STATE in class 12 is weaker than PRODUCES_STATE in S2/S6: it produces altered behaviour rather than demonstrated quiescence. The role vocabulary cannot currently express that gradation and this is a genuine v2 limitation.",
+  "A_met remains CONTESTED with no structured field to say so. Carried forward from v1 unrepaired."
+ ],
+ "citations_pending_verification": []
+}

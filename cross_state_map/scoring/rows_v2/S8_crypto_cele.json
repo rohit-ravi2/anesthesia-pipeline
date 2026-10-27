@@ -1,0 +1,739 @@
+{
+ "row_id": "S8_crypto_cele",
+ "state": "cryptobiosis",
+ "species": "cele",
+ "instantiation": "dauer anhydrobiosis (preconditioned, severe desiccation)",
+ "schema_version": "2",
+ "scored_utc": "2026-09-16",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "PHYSICALLY_IMPOSED",
+ "_note": "Full prose preserved in scoring/rows/S8_crypto_cele.json.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 98,
+   "units": "percent body water lost while remaining revivable; behaviour absent in the desiccated state",
+   "baseline": "hydrated dauer larvae",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:21782434"
+   ],
+   "notes": "Behaviour is not reduced but absent. Reversibility - frozen criterion E1 - is the defining property, and infrared spectroscopy distinguishes a 'dry, yet alive' larva from a 'dry and dead' one."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "not_applicable",
+   "measurability": "NOT_CURRENTLY_DEFINABLE",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "No aqueous phase in which the measurement is defined."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "As above."
+    },
+    "dynamical_organization": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "As above."
+    }
+   },
+   "magnitude": null,
+   "units": null,
+   "baseline": null,
+   "evidence_grade": null,
+   "citation_ids": [],
+   "notes": "NOT_CURRENTLY_DEFINABLE, THE ONLY INSTANCE IN THE TABLE, AND CATEGORICALLY DIFFERENT FROM S7's NOT_YET_MEASURED. Optical neural recording requires a hydrated, functioning indicator. This is not a gap someone could close by trying harder with existing methods. v1 rendered both S7 and S8 as 'not_measured' and could not say this."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "NOT_YET_MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "described as ametabolic",
+   "baseline": "hydrated dauer",
+   "evidence_grade": "E-F",
+   "citation_ids": [
+    "PMID:21782434",
+    "PMID:24324795"
+   ],
+   "notes": "GRADED E-F DELIBERATELY AND THE REASON GOVERNS THE WHOLE PROGRAMME. Anhydrobiosis is routinely described as 'an ametabolic state', but no direct metabolic-rate measurement of a desiccated C. elegans dauer was located. The claim is near-definitional - without water there is no medium for the reactions - so metabolism is INFERRED to be arrested, not measured to be. This state is the intended bottom rung of any dissipation ordering, and the bottom rung is anchored by an assumption."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Applicability QUESTIONABLE, new in v2: classes 1-7 are mechanisms by which a nervous system regulates its own activity downward, and in a PHYSICALLY_IMPOSED state there may be nothing for them to do. That is a hypothesis about the state, not a literature finding, hence QUESTIONABLE rather than NOT_APPLICABLE."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "As class 1."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "As class 1."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "As class 1."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 5,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "Queries including 'anhydrobiosis nervous system neuron survival nematode' returned only molecular-strategies work with no synaptic content."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 6,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Entry requires PRECONDITIONING by mild desiccation, a signalling-dependent preparatory process. Whether any neuromodulatory signal participates in preconditioning appears unexamined. Unlike classes 1-5 this is APPLICABLE, because preconditioning happens in a hydrated animal with a functioning nervous system.",
+   "notes": "The applicability distinction matters: preconditioning occurs BEFORE the physically imposed state, so ordinary neural mechanisms are available during it."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 7,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "As class 6: a circuit could in principle govern the preconditioning decision. No dedicated circuit has been sought.",
+   "notes": "Applicable during preconditioning, not during desiccation."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE",
+    "CONTROLS_ENTRY",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "The biochemical programme is both a prerequisite for entering survivable anhydrobiosis (CONTROLS_ENTRY) and the machinery that preserves the animal through it (PROTECTS_THROUGH_STATE). Both roles rest on the same genetic evidence, which is why they are recorded together rather than split across mechanisms. PE-5 R2: THE CLEAREST BUILDS_MACHINERY CASE IN THE TABLE. The requirement is concentrated in PRECONDITIONING - before the state is entered - and the deficit appears only when the state is later imposed. This is the distinction the role axis was introduced to carry, and cryptobiosis is where it is least deniable. It also shows why the project's premise is not 'convergence': the glyoxylate shunt does not exist in mammals, so this affordance is available to worms and yeast and simply is not available to us.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Preconditioning activates a biochemical programme (trehalose, IDPs, polyamines, glycerol) required for the state",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ],
+       "basis": "Trehalose-synthesis mutants cannot survive even mild dehydration; the machinery preserves the animal during an inactivity it does not cause."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32778668"
+       ],
+       "basis": "Preconditioning by mild desiccation or high osmolarity determines whether survivable anhydrobiosis can be entered at all."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "preconditioning elevates trehalose, IDPs and polyamines; high osmolarity activates similar pathways and confers desiccation tolerance; glycerol confers freezing tolerance"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Entry into anhydrobiosis is preceded by activation of a set of biochemical pathways by exposure to mild desiccation... high osmolarity activates similar biochemical pathways. The larvae that acquired resistance to high osmotic pressure can also withstand desiccation.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32778668"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "cannot survive even MILD dehydration"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Mutants unable to synthesize trehalose cannot survive even mild dehydration.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "mild desiccation or high osmolarity preconditioning",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:32778668",
+        "PMID:24324795"
+       ]
+      },
+      {
+       "step": "trehalose, IDP, polyamine, glycerol biosynthesis",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "tps-1 / tps-2 trehalose synthesis",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "trehalose-6-phosphate synthase"
+      }
+     ],
+     "citation_ids": [
+      "PMID:21782434",
+      "PMID:32778668",
+      "PMID:24324795"
+     ],
+     "proximal_physical_effect": "biosynthesis of trehalose, polyamines and glycerol during preconditioning"
+    },
+    {
+     "label": "The glyoxylate shunt drives a gluconeogenic switch required to build desiccation tolerance during preconditioning",
+     "roles": [
+      {
+       "role": "BUILDS_MACHINERY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ],
+       "basis": "The shunt is 'especially critical during preparation of worms for harsh desiccation (preconditioning)' - it constructs the protectant pool BEFORE the state, which is precisely the frozen definition of BUILDS_MACHINERY."
+      },
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ],
+       "basis": "Loss of the shunt dramatically decreased desiccation tolerance, i.e. survival through the state."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "metabolism reoriented to gluconeogenesis in dauer larvae and stationary-phase yeast; shunt enables trehalose synthesis from acetate; loss dramatically decreased desiccation tolerance IN BOTH ORGANISMS"
+       },
+       "context_dependence": "preconditioning_dependent",
+       "statement": "We found that dauer larvae and stationary phase yeast switched into a gluconeogenic mode in which metabolism was reoriented toward production of sugars from non-carbohydrate sources. This mode depended on full activity of the glyoxylate shunt (GS), which enables synthesis of trehalose from acetate. The GS was especially critical during preparation of worms for harsh desiccation (preconditioning) and during the entry of yeast into stationary phase. Loss of the GS dramatically decreased desiccation tolerance in both organisms.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "loss of glyoxylate shunt activity",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ]
+      },
+      {
+       "step": "failure of the gluconeogenic switch during preconditioning",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ]
+      },
+      {
+       "step": "insufficient trehalose synthesised from acetate",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ]
+      },
+      {
+       "step": "loss of desiccation tolerance",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:27090086"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "glyoxylate shunt (isocitrate lyase / malate synthase, gei-7/icl-1)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "The same requirement holds in S. cerevisiae in the same paper. The shunt is absent from mammals, so this is one of the few mechanisms in the table with NO possible mammalian counterpart - which is itself informative."
+      }
+     ],
+     "citation_ids": [
+      "PMID:27090086"
+     ],
+     "proximal_physical_effect": "metabolic rewiring toward gluconeogenesis that supplies the disaccharide used to stabilise cellular structures during water loss",
+     "overlap_resolution": {
+      "level": "SAME_PATHWAY_MODULE",
+      "partner": "S8_crypto_cele c10 (trehalose)",
+      "justification": "Class 8 supplies the substrate that class 10 uses. The two cells in this row are not independent lines of evidence but successive steps of one chain, and the chain field records that explicitly."
+     }
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "POLARITY UNDETERMINED IS THE CORRECT ANSWER, NOT A FAILURE. Every perturbation here reports survival and recovery, never amount of quiescence, because the amount of quiescence is set by the water content rather than by the biology. That is the signature of a PHYSICALLY_IMPOSED row."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 9,
+   "coverage": "TESTED_POSITIVE",
+   "status": "SUGGESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": "E-E",
+   "all_grades": [
+    "E-E"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "A general genetic programme for cryptobiosis entry",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-E",
+       "citation_ids": [
+        "PMID:32778668",
+        "PMID:24324795"
+       ],
+       "basis": "Programme-level association with entry; no TF loss-of-function test located."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "expression_change",
+       "direction_of_manipulation": "not_applicable",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "a general survival programme across desiccation, osmotic and freezing stress"
+       },
+       "context_dependence": "none_reported",
+       "statement": "To survive abiotic stress, C. elegans activates a combination of genetic and biochemical pathways that serve as a general survival program.",
+       "evidence_grade": "E-E",
+       "citation_ids": [
+        "PMID:32778668"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "activation of a general genetic survival programme",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-E",
+       "citation_ids": [
+        "PMID:32778668"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:32778668",
+      "PMID:24324795"
+     ],
+     "proximal_physical_effect": "activation of a general genetic survival programme"
+    }
+   ],
+   "discriminating_experiment": "A transcription-factor loss-of-function that abolishes preconditioning-induced trehalose and IDP elevation WITHOUT independently disabling the biosynthetic enzymes would upgrade this from SUGGESTED to POSITIVE.",
+   "notes": "Preserved at SUGGESTED, unchanged from v1. Evidence is expression/programme-level (E-E); the trehalose genetics is real loss-of-function but its proximal effect is metabolic/structural and is scored under classes 8 and 10."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 10,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": " PE-5 R2: A STRUCTURE-FUNCTION RESULT, not just a requirement. Replacing the entire lea-1 coding sequence with short minimal motifs restored normal dauer formation and survival of osmotic stress and mild desiccation - so the protective function is carried by sequence features rather than by a folded architecture. That also bounds the claim honestly: the motif replacement was tested against MILD desiccation, not the harsh regime. The tissue result is equally careful: high-level expression in body wall muscle is REQUIRED but NOT SUFFICIENT, so multiple tissues are involved.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Trehalose preserves membrane organisation during desiccation; IDPs and polyamines contribute",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ],
+       "basis": "Genetic loss abolishes survival of dehydration while the desiccation itself still occurs; structural measurements show preservation of membrane order. Textbook instance of the role."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "membrane organisation not preserved; lipid acyl chain packing disrupted"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Mutants unable to synthesize trehalose cannot survive even mild dehydration. Light and electron microscopy indicate that one of the major functions of trehalose is the preservation of membrane organization... by preserving homogeneous and compact packing of lipid acyl chains.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "trehalose biosynthesis",
+       "class_id": 8,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:21782434"
+       ]
+      },
+      {
+       "step": "preservation of membrane organisation and lipid acyl chain packing",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:21782434"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [
+      8
+     ],
+     "molecules": [
+      {
+       "name": "trehalose",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:21782434",
+      "PMID:32778668",
+      "PMID:25290156"
+     ],
+     "proximal_physical_effect": "vitrification and preservation of membrane organisation and lipid acyl-chain packing under water loss"
+    },
+    {
+     "label": "LEA-1, a late-embryogenesis-abundant disordered protein, is required in vivo for desiccation survival and acts through short defined motifs",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ],
+       "basis": "Null mutant is sensitive to desiccation; expression rises and becomes body-wide during desiccation; sufficiency established by motif replacement."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "null mutants sensitive to desiccation, heat and osmotic stress and prone to protein aggregation; defective dauer larvae at high temperature; LEA-1 expression rises and spreads during desiccation; required at high levels in body wall muscle but muscle expression alone NOT sufficient; replacing the gene with minimal motifs restored normal dauer formation and survival of osmotic stress and mild desiccation"
+       },
+       "context_dependence": "tissue_dependent",
+       "statement": "We created a null mutant of C. elegans LEA-1... LEA-1 mutant animals formed defective dauer larvae at high temperature. We confirmed that C. elegans lacking LEA-1 are sensitive to desiccation. LEA-1 mutants were also sensitive to heat and osmotic stress and were prone to protein aggregation. During desiccation, LEA-1 expression increased and became more widespread throughout the body. LEA-1 was required at high levels in body wall muscle for animals to survive desiccation and osmotic stress, but expression in body wall muscle alone was not sufficient for stress resistance, indicating a likely requirement in multiple tissues... we then replaced the sequence of lea-1 with these minimal motifs and found that C. elegans dauer larvae formed normally and survived osmotic stress and mild desiccation at the same levels as worms with the full-length protein.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "lea-1 null mutation",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      },
+      {
+       "step": "loss of disordered-protein buffering; protein aggregation",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      },
+      {
+       "step": "failure to survive desiccation and osmotic stress",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:34903234"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "LEA-1 (late embryogenesis abundant protein)",
+       "species": "cele",
+       "identifier": null,
+       "ortholog_relation": "LEA proteins occur in plants, nematodes, tardigrades and rotifers but not in mammals. As with the glyoxylate shunt, this is an affordance mammals do not have."
+      }
+     ],
+     "citation_ids": [
+      "PMID:34903234"
+     ],
+     "proximal_physical_effect": "disordered-protein stabilisation of cellular components as water is removed, preventing aggregation"
+    }
+   ],
+   "discriminating_experiment": null,
+   "notes": "The best-evidenced cell in the row and the cleanest instance of class 10 as originally intended. Erkut 2011 replaced a purely correlative literature with genetic manipulation plus direct structural measurement."
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": "Measure worm volatile-anaesthetic immobility EC50 across a cultivation-temperature range (15-25C). A poikilotherm is the ideal preparation for separating Q10 effects from regulated thermoregulation, because the latter is absent by construction.",
+   "notes": "PE-5 CORRECTION: applicability changed NOT_APPLICABLE -> APPLICABLE. The earlier label was too strong. C. elegans is a poikilotherm, so the REGULATED-THERMOREGULATION sub-sense of class 11 (centrally driven heat loss, active cooling) is indeed unavailable - but the frozen class-11 definition ALSO covers Q10 kinetic slowing and temperature-mediated kinetics, which are fully applicable to a poikilotherm and are in fact easier to manipulate in one. Coverage remains NOT_TESTED: no qualifying evidence was identified under the standardized five-route search (queries included 'temperature Caenorhabditis elegans volatile anesthetic sensitivity halothane', 'temperature dependence anesthetic potency C elegans immobility', 'elegans lethargus temperature quiescence Q10', 'cold temperature C elegans sleep quiescence induction'). Given that hypothermia reduces isoflurane MAC 5.1%/degC in humans and eliminates the requirement entirely at 20C in goats, the temperature-dependence of worm anaesthetic potency is a cheap and conspicuous untested question.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "New class in v2. QUESTIONABLE for the same reason as classes 1-5: electrical coupling has no meaning in a desiccated animal, though it could in principle matter during preconditioning."
+  }
+ ],
+ "row_summary": {
+  "row_id": "S8_crypto_cele",
+  "coverage_denominator": 3,
+  "n_positive": 2,
+  "n_suggested": 1,
+  "n_negative": 0,
+  "n_not_tested": 9,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 6,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 2,
+   "MAINTAINS_STATE": 0,
+   "PROTECTS_THROUGH_STATE": 4,
+   "BUILDS_MACHINERY": 1,
+   "ENABLES_EXIT": 0
+  }
+ },
+ "v1_migration": {
+  "source_row_file": "scoring/rows/S8_crypto_cele.json",
+  "cells_changed": [
+   "state_production PHYSICALLY_IMPOSED added, and the row carries ZERO PRODUCES_STATE roles - the prediction stated in REPERTOIRE_v2 section 4 holds for the one row that generated it. Cause: ontology repair.",
+   "class 8 gained a second role CONTROLS_ENTRY alongside PROTECTS_THROUGH_STATE, on separate evidence. Cause: ontology repair.",
+   "class 10 typed PROTECTS_THROUGH_STATE. Cause: ontology repair.",
+   "A_neu measurability NOT_CURRENTLY_DEFINABLE - the only instance in the table. Cause: ontology repair.",
+   "classes 1-5 and 12 applicability QUESTIONABLE; class 11 NOT_APPLICABLE. Cause: ontology repair.",
+   "All state_polarity values are UNDETERMINED because every perturbation reports survival/recovery rather than amount of quiescence. Cause: faithful representation; v1 had no polarity field at all."
+  ],
+  "new_evidence_added": []
+ },
+ "ontology_flags_v2": [
+  "THE ROW THAT MOTIVATED v2 IS NOW REPRESENTED WITHOUT FORCING. Zero PRODUCES_STATE, two PROTECTS_THROUGH_STATE, two CONTROLS_ENTRY, all polarities UNDETERMINED, and a principled distinction between classes that are inapplicable during desiccation and classes that remain applicable during preconditioning. Under v1 this row looked like a sparsely covered version of the others; under v2 it is visibly a different KIND of row.",
+  "The applicability field is carrying a hypothesis, not a finding, for classes 1-5 and 12 (QUESTIONABLE). That is the intended use, but it should not harden into NOT_APPLICABLE without evidence.",
+  "PROTECTS_THROUGH_STATE is NOT unique to this row: dauer's permeability barrier (S7 class 10) carries it too. The role generalises, which was the open question when it was proposed."
+ ],
+ "citations_pending_verification": []
+}

@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+*.log
+# third-party data and derived binaries (see README, "Data")
+data/external/
+scripts/brain/artifacts/
+*.npz
+*.npy
+*.h5
+*.nwb
+*.xlsx
+# PubMed response cache written by cross_state_map/scoring/lit.py
+cross_state_map/scoring/cache/

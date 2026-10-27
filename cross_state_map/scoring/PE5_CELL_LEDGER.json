@@ -1,0 +1,2933 @@
+{
+ "generated": "2026-09-17",
+ "rule": "disposition is DERIVED, never asserted",
+ "cells": {
+  "S2_core_cele|c1": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c2": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c3": {
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "NEGATIVE"
+  },
+  "S2_core_cele|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S2_core_cele|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S2_core_cele|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S2_core_cele|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S2_core_cele|c12": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "MAINTAINS_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c1": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c2": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c3": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c4": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S3_rem_mmus|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c8": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S3_rem_mmus|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "BUILDS_MACHINERY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S3_rem_mmus|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S3_rem_mmus|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S3_rem_mmus|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S4_deep_mmus|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S4_deep_mmus|c2": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c3": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [
+    "MAINTAINS_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c4": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "MAINTAINS_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [
+    "MAINTAINS_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "BUILDS_MACHINERY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S4_deep_mmus|c11": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S4_deep_mmus|c12": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "MAINTAINS_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_propofol_hsap|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_propofol_hsap|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_propofol_hsap|c8": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c9": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_propofol_hsap|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_cele|c1": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c2": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_cele|c4": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "SUGGESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c7": {
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "NEGATIVE"
+  },
+  "S5_ga_volatile_cele|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c9": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_cele|c10": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_cele|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_cele|c12": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_hsap|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_hsap|c7": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_hsap|c9": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_hsap|c11": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_hsap|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_mmus|c1": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c2": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c3": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c4": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 4,
+   "roles_present": [
+    "ENABLES_EXIT",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 3,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "ENABLES_EXIT",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c9": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S5_ga_volatile_mmus|c10": {
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "NEGATIVE"
+  },
+  "S5_ga_volatile_mmus|c11": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S5_ga_volatile_mmus|c12": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c1": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S6_starv_L1_cele|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S6_starv_L1_cele|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S6_starv_L1_cele|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S6_starv_L1_cele|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S6_starv_L1_cele|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S6_starv_L1_cele|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c5": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c10": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S7_dauer_cele|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S7_dauer_cele|c12": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "PRODUCES_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S8_crypto_cele|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c6": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c7": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c8": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE",
+    "CONTROLS_ENTRY",
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S8_crypto_cele|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "SUGGESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S8_crypto_cele|c10": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S8_crypto_cele|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S8_crypto_cele|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "has_negative_assay_statement": true,
+   "final_disposition": "POSITIVE"
+  },
+  "S9_hib_daily_mmus|c7": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S9_hib_daily_mmus|c8": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c9": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S9_hib_daily_mmus|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c11": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_daily_mmus|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c1": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c2": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c3": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c4": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c5": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c6": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 2,
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S9_hib_seasonal_isp|c7": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c8": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c9": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c10": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  },
+  "S9_hib_seasonal_isp|c11": {
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 1,
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "POSITIVE"
+  },
+  "S9_hib_seasonal_isp|c12": {
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "routes_run": [
+    "CITATION_CHAIN",
+    "CLASS_FIRST",
+    "MOLECULE_SYSTEM_FIRST",
+    "NEGATIVE_RESULT_SEARCH",
+    "SPECIES_ENDPOINT_FIRST"
+   ],
+   "all_routes_run": true,
+   "row_gate_c": true,
+   "n_mechanisms": 0,
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "has_negative_assay_statement": false,
+   "final_disposition": "NOT_TESTED_AFTER_FULL_SEARCH"
+  }
+ }
+}

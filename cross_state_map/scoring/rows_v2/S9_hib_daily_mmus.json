@@ -1,0 +1,718 @@
+{
+ "row_id": "S9_hib_daily_mmus",
+ "state": "hibernation",
+ "species": "mmus",
+ "instantiation": "daily torpor",
+ "schema_version": "2",
+ "ontology_version": "v2.1",
+ "scored_utc": "2026-09-21",
+ "scorer": "PE-5 hibernation extension",
+ "state_production": "ENDOGENOUS",
+ "state_production_justification": "The animal generates the state itself on a seasonal or fasting cue; no exogenous agent is required. This matters for the production/exit analysis, in which hibernation is the designated falsification test.",
+ "agent_scope": null,
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "locomotor activity; immobility",
+   "baseline": "euthermic interbout / pre-fast",
+   "evidence_grade": "E-B",
+   "citation_ids": [
+    "PMID:22785425"
+   ],
+   "notes": "Daily torpor: locomotor activity falls with Tb and heart rate (PMID:22785425)."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "NOT_YET_MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "not_measured",
+     "evidence_grade": "E-D",
+     "note": "NOT MEASURED in the retrieved mouse daily-torpor literature. The manipulation papers scored in this row (PMID:22785425, PMID:40593766, PMID:28378088) report body temperature, heart rate, metabolic rate and locomotor activity - no neural readout. Recorded as an explicit gap."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not reported in the retrieved literature for either row."
+    },
+    "dynamical_organization": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not reported in the retrieved literature."
+    }
+   },
+   "magnitude": null,
+   "units": "cortical EEG amplitude",
+   "baseline": "euthermia",
+   "evidence_grade": "E-D",
+   "citation_ids": [],
+   "notes": "Neural phenotype is NOT well characterised for mouse daily torpor in the retrieved literature. Recorded as measurability-limited rather than as a measured decrease."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "metabolic rate, body temperature, heart rate",
+   "baseline": "euthermic interbout / pre-fast",
+   "evidence_grade": "E-A",
+   "citation_ids": [
+    "PMID:22785425",
+    "PMID:40593766"
+   ],
+   "notes": "Metabolic rate, body temperature and heart rate all fall; heart-rate decline PRECEDES body-temperature decline (PMID:40593766), which orders the two."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 5,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "ambiguity": "THIS CELL CARRIES BOTH A MAINTENANCE POSITIVE AND A SUFFICIENCY NEGATIVE, and the pair is the reason hibernation was scored. (i) Central adenosine is required to ENTER and to HOLD torpor: aminophylline cuts torpor time 518 -> 54 min, and infused into an ALREADY TORPID mouse it reverses hypometabolism, hypothermia, bradycardia and hypoactivity. The BBB-impermeant antagonist 8-SPT works intracerebroventricularly and NOT subcutaneously, which localises the requirement centrally and is a genuine internal control. (ii) The matching sufficiency test FAILS: central A1 agonist CHA produces profound hypothermia that is NOT torpor - different Tb fall rate, different heart-rate trajectory, different shivering and arrhythmia pattern, half the recovery rate, and a different transcriptional signature (torpor elevates Txnip; CHA and every other induced hypothermia elevate c-Fos and Egr-1). The authors conclude they are 'largely different physiological states'. SCORING NOTE ON ENABLES_EXIT: the antagonist arm drives exit from an established bout. This is scored ENABLES_EXIT for exact consistency with S5_ga_volatile_hsap c6, where caffeine - also an adenosine antagonist, also given during the maintained state - was scored the same way. Scoring the same pharmacology differently in two rows would be indefensible.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": "Sufficiency was tested directly (PMID:28378088): central A1 agonist CHA was compared against natural torpor, forced hypothermia and isoflurane anaesthesia on Tb kinetics, heart rate, shivering, arrhythmia, recovery rate, circulating lactate and gene expression. All four conditions produced profound hypothermia, so the assay had power; CHA-induced hypothermia separated from natural torpor on multiple independent measures.",
+   "mechanisms": [
+    {
+     "label": "Central adenosine receptor signalling is required to enter and to maintain daily torpor",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ],
+       "basis": "Antagonist during fasting reduces total torpid time nearly tenfold."
+      },
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ],
+       "basis": "Antagonist infused into an already-torpid animal reverses the state on four simultaneous readouts. A maintenance manipulation, not an entry one."
+      },
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ],
+       "basis": "Central antagonism is 'sufficient to disrupt torpor' and returns the animal to euthermia - exit driven pharmacologically from within the state."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_antagonism",
+       "direction_of_manipulation": "decrease",
+       "agent": "aminophylline; 8-sulfophenyltheophylline (BBB-impermeant)",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "increase",
+        "survival_recovery": "increase",
+        "other": "torpid time 518+/-43 -> 54+/-20 min; reversal of hypometabolism, hypothermia, bradycardia and hypoactivity when infused into torpid animals; ICV but NOT subcutaneous 8-SPT returns animals to euthermia"
+       },
+       "context_dependence": "route_dependent",
+       "statement": "During a 23-h fast, saline-treated mice were torpid for 518 +/- 43 min, whereas aminophylline-treated mice were torpid for significantly less time (54 +/- 20 min). In a second experiment, aminophylline was infused subcutaneously into torpid mice to test the role of adenosine in the maintenance of torpor. Aminophylline reversed the hypometabolism, hypothermia, bradycardia, and hypoactivity of torpor, whereas saline did not... Intracerebroventricular, but not subcutaneous, infusion of 8-SPT causes a return to euthermia... whereas peripheral adenosine signaling is not necessary for the maintenance of torpor, antagonism of central adenosine is sufficient to disrupt torpor.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "central adenosine receptor antagonism",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ]
+      },
+      {
+       "step": "loss of adenosinergic suppression of thermoregulatory and cardiovascular drive",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ]
+      },
+      {
+       "step": "return to euthermia",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:22785425"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "adenosine; A1 adenosine receptor",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Adenosine carries FOUR entries in this table now: mouse NREM class 6 (CD73-derived, homeostatic drive), human volatile anaesthesia class 6 (caffeine antagonism accelerating emergence), and both hibernation rows. Same molecule, three states, and in every case manipulating it moves the state."
+      }
+     ],
+     "citation_ids": [
+      "PMID:22785425"
+     ],
+     "proximal_physical_effect": "central adenosinergic suppression of thermogenic and cardiovascular drive",
+     "overlap_resolution": {
+      "level": "EXACT_MOLECULE",
+      "partner": "S5_ga_volatile_hsap c6 (caffeine)",
+      "justification": "The same pharmacology - central adenosine antagonism delivered during the maintained state - drives exit from BOTH daily torpor and volatile anaesthesia. One of very few manipulations in this table that acts the same way on an endogenous and an exogenous state."
+     }
+    },
+    {
+     "label": "A1 receptor activation produces hypothermia that is NOT torpor",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:28378088"
+       ],
+       "basis": "TESTED AND NEGATIVE. The induced state separates from natural torpor on Tb kinetics, heart rate, shivering, arrhythmia, recovery rate and transcriptional signature. Listed under roles_tested_negative."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "N6-cyclohexyladenosine (CHA), intracerebroventricular",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "decrease",
+        "entry_threshold": "decrease",
+        "survival_recovery": "decrease",
+        "other": "profound hypothermia produced, but faster Tb fall, blunted heart-rate drop, no shivering on recovery, extended >1 s heart-rate pauses, half the recovery rate, and c-Fos/Egr-1 rather than Txnip induction"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Because central adenosine activation has been shown to induce a torpor-like state in the arctic ground squirrel, and blocking the adenosine-1 (A1) receptor prevents daily torpor, we hypothesized that central activation of the A1 adenosine receptors would induce a bout of natural torpor in mice... All conditions induced profound hypothermia. T b fell more rapidly in the FH, isoflurane-anesthesia, and CHA conditions compared to torpor, while mice treated with CHA recovered at half the rate of torpid mice... the hypothermic bouts showed distinct patterns of gene expression, with torpor characterized by elevated hepatic and cardiac Txnip expression and all other hypothermic states characterized by elevated c-Fos and Egr-1 expression. We conclude that CHA-induced hypothermia and natural torpor are largely different physiological states.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:28378088"
+       ]
+      }
+     ],
+     "state_polarity": "NO_ESTABLISHED_EFFECT",
+     "chain": [
+      {
+       "step": "central A1 receptor agonism in fed mice",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:28378088"
+       ]
+      },
+      {
+       "step": "profound hypothermia that is transcriptionally and physiologically distinct from torpor",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:28378088"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "A1 adenosine receptor agonist CHA",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:28378088"
+     ],
+     "proximal_physical_effect": "hypothermia produced through a route that does not reconstitute the torpid state"
+    }
+   ],
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "PRODUCES_STATE",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "NECESSITY AND SUFFICIENCY IN ONE PAPER, which is rare anywhere in this table: inhibiting ventrolateral-medulla catecholaminergic neurons impairs torpor, and activating them lowers body temperature, heart rate, energy expenditure, activity and thermogenesis. The ORDERING result matters independently - heart-rate decline PRECEDES body-temperature decline, matching natural torpor, so the circuit is not simply cooling the animal. Cross-species note: the same neurons are conserved in Daurian ground squirrels and become active before hibernation, which is suggestive for the seasonal row and is NOT scored there, because 'become active before' is a correlation, not a manipulation.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Ventrolateral-medulla catecholaminergic neurons induce fasting torpor",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ],
+       "basis": "Activation drives the full multi-system phenotype with the correct internal ordering (heart rate before temperature). A sufficiency demonstration."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ],
+       "basis": "Inhibition significantly impairs fasting-induced torpor."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "chemogenetic_bidirectional",
+       "direction_of_manipulation": "bidirectional",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "increase",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "inhibition impairs torpor; activation reduces Tb, heart rate, energy expenditure, activity and thermogenesis; heart-rate decline PRECEDES Tb decline; projections to dorsal motor vagal nucleus and medial preoptic area"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Inhibiting catecholaminergic (CA) neurons in the ventrolateral medulla (VLM) significantly impairs torpor in mice, while their activation reduces body temperature, heart rate, energy expenditure, physical activity, and thermogenesis. Importantly, the heart rate decline precedes body temperature reduction, resembling patterns observed in natural torpid animals... these neurons are conserved in Daurian ground squirrels and become active before hibernation.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "bidirectional chemogenetic control of VLM catecholaminergic neurons",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ]
+      },
+      {
+       "step": "vagal and medial-preoptic projections lowering heart rate then thermogenesis",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ]
+      },
+      {
+       "step": "fasting-induced torpor",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40593766"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "ventrolateral medulla catecholaminergic (CA) neurons",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Conserved in Daurian ground squirrels per the same paper, but only as an activity correlation, so no seasonal-row entry."
+      }
+     ],
+     "citation_ids": [
+      "PMID:40593766"
+     ],
+     "proximal_physical_effect": "brainstem catecholaminergic drive lowering cardiovascular output ahead of thermogenesis"
+    },
+    {
+     "label": "Preoptic activation elicits a torpor-like hypometabolic state",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41280034"
+       ],
+       "basis": "Chemogenetic POA activation produces sustained hypothermia and hypometabolism described as torpor-like. PREPRINT, graded E-C."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "chemogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "increase",
+        "other": "sustained hypothermia and hypometabolism; reduced infarct volume and improved motor outcome in a stroke model; protection attenuated if normothermia maintained"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Here, we show that chemogenetic activation of neurons in the preoptic area (POA) elicits a torpor-like state in mice, characterized by sustained hypothermia and hypometabolism. In an animal stroke model, this endogenous hypothermic state significantly reduced infarct volume and improved motor outcomes compared to controls, whereas maintaining normothermia attenuated these protective effects.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41280034"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "chemogenetic activation of preoptic-area neurons",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41280034"
+       ]
+      },
+      {
+       "step": "engagement of endogenous thermoregulatory circuitry",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41280034"
+       ]
+      },
+      {
+       "step": "sustained torpor-like hypothermia and hypometabolism",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41280034"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "preoptic area (POA) neurons",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "The preoptic area also carries this table's S4_deep_mmus class-7 and class-11 entries (VLPO galanin neurons driving sleep and heat loss). SAME_PATHWAY_MODULE across NREM sleep and torpor, with the caveat that neither paper resolves whether the same POA subpopulation is involved."
+      }
+     ],
+     "citation_ids": [
+      "PMID:41280034"
+     ],
+     "proximal_physical_effect": "recruitment of endogenous thermoregulatory circuitry to lower the defended temperature",
+     "overlap_resolution": {
+      "level": "SAME_PATHWAY_MODULE",
+      "partner": "S4_deep_mmus c7 / c11 (VLPO galanin)",
+      "justification": "Preoptic manipulation drives both NREM sleep with heat loss and a torpor-like hypometabolic state. Whether the same cells do both is not resolved by either paper, so the correspondence is at module level and no stronger."
+     }
+    }
+   ],
+   "discovery_route": "SPECIES_ENDPOINT_FIRST"
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 8,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 9,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "BUILDS_MACHINERY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "WEAK, AND LABELLED AS SUCH. The paper is about adipose-tissue function; the torpor claim is inferential - the authors write 'suggestive of a deficient torpor response', and the measured variables are serum leptin and body temperature after a 24 h fast, not a scored torpor bout. Graded E-C for that reason. Role is BUILDS_MACHINERY rather than CONTROLS_ENTRY because the deficit is developmental and peripheral - beta2/beta3-adrenergic receptor and uncoupling-protein mRNA are reduced in white and brown fat, i.e. the effector tissue was built wrong, rather than the torpor decision being altered.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Nhlh2 is required for a normal fasting torpor response, via adrenergic and uncoupling machinery in adipose tissue",
+     "roles": [
+      {
+       "role": "BUILDS_MACHINERY",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:20808804"
+       ],
+       "basis": "Germline deletion of a hypothalamic bHLH transcription factor leaves the thermogenic effector tissue depleted of beta-adrenergic receptors and uncoupling proteins."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "increase",
+        "survival_recovery": "not_reported",
+        "other": "altered serum leptin and body temperature after 24 h fast; beta3-AR, beta2-AR and uncoupling-protein mRNA reduced in WAT and BAT; adipose inflammation and macrophage markers elevated"
+       },
+       "context_dependence": "none_reported",
+       "statement": "We report significant differences in serum leptin levels and body temperature in N2KO mice compared with WT mice exposed to a 24-hour fast, suggestive of a defect in both white (WAT) and brown adipose tissue (BAT) function... The mRNAs for beta3-adrenergic receptors (beta3-AR), beta2-AR and uncoupling proteins were significantly reduced in WAT and BAT from N2KO mice compared with WT mice... all suggestive of a deficient torpor response in mutant animals.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:20808804"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "Nhlh2 deletion",
+       "class_id": 9,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:20808804"
+       ]
+      },
+      {
+       "step": "reduced beta-adrenergic and uncoupling-protein expression in adipose tissue",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:20808804"
+       ]
+      },
+      {
+       "step": "defective torpor response to fasting",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:20808804"
+       ]
+      }
+     ],
+     "proximal_class": 9,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Nhlh2 (Nescient Helix-Loop-Helix 2)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:20808804"
+     ],
+     "proximal_physical_effect": "developmental loss of the adrenergic and uncoupling machinery the torpor response acts through"
+    }
+   ],
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 11,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  }
+ ],
+ "row_summary": {
+  "row_id": "S9_hib_daily_mmus",
+  "coverage_denominator": 3,
+  "n_positive": 3,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 9,
+  "n_distinct_sources": 5,
+  "n_not_applicable": 0,
+  "role_counts": {
+   "PRODUCES_STATE": 2,
+   "CONTROLS_ENTRY": 2,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 0,
+   "BUILDS_MACHINERY": 1,
+   "ENABLES_EXIT": 1
+  }
+ },
+ "v1_migration": null,
+ "ontology_flags_v2": [
+  "scored directly under v2.1; no v1 predecessor"
+ ],
+ "citations_pending_verification": []
+}

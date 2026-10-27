@@ -1,0 +1,532 @@
+{
+ "row_id": "S9_hib_seasonal_isp",
+ "state": "hibernation",
+ "species": "isp",
+ "instantiation": "seasonal torpor bout",
+ "schema_version": "2",
+ "ontology_version": "v2.1",
+ "scored_utc": "2026-09-21",
+ "scorer": "PE-5 hibernation extension",
+ "state_production": "ENDOGENOUS",
+ "state_production_justification": "The animal generates the state itself on a seasonal or fasting cue; no exogenous agent is required. This matters for the production/exit analysis, in which hibernation is the designated falsification test.",
+ "agent_scope": null,
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "locomotor activity; immobility",
+   "baseline": "euthermic interbout / pre-fast",
+   "evidence_grade": "E-B",
+   "citation_ids": [
+    "PMID:22785425"
+   ],
+   "notes": "Seasonal hibernators are immobile through a torpor bout, rousing only at periodic interbout arousals. Immobility is definitional for bout scoring."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Cortical EEG becomes progressively isoelectric as body temperature falls through a seasonal bout and recovers on interbout arousal. Graded E-D: this is the standard description in the hibernation literature and was not established by a primary manipulation paper retrieved here."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not reported in the retrieved literature for either row."
+    },
+    "dynamical_organization": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "Not reported in the retrieved literature."
+    }
+   },
+   "magnitude": null,
+   "units": "cortical EEG amplitude",
+   "baseline": "euthermia",
+   "evidence_grade": "E-D",
+   "citation_ids": [],
+   "notes": "Cortical EEG becomes progressively isoelectric as Tb falls through a bout, and recovers during interbout arousal. Sub-measures are not separable from the abstracts used here."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": null,
+   "units": "metabolic rate, body temperature, heart rate",
+   "baseline": "euthermic interbout / pre-fast",
+   "evidence_grade": "E-A",
+   "citation_ids": [
+    "PMID:22785425",
+    "PMID:40593766"
+   ],
+   "notes": "Metabolic rate falls to a few percent of basal. Interbout arousals consume 60-80% of the entire winter energy budget (PMID:11893609) - the state is cheap, and LEAVING it is what is expensive."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 1,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 2,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 3,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 4,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 5,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "THE ENABLES_EXIT ENTRY IS THE MOST CONSEQUENTIAL CELL IN THIS ROW and it is why hibernation was scored. Intracerebroventricular prostaglandin E2 PROVOKES AROUSAL from an established hibernation bout. Before hibernation was added, `ENABLES_EXIT` was empty across every endogenous state in the table and present only in anaesthesia. It is no longer empty. SCOPE, and it is real: the febrile pathway is not the mechanism that TIMES natural interbout arousal - the authors' point is that febrile signalling remains functional during hibernation, demonstrated by forcing arousal with it. So this is a pathway that CAN drive exit, not one shown to schedule normal exit. It is nevertheless scored ENABLES_EXIT, because that is exactly the standard applied to caffeine in S5_ga_volatile_hsap c6. SPECIES SCOPE: Spermophilus lateralis, a different genus from the Ictidomys the row is nominally keyed to; the row covers seasonal obligate hibernators as a clade and this is declared rather than hidden. The LPS arm is an internal control: LPS alone neither induced fever nor provoked arousal in hibernating animals, so the arousal is specific to PGE2 downstream of the blocked step.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Central prostaglandin E2 provokes arousal from an established hibernation bout",
+     "roles": [
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11893609"
+       ],
+       "basis": "ICV infusion drives arousal from hibernation and induces fever, with an internal negative control (LPS alone does neither in hibernating animals)."
+      },
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:11893609"
+       ],
+       "basis": "Weak and inferential: a fever developing at the next natural arousal extended that arousal sixfold, implying the pathway also modulates how long the animal stays out. Graded E-D and not load-bearing."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "prostaglandin E2, intracerebroventricular; LPS intraperitoneal as control",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "PGE2 provoked arousal and induced fever; LPS in hibernating squirrels induced NEITHER fever NOR arousal; a fever appeared at the next natural arousal and extended it sixfold; arousals consume 60-80% of the winter energy budget"
+       },
+       "context_dependence": "state_dependent",
+       "statement": "The acute-phase response to bacterial lipopolysaccharide (LPS) was arrested during hibernation and fully restored on arousal to normothermia... LPS was without effect in hibernating squirrels, neither inducing fever nor provoking arousal, but a fever did develop several days later, when squirrels next aroused from hibernation; the duration of this arousal was increased sixfold above baseline values. Intracerebroventricular infusions of prostaglandin E(2) provoked arousal from hibernation and induced fever, suggesting that neural signaling pathways that mediate febrile responses are functional during hibernation. Over the course of the hibernation season, arousals consume 60-80% of a squirrel's winter energy budget, but their functional significance is unknown and disputed.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11893609"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "intracerebroventricular prostaglandin E2",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11893609"
+       ]
+      },
+      {
+       "step": "activation of febrile thermoregulatory signalling that remains intact during the bout",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11893609"
+       ]
+      },
+      {
+       "step": "arousal from hibernation",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:11893609"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "prostaglandin E2; febrile signalling pathway",
+       "species": "isp",
+       "identifier": null,
+       "ortholog_relation": "No corresponding entry anywhere else in the table. This is the only mechanism scored as driving exit from a natural reduced-activity state."
+      }
+     ],
+     "citation_ids": [
+      "PMID:11893609"
+     ],
+     "proximal_physical_effect": "pharmacological re-engagement of a thermoregulatory set-point pathway that is preserved but unused during the bout"
+    },
+    {
+     "label": "Septal vasopressin prevents seasonal hibernation",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2762331"
+       ],
+       "basis": "Infusion into the lateral septum during autumn-winter abolishes the hypothermic bouts the animal would otherwise show; controls hibernate normally. The seasonal disappearance of endogenous septal vasopressin is the matching natural observation."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "arginine vasopressin, lateral septum infusion",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "decrease",
+        "entry_threshold": "increase",
+        "survival_recovery": "not_reported",
+        "other": "vasopressin-infused hamsters showed almost no periods of hypothermia; control-infused hamsters hibernated normally; endogenous septal vasopressin immunoreactivity is dense in summer and absent in autumn and winter"
+       },
+       "context_dependence": "season_dependent",
+       "statement": "Hamsters whose lateral septum was infused with vasopressin showed almost no periods of hypothermia, whereas hamsters treated with control infusions displayed a normal hibernation pattern. The results indicate that persistence of vasopressin release in the lateral septum of the European hamster during winter can prevent hibernation.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2762331"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "vasopressin infusion into the lateral septum",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2762331"
+       ]
+      },
+      {
+       "step": "maintenance of a summer-like thermoregulatory set point",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2762331"
+       ]
+      },
+      {
+       "step": "hibernation prevented",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:2762331"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "arginine vasopressin, lateral septum",
+       "species": "isp",
+       "identifier": "European hamster Cricetus cricetus",
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:2762331"
+     ],
+     "proximal_physical_effect": "septal peptidergic maintenance of the euthermic thermoregulatory set point"
+    }
+   ],
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 7,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 8,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 9,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 10,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 11,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "OBSERVATIONAL, NOT A MANIPULATION, and graded accordingly. CO2 chemosensitivity is blunted during entrance into hibernation and elevated during arousal, producing a significant hysteresis at matched body temperature. The authors read the blunting as permitting the CO2 retention that contributes to metabolic suppression. No intervention was performed, so this is a measured state-dependent change in a control variable rather than a demonstrated cause. It is recorded because the ENTRANCE and AROUSAL limbs differ at the same body temperature, which is a genuine asymmetry between getting into the state and getting out of it - and this row is where that distinction is under test.",
+   "strongest_grade": "E-D",
+   "all_grades": [
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "CO2 chemosensitivity is asymmetrically regulated between entrance and arousal",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:34739575"
+       ],
+       "basis": "Blunted hypercapnic ventilatory response during entrance is proposed to permit the CO2 retention that contributes to metabolic suppression. Observational; no manipulation."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "none_observational",
+       "direction_of_manipulation": "none",
+       "agent": null,
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "respiratory exchange ratio drops on entrance and rises on arousal; CO2 chemosensitivity blunted while RER reduced, then rises late in entrance; at any given body temperature the hypercapnic ventilatory response is LOWER during entrance than arousal - a significant hysteresis; at matched oxygen consumption the two are the same"
+       },
+       "context_dependence": "phase_dependent",
+       "statement": "We observed a significant drop (entrance) and rise (arousal) in the RER produced by hypo- and hyperventilation, respectively. CO2 chemo-sensitivity while the RER was reduced on entrance was blunted and rose late in entrance. On arousal, CO2 chemo-sensitivity was elevated when the RER was elevated and fell immediately after RER returned to normal values. At any given Tb, the HCVR was lower during entrance compared to arousal producing a significant hysteresis. The HCVR, however, was the same at any given VO2 during entrance and arousal.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:34739575"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "phase-dependent change in central CO2 chemosensitivity",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:34739575"
+       ]
+      },
+      {
+       "step": "CO2 retention contributing to metabolic suppression",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:34739575"
+       ]
+      },
+      {
+       "step": "entrance-arousal hysteresis at matched body temperature",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:34739575"
+       ]
+      }
+     ],
+     "proximal_class": 11,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "central CO2 chemosensitivity (hypercapnic ventilatory response)",
+       "species": "isp",
+       "identifier": "Ictidomys tridecemlineatus",
+       "ortholog_relation": "The mouse volatile row carries a NALCN/retrotrapezoid entry for the CO2 ventilatory response under anaesthesia (S5_ga_volatile_mmus c1). Same physiological control variable, two states, no molecular claim made here."
+      }
+     ],
+     "citation_ids": [
+      "PMID:34739575"
+     ],
+     "proximal_physical_effect": "phase-dependent resetting of the central CO2 set point"
+    }
+   ],
+   "discovery_route": "SPECIES_ENDPOINT_FIRST"
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "class_id": 12,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": []
+  }
+ ],
+ "row_summary": {
+  "row_id": "S9_hib_seasonal_isp",
+  "coverage_denominator": 2,
+  "n_positive": 2,
+  "n_suggested": 0,
+  "n_negative": 0,
+  "n_not_tested": 10,
+  "n_distinct_sources": 3,
+  "n_not_applicable": 0,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 3,
+   "MAINTAINS_STATE": 0,
+   "PROTECTS_THROUGH_STATE": 0,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 1
+  }
+ },
+ "v1_migration": null,
+ "ontology_flags_v2": [
+  "scored directly under v2.1; no v1 predecessor"
+ ],
+ "citations_pending_verification": []
+}

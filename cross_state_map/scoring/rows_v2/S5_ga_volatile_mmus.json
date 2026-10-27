@@ -1,0 +1,2117 @@
+{
+ "row_id": "S5_ga_volatile_mmus",
+ "state": "strong general anaesthesia",
+ "species": "mmus",
+ "instantiation": "volatile agent, loss of righting / immobility endpoint",
+ "schema_version": "2",
+ "ontology_version": "2.1 (ENABLES_EXIT instantiated; see AMENDMENTS Entry 7)",
+ "scored_utc": "2026-09-17",
+ "scorer": "PE-5 scoring pass (v2)",
+ "state_production": "EXOGENOUS_AGENT",
+ "agent_scope": "The frozen instantiation is AGENT-GENERAL ('volatile agent'). Per the task's agent-specificity requirement, agent is recorded PER PERTURBATION rather than collapsed. Agents appearing: isoflurane (dominant), halothane, sevoflurane, enflurane.",
+ "state_production_justification": {
+  "assigned": "EXOGENOUS_AGENT",
+  "assigned_when": "2026-09-16 in states_v2.json, hashed, BEFORE any mouse-volatile mechanism search",
+  "operational_basis": "State exists only during volatile agent exposure at sufficient alveolar concentration and terminates on washout.",
+  "ambiguity": "This row contains strong evidence that emergence is NOT simply the reverse of induction (Kelz 2008; Ramadasan-Nair 2019), which complicates 'the drug produces it' as a complete account of the state's time course but does not change what produces it.",
+  "note": "Assignment did not dictate roles. This row produced the first ENABLES_EXIT assignments in the project."
+ },
+ "_endpoint_note": "ENDPOINT SPECIFICITY IS PRESERVED THROUGHOUT, as the task requires. Endpoints appearing separately: MAC/tail-clamp EC50 (immobility), loss-of-righting EC50 (hypnosis), EMERGENCE/regain-of-righting EC50, amnesia, core temperature, heart rate, cellular resting membrane potential and holding current. A mutation shifting MAC is scored CONTROLS_ENTRY unless the experiment separately establishes another role.",
+ "axes": [
+  {
+   "axis": "A_beh",
+   "condition": "whole_state",
+   "scope": "whole_organism",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 1.4,
+   "units": "wild-type isoflurane MAC, % (SD 0.11); wild-type halothane MAC 1.30% (SD 0.10)",
+   "baseline": "unexposed mice of the same genotype",
+   "evidence_grade": "E-C",
+   "citation_ids": [
+    "PMID:37027798",
+    "PMID:30707122"
+   ],
+   "notes": "Best-quantified A_beh in the mammalian set, with genotype-resolved EC50s for BOTH induction and emergence separately (Ramadasan-Nair 2019). Induction and emergence EC50s dissociate genetically, so a single behavioural direction understates the row."
+  },
+  {
+   "axis": "A_neu",
+   "condition": "whole_state",
+   "scope": "single_cells",
+   "measurability": "MEASURED",
+   "direction": null,
+   "neural_submeasures": {
+    "rate_amplitude": {
+     "direction": "decreased",
+     "evidence_grade": "E-D",
+     "note": "Isoflurane hyperpolarises spinal cord neurons: wild-type dRMP -5.2 mV at 1.8% isoflurane; Ndufs4 dRMP -8.2 mV at only 0.6%. Hyperpolarisation is a direct excitability measurement, not a population-rate measurement, and the scope is single cells in slices."
+    },
+    "coordination": {
+     "direction": "not_measured",
+     "evidence_grade": null,
+     "note": "No mouse coordination/correlation measurement located in this pass."
+    },
+    "dynamical_organization": {
+     "direction": "decreased",
+     "evidence_grade": "E-E",
+     "note": "Anaesthetics have different effects on electrocorticographic spectra in wild-type versus mitochondrial mutant mice (Carspecken 2018) - a spectral difference by genotype, not a characterisation of the state's organisation. Graded E-E."
+    }
+   },
+   "magnitude": null,
+   "units": "patch clamp, spinal cord slices",
+   "baseline": "same neurons before isoflurane",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:38147628",
+    "PMID:30074932"
+   ],
+   "notes": "OPPOSITE SCOPE PROFILE TO THE OTHER THREE MAMMALIAN ROWS. Human rows measure coordination and dynamical organisation at whole-brain scale and never measure rate/amplitude; this mouse row measures rate/amplitude at single-cell scale and barely measures the others. The mammalian volatile rows therefore do NOT measure the same things, and cross-row A_neu comparison within mammals is limited to what overlaps - currently almost nothing."
+  },
+  {
+   "axis": "A_met",
+   "condition": "whole_state",
+   "scope": "whole_brain",
+   "measurability": "MEASURED",
+   "direction": "decreased",
+   "neural_submeasures": null,
+   "magnitude": 308.2,
+   "units": "CMRO2 mumol/100g/min estimated for somatosensory and motor cortex neural responses; CMRO2 suppressed dose-dependently by isoflurane",
+   "baseline": "lower isoflurane doses in the same animals",
+   "evidence_grade": "E-D",
+   "citation_ids": [
+    "PMID:39254055"
+   ],
+   "notes": "CHANGED 2026-09-17 from NOT_YET_MEASURED. Wei 2024 measured cerebral metabolic rate of oxygen dynamically under graded isoflurane in mice by noncontrast MRI, finding dose-dependent CMRO2 suppression concomitant with diminished high-frequency EEG activity. SCALE IS WHOLE-BRAIN, NOT WHOLE-ORGANISM. CRITICAL CAVEAT THE AUTHORS THEMSELVES RAISE: the degree of metabolic suppression correlated strongly with RESPIRATION RATE, so part of the measured CMRO2 change may reflect respiratory depression rather than neural metabolic demand. This partially answers PE-2 for wild type only; the Ndufs4/NDi1 genotype comparison remains unmeasured."
+  }
+ ],
+ "cells": [
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 1,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "THE ABSTRACT DOES NOT STATE THE ENDPOINT OR THE DIRECTION. It reports 'an altered response to the anesthetic isoflurane, reminiscent of unc-79 invertebrate mutant phenotypes'. The worm unc-79 phenotype is HYPERSENSITIVITY, so hypersensitivity is implied by analogy, but the abstract does not state it and full text was not retrieved. Polarity is therefore UNDETERMINED and the quantitative phenotype is unspecified. PE-5 ADDITION: a second, mechanistically explicit line now exists. Volatile anaesthetics DIRECTLY ACTIVATE the NALCN-mediated leak conductance in retrotrapezoid nucleus neurons, and NALCN there is required for the CO2 ventilatory response during anaesthesia. CRITICAL ENDPOINT DISTINCTION: that endpoint is RESPIRATORY OUTPUT, not the anaesthetic state endpoint, so it cannot be read as NALCN producing or gating anaesthesia. AGENT-SPECIFIC: isoflurane and sevoflurane activate the conductance; PROPOFOL DOES NOT.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Unc79 (Lightweight, ENU allele) heterozygous mice show an altered isoflurane response",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:20714347"
+       ],
+       "basis": "A targeted germline mutation in a NALCN-complex accessory subunit alters the whole-animal response to an anaesthetic agent. Endpoint unspecified in the abstract, but 'response to the anesthetic' in this literature denotes a sensitivity/threshold measure, not a maintenance measure."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "ALTERED isoflurane response, direction not stated in abstract; homozygotes perinatal lethal so heterozygotes were used; same animals are dramatically hypersensitive to acute ethanol"
+       },
+       "context_dependence": "none_reported",
+       "statement": "While Lwt/Lwt homozygotes are perinatal lethal, Lightweight heterozygotes are dramatically hypersensitive to acute ethanol exposure... Lightweight heterozygotes also exhibit an altered response to the anesthetic isoflurane, reminiscent of unc-79 invertebrate mutant phenotypes.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:20714347"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "ENU disruption of mouse Unc79 (NALCN complex accessory subunit), heterozygous",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:20714347"
+       ]
+      },
+      {
+       "step": "altered whole-animal isoflurane response",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:20714347"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Unc79 (Lightweight / Lwt ENU allele)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Direct homolog of C. elegans unc-79, which is scored in S5_ga_volatile_cele class 1 (CONTROLS_ENTRY, OPPOSES_STATE, hypersensitive) and in S2_core_cele class 1 (MAINTAINS_STATE). Speca 2010 additionally report conserved ethanol hypersensitivity in worm unc-79, unc-80 AND nca-1;nca-2 doubles, i.e. the same complex on both sides. Resolution: ORTHOLOGOUS_MOLECULE."
+      }
+     ],
+     "citation_ids": [
+      "PMID:20714347"
+     ],
+     "proximal_physical_effect": "altered background cation leak conductance via disruption of a NALCN-complex accessory subunit",
+     "overlap_resolution_vs_worm": "ORTHOLOGOUS_MOLECULE"
+    },
+    {
+     "label": "Volatile anaesthetics activate NALCN sodium leak conductance in retrotrapezoid nucleus neurons, preserving respiratory drive during anaesthesia",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32773689"
+       ],
+       "basis": "Genetic silencing of NALCN in the retrotrapezoid nucleus diminished the CO2 ventilatory response DURING isoflurane anaesthesia. The mechanism preserves a vital function through the state; it does not produce, gate or maintain the state itself."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "NALCN holding current -75.0+/-12.9 to -130.1+/-34.9 pA (P=0.002), conductance 1.8+/-0.5 to 3.6+/-1.0 nS (P=0.001) at ~1.5 MAC; Phox2b RTN firing 1.1 to 2.8 Hz (P<0.001), eliminated by gadolinium or NALCN silencing; sevoflurane comparable; PROPOFOL DID NOT activate the conductance"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "Isoflurane and sevoflurane increase neuronal excitability of chemosensitive retrotrapezoid nucleus neurons partly by enhancing sodium leak channel conductance. Sodium leak channel expression in the retrotrapezoid nucleus is required for the ventilatory response to carbon dioxide during anesthesia by isoflurane and sevoflurane.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32773689"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "volatile anaesthetic acts on Phox2b RTN neurons",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:32773689"
+       ]
+      },
+      {
+       "step": "increased NALCN-mediated sodium leak conductance",
+       "class_id": 1,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32773689"
+       ]
+      },
+      {
+       "step": "preserved CO2 ventilatory response during anaesthesia",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:32773689"
+       ]
+      }
+     ],
+     "proximal_class": 1,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Nalcn (retrotrapezoid nucleus, Phox2b neurons)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "EXACT_MOLECULE with S3_rem_mmus c1; ORTHOLOGOUS_MOLECULE with worm nca-1/nca-2/unc-79/unc-80."
+      }
+     ],
+     "citation_ids": [
+      "PMID:32773689",
+      "PMID:38767833"
+     ],
+     "proximal_physical_effect": "increased background sodium leak conductance raising firing of chemosensitive brainstem neurons",
+     "overlap_resolution": "EXACT_MOLECULE across mouse rows; ORTHOLOGOUS vs worm"
+    }
+   ],
+   "discriminating_experiment": "Obtain the Speca 2010 full text to extract the isoflurane endpoint, direction and effect size. Then run the quantitative dose-response the collaborator spec specifies (LORR EC50 and MAC, induction and emergence separately, temperature and circadian controlled) in Lwt/+ and, in parallel, in the Funato Dreamless Nalcn allele. PE-1 is now a QUANTIFICATION and EXTENSION experiment, not a first test.",
+   "notes": "CELL CHANGED FROM NOT_TESTED TO TESTED_POSITIVE, 2026-09-17 (AMENDMENTS Entry 9). THIS IS THE MOST CONSEQUENTIAL SINGLE CORRECTION IN THE PROJECT. It means NALCN-complex machinery now recurs in FOUR states across two species: worm lethargus, worm volatile anaesthesia, mouse REM, and mouse volatile anaesthesia. HOW IT WAS MISSED: the paper frames itself as alcohol genetics ('Conserved role of unc-79 in ethanol responses'), with isoflurane appearing in neither title nor keywords. Neither class-first searching ('cation leak mouse anaesthesia') nor molecule-first searching ('Nalcn mice isoflurane anesthesia sensitivity') retrieved it; it surfaced only from a gene-name-plus-adjacent-phenotype query. This is the strongest instance yet of the Branch H search-methodology finding. PE-5: second mechanism added. NALCN is now implicated in mouse volatile anaesthesia by TWO independent routes with DIFFERENT roles - Unc79 germline mutation altering anaesthetic sensitivity (CONTROLS_ENTRY), and direct anaesthetic activation of the conductance preserving respiratory drive (PROTECTS_THROUGH_STATE). The agent dissociation (volatiles yes, propofol no) constrains any general 'NALCN mediates anaesthesia' claim.",
+   "discovery_route": "CITATION_CHAIN"
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 2,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "BOTH",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "ambiguity": "A POSITIVE PHYSICAL CLASS WITH A NEGATIVE MOLECULAR CARRIER. Isoflurane-induced hyperpolarising K+ currents are real, causally downstream of complex I, and track MAC. But the leading candidate channels are excluded: TREK-1 and TREK-2 knockouts have normal halothane and isoflurane MAC, and loss of both does not eliminate the isoflurane-induced currents - it only renders them norfluoxetine-insensitive, implying other channels substitute.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D"
+   ],
+   "negative_assay_statement": "Spencer 2023 measured halothane and isoflurane MAC and loss-of-righting in Trek-1 (two independent alleles), Trek-2, Trek-1;Trek-2 double and Ndufs4;Trek-1 mice. The assay could have detected anaesthetic resistance and did not: wild-type isoflurane MAC 1.40% (0.11) vs Trek-1tm1Lex 1.38% (0.09), P=0.268; halothane 1.30% vs 1.27%, P=0.387; neither allele resistant for loss of righting. SCOPE: TREK-1/TREK-2 as the molecular carrier of the organism-level phenotype. It does NOT negate class 2 as a physical mechanism.",
+   "mechanisms": [
+    {
+     "label": "Isoflurane-induced hyperpolarising potassium currents in spinal cord neurons, downstream of complex I",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ],
+       "basis": "NDi1 gain-of-function mice, which bypass complex I, are RESISTANT to volatile anaesthetics and show no isoflurane-induced hyperpolarisation - linking the potassium current to the organism-level MAC endpoint."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "gain_of_function",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "NDi1 neurons in wild-type background not hyperpolarised by 1.8% isoflurane (dRMP +0.6 mV, P=0.68) vs wild type -5.2 mV (P=0.00057); NDi1;Ndufs4 rescued from Ndufs4 hyperpolarisation"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "Bypassing complex I by overexpression of NDi1 eliminates increases in potassium currents induced by isoflurane in the spinal cord. The isoflurane-induced potassium currents in glutamatergic neurons represent a potential downstream mechanism of complex I inhibition in determining minimum alveolar concentration.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "halothane and isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "not_reported",
+        "other": "MAC unchanged in Trek-1, Trek-2 and double knockouts; isoflurane-induced currents persist but become norfluoxetine-insensitive, indicating substitution by other channels"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Loss of TREK channels did not alter anesthetic sensitivity in mice, nor did it eliminate isoflurane-induced transmembrane currents. However, the isoflurane-induced currents are norfluoxetine-resistant in Trek mutants, indicating that other channels may function in this role when TREK channels are deleted.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:37027798"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "isoflurane inhibition of mitochondrial complex I",
+       "class_id": 8,
+       "role": "upstream",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "step": "increased potassium leak current, neuron hyperpolarisation",
+       "class_id": 2,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "step": "contribution to minimum alveolar concentration",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": true,
+       "evidence_grade": null,
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      }
+     ],
+     "proximal_class": 2,
+     "upstream_classes": [
+      8
+     ],
+     "molecules": [
+      {
+       "name": "unidentified norfluoxetine-sensitive K+ leak channel",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Worm class-2 evidence is slo-1 (BK family), a different family. Overlap is SAME_PHYSICAL_CLASS only, NOT same molecule."
+      },
+      {
+       "name": "Kcnk2/TREK-1, Kcnk10/TREK-2 (EXCLUDED)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "tested and negative"
+      }
+     ],
+     "citation_ids": [
+      "PMID:38147628",
+      "PMID:37027798"
+     ],
+     "proximal_physical_effect": "increased potassium conductance producing membrane hyperpolarisation",
+     "overlap_resolution_vs_worm": "SAME_PHYSICAL_CLASS"
+    }
+   ],
+   "discriminating_experiment": "Identify the norfluoxetine-sensitive channel that carries the isoflurane current when TREK is deleted. Until then class 2 has a demonstrated physical operation with no identified molecular carrier in mouse.",
+   "notes": "ANSWERS TASK QUESTION 18B DIRECTLY. Mouse volatile anaesthesia supports K+ conductance as an organism-relevant PHYSICAL mechanism while providing a clean TESTED_NEGATIVE against the leading molecular candidates. Convergence and divergence at different resolutions in the same cell."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 3,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "MOLECULE_FIRST",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "ambiguity": "ENDPOINT-DECOMPOSING, AND THAT IS THE RESULT. beta3-containing GABA-A receptors mediate isoflurane immobilisation only PARTLY, mediate isoflurane's core-temperature and heart-rate effects partly, and do NOT mediate propofol's anterograde amnesia. Meanwhile glycine alpha1 knockins with altered isoflurane sensitivity in vitro show NO MAC increase. The class is positive, negative and partial depending on which endpoint and which molecule.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": "Borghese 2012 engineered glycine receptor alpha1 mutations that increased (M287L) or decreased (Q266I) isoflurane sensitivity in recombinant receptors, confirmed the shifts in brainstem neurons from the knockin mice, then measured MAC for isoflurane and other volatile agents. The assay could have detected a MAC shift in the predicted direction and did not; the only change observed (decreased MAC for isoflurane and enflurane in 2-week-old Q266I) was OPPOSITE to prediction. SCOPE: glycine receptors containing the alpha1 subunit, MAC endpoint.",
+   "mechanisms": [
+    {
+     "label": "beta3-containing GABA-A receptors partly mediate isoflurane actions, with endpoint specificity",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:17319964",
+        "PMID:15913600"
+       ],
+       "basis": "beta3(N265M) knock-in shifts the concentration at which isoflurane produces immobilisation and autonomic effects; the endpoint is threshold, not maintenance."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "immobilising action of isoflurane PARTLY mediated; core temperature and heart-rate depression smaller in mutants; ECG intervals and heart-rate variability indistinguishable; propofol amnesia unaffected"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "Isoflurane decreased core body temperature and heart rate to a smaller degree in beta3(N265M) mice than in wild type mice, indicating a minor but significant role of beta3-containing GABAA receptors in these actions... the immobilizing action of etomidate and propofol is completely, and the immobilizing action of isoflurane partly mediated, by beta3-containing GABAA receptors.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:17319964"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "surgical tolerance mediated only in part"
+       },
+       "context_dependence": "readout_dependent",
+       "statement": "Isoflurane-induced surgical tolerance mediated only in part by beta3-containing GABA(A) receptors.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:15913600"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "beta3(N265M) point mutation reduces anaesthetic action at GABA-A",
+       "class_id": 3,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:17319964"
+       ]
+      },
+      {
+       "step": "partial loss of isoflurane immobilisation; reduced hypothermia and bradycardia",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:17319964"
+       ]
+      }
+     ],
+     "proximal_class": 3,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Gabrb3 (beta3 subunit, N265M)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Worm class-3 evidence is unc-25/GABA pathway in lethargus and is a TESTED_NEGATIVE. Mammalian GABA-A subunit-level evidence has no worm counterpart scored. SAME_PHYSICAL_CLASS at best."
+      },
+      {
+       "name": "Glra1 alpha1 (M287L, Q266I) - TESTED NEGATIVE for MAC",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:17319964",
+      "PMID:15913600",
+      "PMID:22885675"
+     ],
+     "proximal_physical_effect": "increased chloride conductance / enhanced inhibitory shunting",
+     "overlap_resolution_vs_worm": "SAME_PHYSICAL_CLASS"
+    }
+   ],
+   "discriminating_experiment": "The beta3 result decomposes the anaesthetic phenotype by endpoint. Extending the same knock-in analysis to EMERGENCE EC50 would test whether the inhibitory conductance contributes to exit as well as entry - currently untested for any class in any row except 8 and 6/7.",
+   "notes": "THE CLEANEST IN-VITRO-VERSUS-ORGANISM DISSOCIATION IN THE PROJECT. Borghese 2012 built receptors with shifted anaesthetic sensitivity, verified the shift in native neurons, and found no corresponding MAC change - concluding alpha1 glycine receptors are 'not likely to be crucial'. This is the answer to the task's warning that in vitro modulation does not establish an organism-level mechanism."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 4,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "MOLECULE_FIRST",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "CELLULAR PREPARATION ONLY, NO ORGANISM-LEVEL CAUSAL TEST, THEREFORE NO ASSIGNABLE ROLE. The measurement is a direct drug action on identified receptors in mouse tissue, but no behavioural endpoint was manipulated through them. PE-5 R2: SCOPE. This is NOT evidence that a glutamate receptor is an anaesthetic target. The manipulation is a METABOLIC lesion targeted to glutamatergic neurons, read out as sEPSC frequency, with an explicit inhibitory-side negative (sIPSCs not differentially affected) and two negative cell-type controls (GABAergic, cholinergic). It is evidence that EXCITATORY TRANSMISSION is the route by which metabolic state sets anaesthetic potency, and it is the mechanistic bridge between this row's class 4, class 5 and class 8 entries. PE-5 R2: ENDPOINT DISSOCIATION WITHIN ONE ANIMAL, and it cuts A_beh in two. Immobility (a spinal reflex endpoint) and hypnosis (loss of righting, a supraspinal endpoint) come apart under the SAME genetic lesion in the SAME mice. The anaesthesia literature routinely reports 'anaesthetic sensitivity' as one quantity; this result shows it is at least two. Agent control: ketamine hypnosis is unaffected, so the effect is not a general shift in arousal threshold. Together with the Ndufs4 ketamine-resistance result in class 8 of this row, agent specificity is now established twice over on independent mechanisms.",
+   "strongest_grade": "E-D",
+   "all_grades": [
+    "E-D",
+    "E-B",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Enflurane directly depresses AMPA and NMDA currents in mouse spinal cord motor neurons",
+     "roles": [],
+     "perturbations": [
+      {
+       "manipulation": "pharmacological_block",
+       "direction_of_manipulation": "decrease",
+       "agent": "enflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "depression of glutamate AMPA and NMDA currents, independent of GABA-A or glycine receptor actions"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Enflurane directly depresses glutamate AMPA and NMDA currents in mouse spinal cord motor neurons independent of actions on GABAA or glycine receptors.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:11020764"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "enflurane application to spinal motor neurons",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:11020764"
+       ]
+      }
+     ],
+     "proximal_class": 4,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "AMPA and NMDA receptors",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Worm class-4 evidence is nmr-1/NMDA for NITROUS OXIDE, itself SUGGESTED and agent-mismatched. Overlap is SAME_PHYSICAL_CLASS with weak evidence on both sides."
+      }
+     ],
+     "citation_ids": [
+      "PMID:11020764"
+     ],
+     "proximal_physical_effect": "reduced ionotropic excitatory current",
+     "overlap_resolution_vs_worm": "SAME_PHYSICAL_CLASS"
+    },
+    {
+     "label": "Excitatory (glutamatergic) neurons are the cell class through which complex I dysfunction sets volatile-anaesthetic potency",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ],
+       "basis": "Cell-type-restricted metabolic lesion reproduces the whole-animal anaesthetic phenotype, with a matched presynaptic excitatory readout and an inhibitory-side negative control in the same slices."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "glutamatergic-restricted NDUFS4 loss recapitulates VA hypersensitivity; GABAergic and cholinergic restriction do NOT; baseline CA1 electrophysiology unchanged; sEPSC frequency falls at 0.6% isoflurane only in KO; sIPSCs not differentially affected; evoked fEPSP and paired-pulse facilitation similar between genotypes"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "Limiting NDUFS4 loss to a subset of glutamatergic neurons recapitulates the VA hypersensitivity of Ndufs4(KO) mice, while loss in GABAergic or cholinergic neurons does not. Baseline electrophysiologic function of CA1 pyramidal neurons does not differ between Ndufs4(KO) and control mice. Isoflurane concentrations that anesthetize only Ndufs4(KO) mice (0.6%) decreased the frequency of spontaneous excitatory postsynaptic currents (sEPSCs) only in Ndufs4(KO) CA1 neurons... Spontaneous inhibitory postsynaptic currents (sIPSCs) were not differentially affected between genotypes.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "metabolic lesion confined to glutamatergic neurons",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      },
+      {
+       "step": "spontaneous excitatory transmission becomes anaesthetic-hypersensitive",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      },
+      {
+       "step": "whole-animal volatile-anaesthetic hypersensitivity",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      }
+     ],
+     "proximal_class": 4,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "glutamatergic neurons as the causal cell class (not a receptor)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:27498564"
+     ],
+     "proximal_physical_effect": "anaesthetic-induced failure of excitatory presynaptic release under reduced metabolic reserve"
+    },
+    {
+     "label": "Neuronal glutamate transporter EAAT3 sets isoflurane HYPNOTIC potency but not immobilising potency",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ],
+       "basis": "Germline knockout lowers the isoflurane concentration required for loss of righting reflex while leaving the immobility concentration unchanged - entry control for one endpoint, explicitly not for the other."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane; ketamine",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "MORE sensitive to isoflurane-induced hypnosis (loss of righting); immobility concentration UNCHANGED; ketamine hypnotic sensitivity UNCHANGED; EAAT1 and EAAT2 expression unchanged in cortex and spinal cord"
+       },
+       "context_dependence": "endpoint_dependent",
+       "statement": "The concentration required for isoflurane to cause immobility to painful stimuli, a response involving primarily reflex loops in the spinal cord, was not changed by EAAT3 knockout. However, the EAAT3 knockout mice were more sensitive to isoflurane-induced hypnotic effects, which may be mediated by hypothalamic sleep neural circuits. Interestingly, the EAAT3 knockout mice did not have an altered sensitivity to the hypnotic effects caused by ketamine, an i.v. anesthetic that is a glutamate receptor antagonist and does not affect EAAT3 activity.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "Slc1a1/EAAT3 deletion",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ]
+      },
+      {
+       "step": "reduced neuronal glutamate uptake",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ]
+      },
+      {
+       "step": "increased sensitivity of hypothalamic hypnotic circuitry to isoflurane",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ]
+      },
+      {
+       "step": "loss of righting reflex at lower isoflurane concentration",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:20875840"
+       ]
+      }
+     ],
+     "proximal_class": 4,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "EAAT3 / Slc1a1 neuronal glutamate transporter",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:20875840"
+     ],
+     "proximal_physical_effect": "altered clearance of synaptic glutamate changing the anaesthetic sensitivity of hypnosis-generating circuitry"
+    }
+   ],
+   "discriminating_experiment": "A receptor-subunit knock-in altering volatile anaesthetic sensitivity with MAC measured, analogous to the beta3 and glycine alpha1 designs.",
+   "notes": "Third role-less cell in the project, all three in mammalian rows. Agent is enflurane, recorded and not generalised."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 5,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "A SIGNED DOUBLE DISSOCIATION ACROSS AGENTS IN ONE GENOTYPE, and it is the sharpest agent result in the table. The SAME knockout is MORE sensitive to halothane and LESS sensitive to propofol. Not 'less affected' - oppositely affected. The authors' conclusion is quoted exactly because it is the claim: 'inhibition of the N-type Ca2+ channel underlies mechanisms of halothane anesthesia but counteracts propofol anesthesia.' MECHANISTIC CORROBORATION AT THE SYNAPSE: halothane depressed Schaffer collateral-CA1 field EPSPs MORE in the knockout, so the behavioural shift has a matched synaptic correlate in the expected direction. CLASS ASSIGNMENT IS DIRECT: the frozen class-5 definition names 'presynaptic Ca_v' among its representative implementations. SCOPE: agent identity is halothane, which is in this row's frozen agent scope; the propofol arm is recorded for the dissociation and is not transferable to the human propofol row, which is a different species.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Presynaptic N-type Ca2+ channels mediate halothane anaesthesia and OPPOSE propofol anaesthesia in the same animals",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ],
+       "basis": "Germline knockout shifts whole-animal anaesthetic sensitivity in opposite directions for two agents, with a matched hippocampal field-potential measurement for the volatile arm."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "halothane; propofol",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "halothane sensitivity SIGNIFICANTLY INCREASED; propofol sleep time SIGNIFICANTLY DECREASED; halothane depressed Schaffer collateral-CA1 fEPSPs MORE in knockouts"
+       },
+       "context_dependence": "agent_dependent",
+       "statement": "We examined the sensitivity to halothane in mice lacking the N-type Ca2+ channel, a major contributor of presynaptic neurotransmitter release. Sensitivity to halothane was significantly increased in the knockout mice compared with the wild-type littermates. Halothane also depressed field excitatory postsynaptic potentials recorded from the Schaffer collateral-CA1 hippocampal synapses more greatly in the knockout mice. We further examined sleep time induced by injection of propofol, an intravenous anesthetic that mainly affects inhibitory synaptic transmission. In contrast, sensitivity to propofol was significantly decreased in the knockout mice. We suggest that inhibition of the N-type Ca2+ channel underlies mechanisms of halothane anesthesia but counteracts propofol anesthesia.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "N-type (Cav2.2) calcium channel deletion",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ]
+      },
+      {
+       "step": "reduced presynaptic calcium entry and transmitter release",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ]
+      },
+      {
+       "step": "greater halothane depression of excitatory field potentials",
+       "class_id": 4,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ]
+      },
+      {
+       "step": "increased halothane and decreased propofol sensitivity",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:12962913"
+       ]
+      }
+     ],
+     "proximal_class": 5,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "N-type Ca2+ channel (Cacna1b / Cav2.2)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "The worm volatile row's class-5 entry is unc-64/syntaxin-1A with enhanced excitatory release. Both are presynaptic release machinery and both set volatile-anaesthetic sensitivity, but they are different proteins at different steps: SAME_PATHWAY_MODULE, not orthologous."
+      }
+     ],
+     "citation_ids": [
+      "PMID:12962913"
+     ],
+     "proximal_physical_effect": "altered presynaptic calcium-dependent release, changing how much further an anaesthetic must depress transmission to produce the state",
+     "overlap_resolution": {
+      "level": "SAME_PATHWAY_MODULE",
+      "partner": "S5_ga_volatile_cele c5 (unc-64 syntaxin)",
+      "justification": "Both manipulate the presynaptic release step and both change volatile-anaesthetic potency in the whole animal, in the same direction (compromised release -> hypersensitivity). Different proteins, same module. This is one of only two cross-phylum correspondences in the table where the DIRECTION also matches, the other being complex I."
+     }
+    }
+   ],
+   "discriminating_experiment": "A syntaxin1A or SNAP-25 knock-in mouse with MAC and loss-of-righting EC50 measured. This is the single experiment that would resolve whether the worm unc-64 result reflects a conserved organism-level mechanism or a worm-specific one. The reagents largely exist.",
+   "notes": "NOT_TESTED IN MOUSE, AND THIS IS A SUBSTANTIVE ANSWER TO TASK QUESTION 18C. Both search routes were run explicitly: MOLECULE_FIRST ('syntaxin SNAP-25 mouse isoflurane synaptic vesicle release anesthesia', 'Munc18 syntaxin1A knockin mouse anesthetic', 'presynaptic release probability isoflurane mouse hippocampal synapse SNAP-25') and CLASS_FIRST. No mouse study meeting the state-specific causal bar was located. The strong mammalian release-machinery evidence identified in the previous audit remains RAT/PC12/cultured-neuron (Herring 2011) and Drosophila (Bademosi 2018). Worm volatile anaesthesia scores class 5 at E-A via unc-64 syntaxin. So the SNARE overlap does NOT currently extend to mouse at the organism level - it remains preparation-specific in mammals.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 6,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "CLASS_FIRST",
+   "roles_present": [
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "CONTESTED WITHIN MOUSE, AND THE CONFOUND IS IDENTIFIED. Kelz 2008 report orexin ablation delays emergence without changing induction. Kuroki 2013 report that when body temperature is CLAMPED by warming the chamber, orexin-ablated and wild-type mice show NO difference in emergence time, and that cooling wild-type mice reproduces the delay. The orexin emergence phenotype may therefore be substantially thermoregulatory. Recorded, not resolved.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-C",
+    "E-D"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Orexinergic signalling promotes emergence from volatile anaesthesia without affecting induction",
+     "roles": [
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:18195361"
+       ],
+       "basis": "Genetic ablation of orexinergic neurons delays emergence WITHOUT changing induction; a selective orexin-1 receptor antagonist reproduces the emergence-specific effect. The phenotype is exclusively exit, which no other frozen role expresses."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane and sevoflurane",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "decrease",
+        "other": "emergence delayed, induction unchanged; isoflurane and sevoflurane inhibit c-Fos in orexinergic but not adjacent MCH neurons"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Genetic ablation of orexinergic neurons, which causes acquired murine narcolepsy, delays emergence from anesthesia, without changing anesthetic induction. Pharmacologic studies with a selective orexin-1 receptor antagonist confirm a specific orexin effect on anesthetic emergence without an associated change in induction. We conclude that there are important differences in the neural substrates mediating induction and emergence.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:18195361"
+       ]
+      },
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "unchanged",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "unchanged",
+        "other": "with the chamber warmed to 32C there were NO significant differences between orexin-ablated and control mice in emergence time"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "In the warmed condition, there were no significant differences between the ORX-AB and control mice with respect to body temperature, locomotor activity, induction time, or emergence time.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "orexin system activation facilitates emergence and pain control"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Activation of orexin system facilitates anesthesia emergence and pain control.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:30348769"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "volatile anaesthetics inhibit c-Fos in orexinergic neurons",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:18195361"
+       ]
+      },
+      {
+       "step": "loss of orexinergic drive",
+       "class_id": 6,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:18195361"
+       ]
+      },
+      {
+       "step": "delayed emergence",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:18195361"
+       ]
+      }
+     ],
+     "proximal_class": 6,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Hcrt / orexin; Hcrtr1 / OX1R",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "No worm orexin orthologue. Mouse REM row scores Hcrtr2/Ox2R in MCH neurons for a DIFFERENT role (CONTROLS_ENTRY). Same molecule family, two mammalian states, different roles and different receptor subtype."
+      }
+     ],
+     "citation_ids": [
+      "PMID:18195361",
+      "PMID:23477964",
+      "PMID:30348769"
+     ],
+     "proximal_physical_effect": "loss of neuropeptidergic excitatory drive to wake-active circuitry",
+     "overlap_resolution_vs_mouse_REM": "EXACT_MOLECULE (orexin system), DIFFERENT RECEPTOR SUBTYPE, DIFFERENT ROLE"
+    }
+   ],
+   "discriminating_experiment": "Repeat the Kelz ablation and OX1R-antagonist experiments with body temperature clamped, as Kuroki's design requires. This is a decisive and cheap experiment that would either confirm or largely dissolve one of the best-known results in anaesthesia neuroscience.",
+   "notes": "Gompf 2009 (PMID:19809293) report halothane-induced hypnosis is NOT accompanied by inactivation of orexinergic output, which further qualifies the agent-generality of the c-Fos result. Recorded as a caveat, not scored separately."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 7,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "CLASS_FIRST",
+   "roles_present": [
+    "ENABLES_EXIT",
+    "CONTROLS_ENTRY"
+   ],
+   "roles_tested_negative": [
+    "PRODUCES_STATE"
+   ],
+   "ambiguity": "Circuit-level arousal manipulations change emergence timing, but whether they act on the anaesthetic state itself or on general arousal that competes with it is not separated by the located evidence. PE-5 R2: AXIS DISSOCIATION stated by the authors: ablation shifted the BEHAVIOURAL (righting) endpoint but did NOT produce EEG signatures of anaesthetic resistance. A_beh moved, A_neu did not. This is precisely the case the frozen three-axis rule exists to keep visible, and it would have been erased by any single-axis 'depth of anaesthesia' score. PE-5 R2: THE DIRECT TEST OF THE PROJECT'S HEADLINE GAP, AND IT DISSOCIATED THE AXES. Claim D2 says nothing has been shown to PRODUCE the anaesthetised state. This is the closest attempt on record: capture the neurons the anaesthetic activates, then drive them without the drug. Three endpoints moved - immobility, discoordination, anti-nociception - and the defining one, righting, did not. The gap is therefore no longer 'unattempted'; it is 'attempted at ensemble level, and the components of the anaesthetic state came apart under the attempt'. That is a far stronger and far more falsifiable position for D2 than the absence of evidence it rested on before. PREPRINT (bioRxiv 2025.12.02.691631), graded E-C on that ground and flagged for revisit on peer review. SCOPE: an ensemble captured by immediate-early-gene activity is not a defined cell type and includes whatever was metabolically active under anaesthesia, so a negative here does not rule out that some specific population is sufficient - which is exactly the residue pending experiment PE-A now targets.",
+   "strongest_grade": "E-C",
+   "all_grades": [
+    "E-C",
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": "Chemogenetic reactivation of Fos-captured, isoflurane-activated brain-wide ensembles (PMID:41573848) produced immobility, discoordination and anti-nociception and significantly increased anaesthetic sensitivity, but did NOT produce loss of consciousness as measured by the righting reflex. The assay resolved four positive effects in the same animals, so it had demonstrated power; the defining endpoint specifically did not move. PREPRINT, E-C.",
+   "mechanisms": [
+    {
+     "label": "Noradrenergic and ventral pallidum-locus coeruleus-lateral hypothalamus arousal circuitry modulates emergence",
+     "roles": [
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:32807382",
+        "PMID:40379709"
+       ],
+       "basis": "Circuit manipulation and circadian variation both act on emergence timing rather than on induction threshold."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "other",
+       "direction_of_manipulation": "not_applicable",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "circadian differences in emergence time, with locus coeruleus noradrenergic involvement"
+       },
+       "context_dependence": "timing_dependent",
+       "statement": "Circadian differences in emergence from volatile anaesthesia in mice: involvement of the locus coeruleus noradrenergic system.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:32807382"
+       ]
+      },
+      {
+       "manipulation": "optogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "increase",
+        "other": "pathway modulates brain arousal in freely behaving AND isoflurane-anaesthetised mice"
+       },
+       "context_dependence": "none_reported",
+       "statement": "A ventral pallidum-locus coeruleus-lateral hypothalamus pathway modulates brain arousal in freely behaving and isoflurane-anesthetized male mice.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:40379709"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "arousal circuit activation during isoflurane anaesthesia",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:40379709"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "noradrenergic locus coeruleus circuitry",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Worm class-7 evidence is RIS/aptf-1, PRODUCES_STATE in two sleep rows, untested in worm anaesthesia. No molecular correspondence."
+      }
+     ],
+     "citation_ids": [
+      "PMID:32807382",
+      "PMID:40379709"
+     ],
+     "proximal_physical_effect": "increased firing of ascending arousal circuitry opposing the drug-induced state",
+     "overlap_resolution_vs_worm": "NO_ESTABLISHED_OVERLAP"
+    },
+    {
+     "label": "Parafacial-zone GABAergic neurons are required for volatile-anaesthetic hypnosis",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ],
+       "basis": "Caspase ablation produces durable behavioural resistance to two agents, dose-graded against the number of surviving neurons."
+      },
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ],
+       "basis": "Ablated mice emerged from isoflurane significantly faster with purposeful movement - exit kinetics measured separately from induction."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "ablation",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane; sevoflurane",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "increase",
+        "survival_recovery": "increase",
+        "other": "~50% higher likelihood of intact righting; resistance inversely correlated with surviving PZGABA count; hypnotic isoflurane tripled c-Fos in PZGABA neurons; NO EEG signature of anaesthetic resistance"
+       },
+       "context_dependence": "none_reported",
+       "statement": "PZGABA-ablated mice developed significant and durable behavioural resistance to both isoflurane- and sevoflurane-induced hypnosis, with roughly 50% higher likelihood of intact righting than controls. PZGABA-ablated mice emerged from isoflurane significantly faster than mCherry controls with purposeful movements. The degree of anaesthetic resistance was inversely correlated with the number of surviving PZGABA neurones.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "AAV-caspase ablation of parafacial GABAergic neurons",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ]
+      },
+      {
+       "step": "loss of a brainstem NREM-promoting node",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ]
+      },
+      {
+       "step": "behavioural resistance to isoflurane and sevoflurane hypnosis; faster emergence",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:40240218"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "parafacial zone GABAergic neurons (PZGABA)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Same neurons, same ablation, same animals as the NEGATIVE recorded at S4_deep_mmus c7. EXACT_MOLECULE overlap across two states with opposite verdicts."
+      }
+     ],
+     "citation_ids": [
+      "PMID:40240218"
+     ],
+     "proximal_physical_effect": "removal of a GABAergic brainstem node that hypnotic volatile doses depolarise",
+     "overlap_resolution": {
+      "level": "EXACT_MOLECULE",
+      "partner": "S4_deep_mmus c7 (same paper, NEGATIVE)",
+      "justification": "The identical manipulation in the identical animals is positive for the drug-induced state and negative for natural NREM sleep."
+     }
+    },
+    {
+     "label": "Chemogenetic reactivation of brain-wide anaesthesia-activated ensembles lowers the anaesthetic threshold and produces immobility, discoordination and anti-nociception",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ],
+       "basis": "The same reactivation significantly INCREASED anaesthetic sensitivity, which is an entry-threshold effect and is positive."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "chemogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane (for ensemble capture); CNO/designer drug for reactivation",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "immobility, discoordination and anti-nociception produced; anaesthetic sensitivity significantly increased; LOSS OF CONSCIOUSNESS, as measured by the righting reflex, NOT produced; captured ensemble is sparse and spatially distributed brain-wide (iDISCO+ light-sheet map)"
+       },
+       "context_dependence": "endpoint_dependent",
+       "statement": "We take advantage of a mouse that expresses chemogenetic designer receptors exclusively activated by a designer drug (DREADDs) in an inducible Cre-dependent manner driven by Fos immediate early gene expression. Since Fos expression peaks with metabolic activity, we use this system to insert synthetic DREADDs into brain-wide neurons that are active under isoflurane anesthesia. We then test the behavioral consequences of chemogenetic stimulation of anesthesia-activated neural ensembles. We observe immobility, discoordination, anti-nociception, and significantly increased anesthetic sensitivity, but not a loss of consciousness as measured by the righting reflex.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "Fos-driven DREADD capture of isoflurane-activated neurons brain-wide",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      },
+      {
+       "step": "chemogenetic reactivation of that ensemble without anaesthetic present",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      },
+      {
+       "step": "immobility, discoordination, anti-nociception and lowered anaesthetic threshold, WITHOUT loss of righting",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "isoflurane-activated neuronal ensemble (Fos-captured, brain-wide)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:41573848"
+     ],
+     "proximal_physical_effect": "synthetic re-excitation of the population that the anaesthetic itself activates, in the absence of the anaesthetic"
+    },
+    {
+     "label": "Chemogenetic reactivation does NOT produce loss of consciousness: the righting reflex is preserved",
+     "roles": [
+      {
+       "role": "PRODUCES_STATE",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ],
+       "basis": "TESTED AND NEGATIVE on the defining endpoint. Fos-driven DREADD capture of the neurons active under isoflurane, then chemogenetic reactivation without anaesthetic. Immobility, discoordination and anti-nociception appeared; the righting reflex did NOT. Listed under roles_tested_negative."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "chemogenetic_activation",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane (for ensemble capture); CNO/designer drug for reactivation",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "immobility, discoordination and anti-nociception produced; anaesthetic sensitivity significantly increased; LOSS OF CONSCIOUSNESS, as measured by the righting reflex, NOT produced; captured ensemble is sparse and spatially distributed brain-wide (iDISCO+ light-sheet map)"
+       },
+       "context_dependence": "endpoint_dependent",
+       "statement": "We take advantage of a mouse that expresses chemogenetic designer receptors exclusively activated by a designer drug (DREADDs) in an inducible Cre-dependent manner driven by Fos immediate early gene expression. Since Fos expression peaks with metabolic activity, we use this system to insert synthetic DREADDs into brain-wide neurons that are active under isoflurane anesthesia. We then test the behavioral consequences of chemogenetic stimulation of anesthesia-activated neural ensembles. We observe immobility, discoordination, anti-nociception, and significantly increased anesthetic sensitivity, but not a loss of consciousness as measured by the righting reflex.",
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      }
+     ],
+     "state_polarity": "NO_ESTABLISHED_EFFECT",
+     "chain": [
+      {
+       "step": "Fos-driven DREADD capture of isoflurane-activated neurons brain-wide",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      },
+      {
+       "step": "chemogenetic reactivation of that ensemble without anaesthetic present",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      },
+      {
+       "step": "immobility, discoordination, anti-nociception and lowered anaesthetic threshold, WITHOUT loss of righting",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-C",
+       "citation_ids": [
+        "PMID:41573848"
+       ]
+      }
+     ],
+     "proximal_class": 7,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "isoflurane-activated neuronal ensemble (Fos-captured, brain-wide)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:41573848"
+     ],
+     "proximal_physical_effect": "no resolvable loss of righting despite synthetic re-excitation of the anaesthetic-activated population"
+    }
+   ],
+   "discriminating_experiment": "Is RIS, the PRODUCES_STATE effector in both worm sleep rows, required for volatile anaesthetic immobility in worm? The mammalian circuit evidence here is all arousal-opposing; the worm question of whether anaesthesia CO-OPTS a sleep-producing circuit remains unasked in both organisms.",
+   "notes": "All mouse class-7 evidence found concerns circuits that OPPOSE the state, none that produce it. Consistent with the human propofol row and with the worm volatile row, where class 7 is NOT_TESTED. Across all four anaesthesia rows in the project, NO mechanism has been shown to PRODUCE the anaesthetised state."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 8,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "MOLECULE_FIRST",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "ENABLES_EXIT",
+    "PROTECTS_THROUGH_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Two roles established in DIFFERENT CELL TYPES by the same gene: glutamatergic-neuron Ndufs4 loss drives hypersensitivity (entry), astrocyte-specific Ndufs4 loss impairs emergence only (exit). Cell-type-specific role assignment is real biology here, not scoring ambiguity, but the row-level role list cannot show that the two roles live in different cells. PE-5 R2: Cell-type restriction result: the metabolic mechanism is routed specifically through EXCITATORY transmission. This links class 8 to class 4 and class 5 within one animal and is the mechanistic bridge the table's class-8 entries previously lacked. PE-5 R2: TWO DISTINCT PHENOTYPES FROM ONE GENOTYPE, and the table must not merge them. The same Ndufs4-/- animals are (i) 2.5-3x HYPERSENSITIVE - an entry-threshold phenotype, scored as CONTROLS_ENTRY on the first mechanism in this cell - and (ii) killed by prolonged low-dose isoflurane, a survival phenotype scored here as PROTECTS_THROUGH_STATE. Potency and tolerance are different quantities and this cell now carries both. The macrophage dependence is the most surprising element: the toxicity is not a direct bioenergetic collapse but requires a CSF1R-dependent inflammatory step, which makes it a therapeutic target rather than an inevitability. A methodological aside with real force: the standard 100% O2 carrier gas was itself harmful, so a routine laboratory convention was confounding the measurement.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B",
+    "E-D",
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Mitochondrial complex I (Ndufs4) sets volatile anaesthetic sensitivity; NDi1 bypass confers resistance; astrocytic complex I is required for emergence",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628",
+        "PMID:29661379"
+       ],
+       "basis": "Ndufs4 loss-of-function confers profound volatile anaesthetic hypersensitivity, transduced uniquely by glutamatergic neurons; NDi1 gain-of-function bypassing complex I confers resistance. Bidirectional control of the MAC/EC50 threshold."
+      },
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30707122"
+       ],
+       "basis": "Astrocyte-specific Ndufs4 knockout leaves induction EC50 for tail clamp and loss of righting UNCHANGED while halving the emergence EC50 for both isoflurane and halothane. The only phenotype is impaired emergence."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane and halothane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "hypersensitive",
+        "survival_recovery": "not_reported",
+        "other": "profound hypersensitivity; neurons hyperpolarised by isoflurane at 0.6% vs 1.8% in wild type; effect transduced uniquely by glutamatergic neurons"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "They are induced at lower concentrations of isoflurane in noncholinergic neurons from mice carrying a loss-of-function mutation of the Ndufs4 gene, required for mitochondrial complex I function... volatile anesthetic behavioral hypersensitivity in Ndufs4 is transduced uniquely by glutamatergic neurons.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "manipulation": "gain_of_function",
+       "direction_of_manipulation": "increase",
+       "agent": "volatile",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "resistant",
+        "survival_recovery": "not_reported",
+        "other": "NDi1 yeast NADH dehydrogenase restores mitochondrial function without normal complex I; transgenic mice resistant"
+       },
+       "context_dependence": "none_reported",
+       "statement": "The yeast NADH dehydrogenase enzyme, NDi1, can restore mitochondrial function in the absence of normal complex I activity, and gain-of-function Ndi1 transgenic mice are resistant to volatile anesthetics.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane and halothane",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "decrease",
+        "other": "astrocyte-specific KO: induction EC50 iso 0.97 vs control 1.02 (P=0.264); emergence EC50 iso 0.62 vs 1.0 (P<0.0001); halothane emergence 0.64 vs 1.0 (P<0.0001); brain noradrenaline content unchanged"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "The only phenotype of the astrocyte-specific Ndufs4(KO) mouse was a specific impairment in emergence from volatile anesthetic-induced general anesthesia. The authors conclude that normal mitochondrial function within astrocytes is essential for emergence from anesthesia.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:30707122"
+       ]
+      },
+      {
+       "manipulation": "pharmacological_block",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "not_reported",
+        "other": "isoflurane disrupts excitatory neurotransmitter dynamics via complex I inhibition"
+       },
+       "context_dependence": "none_reported",
+       "statement": "Isoflurane disrupts excitatory neurotransmitter dynamics via inhibition of mitochondrial complex I.",
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:29661379"
+       ]
+      }
+     ],
+     "state_polarity": "PROMOTES_STATE",
+     "chain": [
+      {
+       "step": "isoflurane inhibits mitochondrial complex I",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-D",
+       "citation_ids": [
+        "PMID:29661379"
+       ]
+      },
+      {
+       "step": "increased K+ leak current and hyperpolarisation in glutamatergic neurons",
+       "class_id": 2,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      },
+      {
+       "step": "shift in MAC / loss-of-righting threshold",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:38147628"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Ndufs4 (complex I accessory subunit)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "C. elegans GAS-1 is the complex I 49 kDa subunit (NDUFS2 homologue) and is scored in S5_ga_volatile_cele class 8 with the SAME role (CONTROLS_ENTRY) and the SAME polarity (loss confers hypersensitivity). DIFFERENT SUBUNIT, SAME COMPLEX. Resolution: SAME_COMPLEX, not EXACT_MOLECULE."
+      },
+      {
+       "name": "NDi1 (yeast NADH dehydrogenase, transgenic bypass)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:38147628",
+      "PMID:30707122",
+      "PMID:29661379",
+      "PMID:33909880",
+      "PMID:30074932"
+     ],
+     "proximal_physical_effect": "reduced mitochondrial complex I electron-transport capacity, with a downstream increase in potassium leak conductance",
+     "overlap_resolution_vs_worm": "SAME_COMPLEX"
+    },
+    {
+     "label": "Complex I loss acts through glutamatergic, not GABAergic or cholinergic, neurons",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ],
+       "basis": "Conditional restriction of the same lesion to a neuron class reproduces the whole-animal phenotype; restriction to two other classes does not."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "not_reported",
+        "other": "glutamatergic-restricted loss recapitulates VA hypersensitivity; GABAergic and cholinergic restriction do NOT; baseline CA1 electrophysiology unchanged; at 0.6% isoflurane sEPSC frequency falls only in KO, sIPSCs not differentially affected"
+       },
+       "context_dependence": "cell_type_dependent",
+       "statement": "Limiting NDUFS4 loss to a subset of glutamatergic neurons recapitulates the VA hypersensitivity of Ndufs4(KO) mice, while loss in GABAergic or cholinergic neurons does not. Baseline electrophysiologic function of CA1 pyramidal neurons does not differ between Ndufs4(KO) and control mice. Isoflurane concentrations that anesthetize only Ndufs4(KO) mice (0.6%) decreased the frequency of spontaneous excitatory postsynaptic currents (sEPSCs) only in Ndufs4(KO) CA1 neurons... Spontaneous inhibitory postsynaptic currents (sIPSCs) were not differentially affected between genotypes.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "NDUFS4 loss restricted to glutamatergic neurons",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      },
+      {
+       "step": "isoflurane-hypersensitive reduction of spontaneous EPSC frequency",
+       "class_id": 5,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      },
+      {
+       "step": "VA hypersensitivity of the whole animal",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:27498564"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Ndufs4, conditional",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:27498564"
+     ],
+     "proximal_physical_effect": "presynaptic excitatory release becomes the metabolically limiting step under anaesthetic"
+    },
+    {
+     "label": "Isoflurane is TOXIC, not merely more potent, in the Ndufs4-/- Leigh syndrome model, and the toxicity is macrophage-dependent",
+     "roles": [
+      {
+       "role": "PROTECTS_THROUGH_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ],
+       "basis": "Concentration- and duration-dependent mortality, weight loss and hyperlactataemia in the knockout, pharmacologically rescued by a CSF1R inhibitor. The endpoint is survival through exposure, not anaesthetic depth."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane 0.2-0.6%; 100% O2 and air as carrier controls; pexidartinib",
+       "observed_effect": {
+        "total_quiescence": "not_reported",
+        "state_structure": "not_reported",
+        "entry_threshold": "not_reported",
+        "survival_recovery": "decrease",
+        "other": "hyperlactataemia, weight loss and mortality concentration- and duration-dependent from 0.2% to 0.6%; toxicity REDUCED when exposed before CNS disease onset; pexidartinib (CSF1R inhibitor, macrophage depleting) rescued survival P=0.0008; 100% O2 carrier gas itself worsened weight loss and survival"
+       },
+       "context_dependence": "disease_stage_dependent",
+       "statement": "Isoflurane induced hyperlactataemia, weight loss, and mortality in a concentration- and duration-dependent manner from 0.2% to 0.6% compared with carrier gas (O2 100%) or mock (air) exposures... Isoflurane toxicity was significantly reduced in Ndufs4(-/-) exposed before CNS disease onset, and the macrophage depleting drug pexidartinib attenuated sequelae of isoflurane toxicity (survival P=0.0008 isoflurane 0.4% vs pexidartinib plus isoflurane 0.4%). Finally, the laboratory animal standard of care of 100% O2 as a carrier gas contributed significantly to weight loss and reduced survival.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ]
+      }
+     ],
+     "state_polarity": "UNDETERMINED",
+     "chain": [
+      {
+       "step": "Ndufs4 deletion",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ]
+      },
+      {
+       "step": "isoflurane exposure on a compromised complex I background",
+       "class_id": 8,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ]
+      },
+      {
+       "step": "macrophage/CSF1R-dependent inflammatory sequelae",
+       "class_id": 7,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ]
+      },
+      {
+       "step": "hyperlactataemia, weight loss and mortality",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:37770252"
+       ]
+      }
+     ],
+     "proximal_class": 8,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Ndufs4; CSF1R-dependent macrophages",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": null
+      }
+     ],
+     "citation_ids": [
+      "PMID:37770252"
+     ],
+     "proximal_physical_effect": "anaesthetic inhibition of a compromised electron transport chain, with an inflammatory amplification step that is pharmacologically separable"
+    }
+   ],
+   "discriminating_experiment": "Measure ATP, redox state or energetic demand DURING maintained volatile anaesthesia in Ndufs4 and NDi1 mice. Both worm and mouse establish complex I as a sensitivity determinant; neither measures the energetic consequence during the state, which is exactly what the thermodynamic arm of this project will eventually need.",
+   "notes": "THE STRONGEST CELL IN THE ROW AND THE ANSWER TO TASK QUESTION 18A. Bidirectional causal control (loss hypersensitive, bypass resistant), cell-type resolution, a mechanistic chain into class 2, and a cross-species complex-level match to worm gas-1 with identical role and polarity. This is the best cross-species mechanistic correspondence in the entire project."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 9,
+   "coverage": "NOT_TESTED",
+   "status": "NOT_TESTED",
+   "applicability": "QUESTIONABLE",
+   "roles_present": [],
+   "roles_tested_negative": [],
+   "ambiguity": null,
+   "strongest_grade": null,
+   "all_grades": [],
+   "negative_assay_statement": null,
+   "mechanisms": [],
+   "discriminating_experiment": null,
+   "notes": "NOT_TESTED. No transcriptional or developmental mechanism of acute volatile anaesthesia located in mouse; timescale mismatch as in the other acute rows.",
+   "discovery_route": "CLASS_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 10,
+   "coverage": "TESTED_NEGATIVE",
+   "status": "NEGATIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [],
+   "roles_tested_negative": [
+    "CONTROLS_ENTRY"
+   ],
+   "ambiguity": "A TRUE NEGATIVE WITH A POSITIVE INTERNAL CONTROL, which is what makes it interpretable. The same knockout, in the same experiment, DID shift diethyl ether sensitivity by 12%, so the assay could detect a shift; it detected none for isoflurane or halothane, the two agents in this row's frozen agent scope. Locomotion was normal, excluding a floor effect. The result is agent-specific, not mechanism-refuting: stomatin/UNC-1 matters for ether in both phyla and not for the halogenated agents in either.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": "EC50 for loss of response to tail clamp was determined in stomatin-knockout and parental mice under continuous flows of diethyl ether, halothane and isoflurane. A 12% sensitivity increase was resolved for diethyl ether; no significant change was resolved for halothane or isoflurane. The assay therefore had demonstrated power to detect a shift of that size in the same animals.",
+   "mechanisms": [
+    {
+     "label": "Stomatin (mammalian homologue of C. elegans UNC-1) is NOT required for isoflurane or halothane sensitivity in mouse",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:16931982"
+       ],
+       "basis": "TESTED AND NEGATIVE for the agents in this row's scope. Listed under roles_tested_negative, not roles_present."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "diethyl ether; halothane; isoflurane",
+       "observed_effect": {
+        "total_quiescence": "no_change",
+        "state_structure": "not_reported",
+        "entry_threshold": "no_change",
+        "survival_recovery": "not_reported",
+        "other": "+12% sensitivity to diethyl ether (POSITIVE internal control); no significant change for halothane or isoflurane; no locomotor defect; the same agent pattern holds in C. elegans unc-1 mutants"
+       },
+       "context_dependence": "agent_dependent",
+       "statement": "Stomatin-deficient mice had a 12% increase in sensitivity to diethyl ether but no significant change in sensitivity to halothane or isoflurane compared with wild type. No defect in locomotion was noted in the mutant mouse... Neither nematodes nor mice with stomatin deficiencies have significantly altered sensitivity to isoflurane or halothane.",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:16931982"
+       ]
+      }
+     ],
+     "state_polarity": "NO_ESTABLISHED_EFFECT",
+     "chain": [
+      {
+       "step": "stomatin deletion",
+       "class_id": 10,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:16931982"
+       ]
+      },
+      {
+       "step": "no change in halogenated-anaesthetic EC50",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:16931982"
+       ]
+      }
+     ],
+     "proximal_class": 10,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Stomatin (Stom)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Direct homologue of C. elegans UNC-1, which IS load-bearing for volatile-anaesthetic phenotype in the worm row. ORTHOLOGOUS_MOLECULE, and the cross-species agreement is on the AGENT PATTERN (ether yes, halogenated no) rather than on a single phenotype."
+      }
+     ],
+     "citation_ids": [
+      "PMID:16931982"
+     ],
+     "proximal_physical_effect": "no resolvable change in membrane-protein-dependent anaesthetic potency for halogenated agents",
+     "overlap_resolution": {
+      "level": "ORTHOLOGOUS_MOLECULE",
+      "partner": "S5_ga_volatile_cele (unc-1)",
+      "justification": "Same gene family, both phyla tested with the same endpoint logic, and the agent-specific pattern replicates across the phylogenetic boundary. A rare case where a NEGATIVE replicates cross-species."
+     }
+    }
+   ],
+   "discriminating_experiment": "A mouse stomatin-family or membrane-order manipulation with MAC measured would test whether the worm class-10 result has a mammalian counterpart.",
+   "notes": "NOT_TESTED. No mouse study located testing membrane/lipid structural mechanisms of volatile anaesthetic action at the organism level. Worm scores class 10 at E-B via unc-1 stomatin and lipid rafts; no mouse counterpart was found.",
+   "discovery_route": "MOLECULE_SYSTEM_FIRST"
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 11,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "discovery_route": "CITATION_CHAIN",
+   "roles_present": [
+    "ENABLES_EXIT"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "Body temperature is BOTH a consequence of the anaesthetic (isoflurane lowers core temperature, partly via beta3 GABA-A receptors) AND a causal determinant of emergence timing. The frozen class-11 definition distinguishes these, and this cell scores only the causal direction.",
+   "strongest_grade": "E-B",
+   "all_grades": [
+    "E-B"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Body temperature causally controls emergence time from isoflurane anaesthesia",
+     "roles": [
+      {
+       "role": "ENABLES_EXIT",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ],
+       "basis": "Cooling wild-type mice prolonged emergence time from 4.9 to 12.4 minutes while induction time did not differ among temperature conditions or genotypes. Temperature acts specifically on exit."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "decrease",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "decrease",
+        "other": "cooling wild-type mice prolonged emergence to 12.4 +/- 1.3 min; induction time unaffected by temperature or genotype"
+       },
+       "context_dependence": "none_reported",
+       "statement": "When body temperature was decreased by cooling in WT mice, emergence time was prolonged to 12.4 +/- 1.3 minutes. Induction time did not differ among temperature conditions or genotypes.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      },
+      {
+       "manipulation": "environmental",
+       "direction_of_manipulation": "increase",
+       "agent": "isoflurane",
+       "observed_effect": {
+        "total_quiescence": "decrease",
+        "state_structure": "not_reported",
+        "entry_threshold": "unchanged",
+        "survival_recovery": "increase",
+        "other": "warming to 32C abolished the genotype difference in emergence between orexin-ablated and wild-type mice"
+       },
+       "context_dependence": "none_reported",
+       "statement": "In the warmed condition, there were no significant differences between the ORX-AB and control mice with respect to body temperature, locomotor activity, induction time, or emergence time.",
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      }
+     ],
+     "state_polarity": "CONTEXT_DEPENDENT",
+     "chain": [
+      {
+       "step": "ambient temperature manipulation during isoflurane anaesthesia",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      },
+      {
+       "step": "altered core body temperature",
+       "class_id": 11,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      },
+      {
+       "step": "altered emergence time, induction unchanged",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-B",
+       "citation_ids": [
+        "PMID:23477964"
+       ]
+      }
+     ],
+     "proximal_class": 11,
+     "upstream_classes": [],
+     "molecules": [],
+     "citation_ids": [
+      "PMID:23477964",
+      "PMID:17319964"
+     ],
+     "proximal_physical_effect": "change in tissue temperature, altering the rate of all temperature-dependent processes including anaesthetic clearance",
+     "overlap_resolution_vs_worm": "NO_ESTABLISHED_OVERLAP (class 11 is NOT_APPLICABLE in all worm rows - poikilotherm)"
+    }
+   ],
+   "discriminating_experiment": "Separate the two routes by which cooling could delay emergence - slowed anaesthetic elimination versus slowed neural recovery - by clamping brain temperature independently of body temperature, or by measuring alveolar washout under both conditions.",
+   "notes": "SECOND SCOREABLE CLASS-11 CELL IN THE PROJECT, and the first in an anaesthesia row. It also functions as a methodological warning that generalises well beyond this row: a widely cited circuit result (orexin controls emergence) is substantially reproduced by a temperature confound. Any mammalian state row in which temperature is uncontrolled inherits this risk - which matters directly for the torpor and hibernation rows."
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "class_id": 12,
+   "coverage": "TESTED_POSITIVE",
+   "status": "POSITIVE",
+   "applicability": "APPLICABLE",
+   "roles_present": [
+    "CONTROLS_ENTRY",
+    "MAINTAINS_STATE"
+   ],
+   "roles_tested_negative": [],
+   "ambiguity": "DIRECTION IS THE INTERESTING PART AND IT IS COUNTER-INTUITIVE. The paper's own framing is that gap-junction blockade might CAUSE unconsciousness; the result is that removing connexin36 makes animals MORE sensitive to anaesthetic, i.e. intact electrical coupling OPPOSES the anaesthetised state rather than mediating it. Effect sizes are real but modest for isoflurane (EC50 0.37% vs 0.49%) and the authors say so ('moderately enhanced'). TWO ROLES FROM TWO ENDPOINTS: the isoflurane EC50 and the propofol induction time are entry measures, while 'young knockouts remained anaesthetised for longer' (47.2 vs 30.5 min) is a maintenance/duration measure, and that one is AGE-RESTRICTED to animals under 60 days. AGENT SCOPE: propofol data are recorded here because they came from the same animals, but they do not license a human propofol-row entry - different species.",
+   "strongest_grade": "E-A",
+   "all_grades": [
+    "E-A"
+   ],
+   "negative_assay_statement": null,
+   "mechanisms": [
+    {
+     "label": "Connexin36 electrical coupling opposes anaesthetic hypnosis in mouse",
+     "roles": [
+      {
+       "role": "CONTROLS_ENTRY",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ],
+       "basis": "Germline knockout lowers the isoflurane EC50 for recovery of righting (0.37% vs 0.49%, p<0.001) and shortens propofol induction time."
+      },
+      {
+       "role": "MAINTAINS_STATE",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ],
+       "basis": "Young knockouts remained anaesthetised for longer after a fixed propofol dose (47.2 vs 30.5 min, p<0.00001) - duration of the state, measured separately from its onset."
+      }
+     ],
+     "perturbations": [
+      {
+       "manipulation": "loss_of_function",
+       "direction_of_manipulation": "remove",
+       "agent": "isoflurane; propofol 100 mg/kg i.p.",
+       "observed_effect": {
+        "total_quiescence": "increase",
+        "state_structure": "not_reported",
+        "entry_threshold": "decrease",
+        "survival_recovery": "decrease",
+        "other": "isoflurane EC50 for recovery of righting 0.37% (KO) vs 0.49% (WT), p<0.001; propofol loss of righting 2.8 vs 3.8 min; anaesthesia duration in animals <60 days 47.2 vs 30.5 min, p<0.00001; duration effect AGE-RESTRICTED"
+       },
+       "context_dependence": "age_dependent",
+       "statement": "We measured the sensitivity of connexin36 knockout mice to the hypnotic effects of isoflurane and propofol. The experimental endpoint was recovery of the righting reflex of the anaesthetised animals during 0.2% step-reductions in isoflurane concentration, or following intraperitoneal injection of propofol (100 mg.kg-1). Connexin36 knockout animals were more sensitive to the hypnotic effects of isoflurane than 'normal' wild-type animals. The half maximal effective concentration (EC50) for recovery of righting reflex was 0.37% for connexin36 knockout vs 0.49% for wild-type animals (p < 0.001). For propofol, connexin36 knockout animals showed more rapid loss of righting reflex than wild-type animals (mean (SD) 2.8 (0.13) vs 3.8 (0.27) min); and young (< 60 days) connexin36 knockout animals remained anaesthetised for longer than young wild-type mice (47.2 (2.9) vs 30.5 (1.7) min; p < 0.00001).",
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ]
+      }
+     ],
+     "state_polarity": "OPPOSES_STATE",
+     "chain": [
+      {
+       "step": "Gjd2/connexin36 deletion",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ]
+      },
+      {
+       "step": "loss of interneuronal electrical coupling",
+       "class_id": 12,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ]
+      },
+      {
+       "step": "lower anaesthetic concentration sufficient for loss of righting",
+       "class_id": null,
+       "role": "proximal",
+       "inferred": false,
+       "evidence_grade": "E-A",
+       "citation_ids": [
+        "PMID:21418043"
+       ]
+      }
+     ],
+     "proximal_class": 12,
+     "upstream_classes": [],
+     "molecules": [
+      {
+       "name": "Connexin36 (Gjd2)",
+       "species": "mmus",
+       "identifier": null,
+       "ortholog_relation": "Connexins and innexins are NOT homologous - they are convergently evolved gap-junction proteins. The worm class-12 entries (unc-9, inx-6) therefore share only the PHYSICAL class with this one. That is exactly what SAME_PHYSICAL_CLASS is for, and it is the sharpest illustration in the table of why molecular resolution has to be recorded per pair rather than assumed from a class label."
+      }
+     ],
+     "citation_ids": [
+      "PMID:21418043"
+     ],
+     "proximal_physical_effect": "loss of electrical coupling between interneurons, lowering the network's resistance to anaesthetic-induced state transition",
+     "overlap_resolution": {
+      "level": "SAME_PHYSICAL_CLASS",
+      "partner": "S5_ga_volatile_cele c12 (unc-9 innexin)",
+      "justification": "Connexins (chordates) and innexins (invertebrates) are convergent, not orthologous. Both rows show gap-junction manipulation changing volatile-anaesthetic sensitivity, but no molecular correspondence may be claimed - and the signs differ, since unc-9 loss SUPPRESSES hypersensitivity in worm while Gjd2 loss CAUSES hypersensitivity in mouse."
+     }
+    }
+   ],
+   "discriminating_experiment": "Connexin36 or astrocytic Cx43 manipulation with MAC and loss-of-righting EC50 measured. Worm scores class 12 at E-A (unc-9 suppresses unc-79/unc-80 hypersensitivity) and at E-B in dauer; the mammalian counterpart is simply unasked.",
+   "notes": "NOT_TESTED. Targeted MOLECULE_FIRST search ('connexin gap junction isoflurane mouse brain') returned only studies of POST-anaesthesia cognitive dysfunction and astrocytic network reconstruction (Dong 2022 x2) and of anaesthetic anticonvulsant action via Cx36 (Voss 2010) - none of which tests gap junctions as a mechanism of the anaesthetic state itself. CONFIRMS the previous overlap audit: class 12 has no mammalian evidence meeting the causal bar in any of the five mammalian rows, while worm scores it in two states.",
+   "discovery_route": "CLASS_FIRST"
+  }
+ ],
+ "row_summary": {
+  "row_id": "S5_ga_volatile_mmus",
+  "coverage_denominator": 11,
+  "n_positive": 10,
+  "n_suggested": 0,
+  "n_negative": 1,
+  "n_not_tested": 1,
+  "n_not_applicable": 0,
+  "n_distinct_sources": 26,
+  "role_counts": {
+   "PRODUCES_STATE": 0,
+   "CONTROLS_ENTRY": 11,
+   "MAINTAINS_STATE": 1,
+   "PROTECTS_THROUGH_STATE": 2,
+   "BUILDS_MACHINERY": 0,
+   "ENABLES_EXIT": 5
+  }
+ },
+ "v1_migration": {
+  "source_row_file": null,
+  "cells_changed": [],
+  "new_evidence_added": [
+   "Entire row is new."
+  ]
+ },
+ "ontology_flags_v2": [
+  "ENABLES_EXIT WAS INSTANTIATED FOR THIS ROW (ontology v2.1, AMENDMENTS Entry 7). Three independent cells require it - astrocytic complex I, orexin, and body temperature - each with induction explicitly unchanged and emergence specifically altered. Forcing these into MAINTAINS_STATE would have erased the project's clearest example of a role the frozen vocabulary anticipated but had never seen.",
+  "ROW-LEVEL ROLE LISTS CANNOT SHOW THAT TWO ROLES LIVE IN DIFFERENT CELL TYPES. Class 8 carries CONTROLS_ENTRY via glutamatergic neurons and ENABLES_EXIT via astrocytes, from the same gene. That is real biology the representation flattens.",
+  "A_neu scope differs systematically between the mouse and human volatile rows - single-cell rate/amplitude here, whole-brain coordination there - so the two mammalian volatile rows are not comparable on the neural axis despite being the same state.",
+  "Class 2 is a POSITIVE PHYSICAL CLASS WITH A NEGATIVE MOLECULAR CARRIER, and class 3 is positive for one molecule and negative for another. The cell-level status field reports only the stronger of these.",
+  "Fourth role-less cell in the project (class 4, cellular preparation only). All four are in mammalian rows; none in worm rows."
+ ],
+ "citations_pending_verification": []
+}

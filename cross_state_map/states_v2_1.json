@@ -1,0 +1,296 @@
+{
+ "_meta": {
+  "title": "Committed (state, species) rows and mechanism classes \u2014 v2",
+  "frozen_utc": "2026-09-16 (v2)",
+  "frozen_before": "any state was scored and any mechanism was entered",
+  "criterion_file": "INCLUSION_CRITERION.md",
+  "repertoire_file": "REPERTOIRE.md",
+  "schema_version": "2.1",
+  "state_names_committed_by": "Rohit, 2026-09-16",
+  "instantiation_note": "Species instantiations map the nine committed state names onto scoreable units. They are not additions to the committed list. See INCLUSION_CRITERION.md section 5.",
+  "n_committed_state_names": 9,
+  "n_rows": 19,
+  "n_species": 5,
+  "n_classes": 12,
+  "n_cells": 228,
+  "v1_source": "states.json, unchanged and preserved",
+  "v2_changes": [
+   "added class 12 electrical coupling / gap-junction regulation and remodelling",
+   "added state_production per row",
+   "n_cells recomputed 19x12=228",
+   "waitlisted row S6_starv_adult_cele retained in rows[] but marked scoreable:false per AMENDMENTS Entry 2"
+  ],
+  "v2_1_change": "Instantiates the reserved role ENABLES_EXIT, as REPERTOIRE_v2.md section 2 prescribes (reserved roles are added by amendment when a cell requires one). NO class, criterion, axis or row was changed. states_v2.json is preserved unchanged.",
+  "v2_1_trigger": "S5_ga_volatile_mmus: astrocyte-specific Ndufs4 KO has normal induction EC50 and halved emergence EC50 (PMID:30707122); orexin neuron ablation delays emergence without changing induction (PMID:18195361). Both phenotypes are exclusively exit/recovery and cannot be expressed as MAINTAINS_STATE without distortion."
+ },
+ "species": {
+  "hsap": "Homo sapiens",
+  "mmus": "Mus musculus",
+  "isp": "Ictidomys tridecemlineatus (thirteen-lined ground squirrel)",
+  "cele": "Caenorhabditis elegans",
+  "tard": "Tardigrada (species recorded per citation; not a single taxon)"
+ },
+ "rows": [
+  {
+   "row_id": "S1_nap_hsap",
+   "state": "nap",
+   "species": "hsap",
+   "instantiation": "daytime nap, full sleep-stage scoring",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S2_core_hsap",
+   "state": "core sleep",
+   "species": "hsap",
+   "instantiation": "NREM stage N2",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S2_core_mmus",
+   "state": "core sleep",
+   "species": "mmus",
+   "instantiation": "NREM sleep",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S2_core_cele",
+   "state": "core sleep",
+   "species": "cele",
+   "instantiation": "lethargus (developmentally timed sleep)",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S3_rem_hsap",
+   "state": "REM sleep",
+   "species": "hsap",
+   "instantiation": "REM",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S3_rem_mmus",
+   "state": "REM sleep",
+   "species": "mmus",
+   "instantiation": "REM / paradoxical sleep",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S4_deep_hsap",
+   "state": "deep sleep",
+   "species": "hsap",
+   "instantiation": "NREM stage N3 / slow-wave sleep",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S4_deep_mmus",
+   "state": "deep sleep",
+   "species": "mmus",
+   "instantiation": "slow-wave sleep",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S5_ga_volatile_hsap",
+   "state": "strong general anaesthesia",
+   "species": "hsap",
+   "instantiation": "volatile agent at surgical endpoint",
+   "state_production": "EXOGENOUS_AGENT",
+   "scoreable": true
+  },
+  {
+   "row_id": "S5_ga_propofol_hsap",
+   "state": "strong general anaesthesia",
+   "species": "hsap",
+   "instantiation": "propofol at surgical endpoint",
+   "state_production": "EXOGENOUS_AGENT",
+   "scoreable": true
+  },
+  {
+   "row_id": "S5_ga_volatile_mmus",
+   "state": "strong general anaesthesia",
+   "species": "mmus",
+   "instantiation": "volatile agent, loss of righting / immobility endpoint",
+   "state_production": "EXOGENOUS_AGENT",
+   "scoreable": true
+  },
+  {
+   "row_id": "S5_ga_volatile_cele",
+   "state": "strong general anaesthesia",
+   "species": "cele",
+   "instantiation": "volatile agent, immobility endpoint",
+   "state_production": "EXOGENOUS_AGENT",
+   "scoreable": true
+  },
+  {
+   "row_id": "S6_starv_L1_cele",
+   "state": "starvation quiescence",
+   "species": "cele",
+   "instantiation": "L1 arrest",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S6_starv_adult_cele",
+   "state": "starvation quiescence",
+   "species": "cele",
+   "instantiation": "adult starvation-induced sleep",
+   "state_production": "ENDOGENOUS",
+   "scoreable": false,
+   "waitlist_reason": "E4_fail; see AMENDMENTS.md Entry 2"
+  },
+  {
+   "row_id": "S7_dauer_cele",
+   "state": "dauer",
+   "species": "cele",
+   "instantiation": "dauer larva",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S8_crypto_tard",
+   "state": "cryptobiosis",
+   "species": "tard",
+   "instantiation": "anhydrobiosis (tun state)",
+   "state_production": "PHYSICALLY_IMPOSED",
+   "scoreable": true
+  },
+  {
+   "row_id": "S8_crypto_cele",
+   "state": "cryptobiosis",
+   "species": "cele",
+   "instantiation": "dauer anhydrobiosis",
+   "state_production": "PHYSICALLY_IMPOSED",
+   "scoreable": true
+  },
+  {
+   "row_id": "S9_hib_seasonal_isp",
+   "state": "hibernation",
+   "species": "isp",
+   "instantiation": "seasonal torpor bout",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  },
+  {
+   "row_id": "S9_hib_daily_mmus",
+   "state": "hibernation",
+   "species": "mmus",
+   "instantiation": "daily torpor",
+   "state_production": "ENDOGENOUS",
+   "scoreable": true
+  }
+ ],
+ "classes": [
+  {
+   "class_id": 1,
+   "name": "cation-leak reduction"
+  },
+  {
+   "class_id": 2,
+   "name": "K+ conductance increase"
+  },
+  {
+   "class_id": 3,
+   "name": "Cl- / shunting inhibition"
+  },
+  {
+   "class_id": 4,
+   "name": "excitatory receptor block"
+  },
+  {
+   "class_id": 5,
+   "name": "synaptic release machinery"
+  },
+  {
+   "class_id": 6,
+   "name": "neuromodulatory / peptidergic drive"
+  },
+  {
+   "class_id": 7,
+   "name": "circuit-level switch"
+  },
+  {
+   "class_id": 8,
+   "name": "mitochondrial / metabolic"
+  },
+  {
+   "class_id": 9,
+   "name": "transcriptional / developmental reprogramming"
+  },
+  {
+   "class_id": 10,
+   "name": "structural / biophysical"
+  },
+  {
+   "class_id": 11,
+   "name": "thermal / rate effects"
+  },
+  {
+   "class_id": 12,
+   "name": "electrical coupling / gap-junction regulation and remodelling"
+  }
+ ],
+ "coarsened_partition": {
+  "_purpose": "Mandatory re-score partition, committed per INCLUSION_CRITERION.md section 6 contamination disclosure.",
+  "membrane_conductance": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "synaptic": [
+   5
+  ],
+  "modulatory": [
+   6,
+   7
+  ],
+  "metabolic": [
+   8
+  ],
+  "programmatic": [
+   9
+  ],
+  "structural": [
+   10
+  ],
+  "thermal": [
+   11
+  ],
+  "coupling": [
+   12
+  ]
+ },
+ "candidate_extensions_not_committed": [
+  "Drosophila melanogaster sleep",
+  "ketamine dissociative anaesthesia",
+  "C. elegans stress-induced sleep (SIS)",
+  "C. elegans satiety quiescence",
+  "Artemia encystment",
+  "therapeutic / accidental hypothermia",
+  "sedation short of surgical endpoint"
+ ],
+ "waitlist_reasons": {
+  "E4_fail": "satisfies E1-E3 but no published intervention altering entry, depth or exit",
+  "X1": "irreversible or terminal",
+  "X2": "individuated solely by stimulus absence",
+  "X3": "acute pathology without a physiological entry programme",
+  "X4": "anaesthetic state not reaching surgical endpoint"
+ },
+ "roles_instantiated": [
+  "PRODUCES_STATE",
+  "CONTROLS_ENTRY",
+  "MAINTAINS_STATE",
+  "PROTECTS_THROUGH_STATE",
+  "BUILDS_MACHINERY",
+  "ENABLES_EXIT"
+ ],
+ "roles_reserved_not_instantiated": [
+  "PERMISSIVE_BACKGROUND"
+ ]
+}
